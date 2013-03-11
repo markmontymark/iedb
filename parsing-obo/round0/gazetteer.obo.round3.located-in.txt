@@ -1,0 +1,2183 @@
+[Term]
+id: GAZ:00000464
+name: Europe
+namespace: GAZ
+relationship: located_in GAZ:00000460 ! Eurasia
+
+
+[Term]
+id: GAZ:00000465
+name: Asia
+namespace: GAZ
+def: "Part of the landmass of Eurasia, with the western portion of the latter occupied by Europe, lying east of the Suez Canal, east of the Ural Mountains, and south of the Caucasus Mountains and the Caspian and Black Seas. It is bounded on the east by the Pacific Ocean, on the south by the Indian Ocean, and on the north by the Arctic Ocean." [url:http\://en.wikipedia.org/wiki/Asia]
+relationship: located_in GAZ:00000460 ! Eurasia
+
+
+[Term]
+id: GAZ:00000466
+name: Indian subcontinent
+namespace: GAZ
+def: "A large section of the Asian continent consisting of countries lying substantially on the Indian tectonic plate. These include countries on the continental crust (India, Pakistan, Bangladesh, Bhutan, and Nepal), an island country on the continental shelf (Sri Lanka), and an island country rising above the oceanic crust (the Maldives)." [url:http\://en.wikipedia.org/wiki/Indian_subcontinent]
+relationship: located_in GAZ:00002472 ! South Asia
+
+
+[Term]
+id: GAZ:00000553
+name: South Africa
+namespace: GAZ
+relationship: located_in GAZ:00000587 ! Sub-Saharan Africa
+
+
+[Term]
+id: GAZ:00000554
+name: West Africa
+namespace: GAZ
+relationship: located_in GAZ:00000587 ! Sub-Saharan Africa
+
+
+[Term]
+id: GAZ:00000556
+name: East Africa
+namespace: GAZ
+def: "A vast geographical and geological feature, approximately 6,000 km in length, which runs from northern Syria in Southwest Asia to central Mozambique in East Africa. Caused by the geological process of rifting, it is a complex feature where several plates of the earth's crust join. The rift valley varies in width from thirty to one hundred km, and in depth from a few hundred to several thousand meters." [url:http\://en.wikipedia.org/wiki/Great_Rift_Valley]
+relationship: located_in GAZ:00000587 ! Sub-Saharan Africa
+
+
+[Term]
+id: GAZ:00000557
+name: Anatolia
+namespace: GAZ
+def: "A large area in the Middle East south of the Taurus Mountains, bounded by the Mediterranean Sea on the west, and by the northern Arabian Desert and Upper Mesopotamia to the east." [url:http\://en.wikipedia.org/wiki/Levant]
+synonym: "Asia Minor" EXACT []
+relationship: located_in GAZ:00002464 ! Southwest Asia
+
+
+[Term]
+id: GAZ:00000558
+name: Turkey
+namespace: GAZ
+def: "A Eurasian country that stretches across the Anatolian peninsula in western Asia and Thrace (Rumelia) in the Balkan region of southeastern Europe. Turkey borders eight countries: Bulgaria to the northwest; Greece to the west, Georgia to the northeast; Armenia, Azerbaijan (the exclave of Nakhichevan), and Iran to the east; and Iraq and Syria to the southeast. The Mediterranean Sea and Cyprus are to the south; the Aegean Sea and Archipelago are to the west; and the Black Sea is to the north. Separating Anatolia and Thrace are the Sea of Marmara and the Turkish Straits (the Bosporus and the Dardanelles), which are commonly reckoned to delineate the border between Asia and Europe, thereby making Turkey transcontinental. The territory of Turkey is subdivided into 81 provinces for administrative purposes. The provinces are organized into 7 regions for census purposes; however, they do not represent an administrative structure. Each province is divided into districts, for a total of 923 districts." [url:http\://en.wikipedia.org/wiki/Turkey]
+synonym: "Republic of Turkey" EXACT FORMAL_NAME []
+synonym: "Turkiye Cumhuriyeti" EXACT FORMAL_NAME []
+synonym: "Turquia {language: Portuguese}" EXACT []
+xref: ISO3166-1:TR
+relationship: located_in GAZ:00000460 ! Eurasia
+
+
+[Term]
+id: GAZ:00000559
+name: Southeast Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+
+[Term]
+id: GAZ:00000560
+name: Sudan
+namespace: GAZ
+def: "A country in North Africa. It is bordered by Egypt to the north, the Red Sea to the northeast, Eritrea and Ethiopia to the east, Kenya and Uganda to the southeast, Democratic Republic of the Congo and the Central African Republic to the southwest, Chad to the west and Libya to the northwest. Sudan is divided into twenty-six states (wilayat, singular wilayah) which in turn are subdivided into 133 districts." [url:http\://en.wikipedia.org/wiki/Sudan]
+synonym: "as-Sudan {language: Arabic}" EXACT []
+synonym: "Jumhuriyyat as-Sudan" EXACT FORMAL_NAME []
+synonym: "Republic of Sudan" EXACT FORMAL_NAME []
+synonym: "Soudan" EXACT SPELLING_VARIANT []
+xref: ISO3166-1:729
+xref: ISO3166-1:SD
+xref: ISO3166-1:SDN
+xref: ISO3166-2:SD
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000561
+name: Egypt in Africa
+namespace: GAZ
+synonym: "Arab Republic of Egypt" EXACT FORMAL_NAME []
+xref: ISO3166-1:818
+xref: ISO3166-1:EG
+xref: ISO3166-1:EGY
+xref: ISO3166-2:EG
+relationship: located_in GAZ:00000555 ! North Africa
+relationship: located_in GAZ:00003934 ! Egypt
+
+
+[Term]
+id: GAZ:00000562
+name: Tunisia
+namespace: GAZ
+def: "A country situated on the Mediterranean coast of North Africa. It is bordered by Algeria to the west and Libya to the southeast. Tunisia is subdivided into 24 governorates, divided into 262 \"delegations\" or \"districts\" (mutamadiyat), and further subdivided into municipalities (shaykhats)." [url:http\://en.wikipedia.org/wiki/Tunisia]
+synonym: "Al-Jumhuriyyah at-Tunisiyyah" EXACT FORMAL_NAME []
+synonym: "Tunisian Republic" EXACT FORMAL_NAME []
+xref: ISO3166-1:788
+xref: ISO3166-1:TN
+xref: ISO3166-1:TUN
+xref: ISO3166-2:TN
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000563
+name: Algeria
+namespace: GAZ
+def: "A country in North Africa. It is bordered by Tunisia in the northeast, Libya in the east, Niger in the southeast, Mali and Mauritania in the southwest, a few km of the Western Sahara in the west, Morocco in the northwest, and the Mediterranean Sea in the north. It divided into 48 provinces (wilayas), 553 districts (dairas) and 1,541 municipalities (communes, baladiyahs)." [url:http\://en.wikipedia.org/wiki/Algeria]
+synonym: "People's Democratic Republic of Algeria" EXACT FORMAL_NAME []
+synonym: "Tagduda tamegdayt ta?erfant tazzayrit {language: Kabyle}" EXACT []
+xref: ISO3166-1:012
+xref: ISO3166-1:DZ
+xref: ISO3166-1:DZA
+xref: ISO3166-2:DZ
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000564
+name: Western Sahara
+namespace: GAZ
+def: "A territory of northwestern Africa, bordered by Morocco to the north, Algeria in the northeast, Mauritania to the east and south, and the Atlantic Ocean on the west. Western Sahara is administratively divided into four regions." [url:http\://en.wikipedia.org/wiki/Western_Sahara]
+synonym: "As-Sabra' al-Garbiyyah" EXACT FORMAL_NAME []
+synonym: "Sahara Occidental {language: Spanish}" EXACT []
+synonym: "Sahrawi Arab Democratic Republic" EXACT FORMAL_NAME []
+xref: ISO3166-1:732
+xref: ISO3166-1:EH
+xref: ISO3166-1:ESH
+xref: ISO3166-2:EH
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000565
+name: Morocco
+namespace: GAZ
+def: "A country in North Africa. It has a coast on the Atlantic Ocean that reaches past the Strait of Gibraltar into the Mediterranean Sea. Morocco has international borders with Algeria to the east, Spain to the north (a water border through the Strait and land borders with two small Spanish autonomous cities, Ceuta and Melilla), and Mauritania to the south. Morocco is divided into 16 regions, and subdivided into 62 prefectures and provinces. Because of the conflict over Western Sahara, the status of both regions of \"Saguia el-Hamra\" and \"Rio de Oro\" is disputed." [url:http\://en.wikipedia.org/wiki/Morocco]
+synonym: "Al-Mamlaka al-Maghribiyya" EXACT FORMAL_NAME []
+synonym: "Kingdom of Morocco" EXACT FORMAL_NAME []
+xref: ISO3166-1:504
+xref: ISO3166-1:MA
+xref: ISO3166-1:MAR
+xref: ISO3166-2:MA
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000566
+name: Libya
+namespace: GAZ
+def: "A country in North Africa. Bordering the Mediterranean Sea to the north, Libya lies between Egypt to the east, Sudan to the southeast, Chad and Niger to the south, and Algeria and Tunisia to the west. There are thirty-four municipalities of Libya, known by the Arabic term sha'biyat (singular sha'biyah). These came recently (in the 1990s to replaced old Baladiyat systam. The Baladiyat system in turn was introduced to replace the system of muhafazah (governorates or provinces) that existed from the 1960s to the 1970s." [url:http\://en.wikipedia.org/wiki/Libya]
+synonym: "Al-Jamahiriyyah al-'Arabiyyah al-Libiyyah as-Sa'biyyah al-Istirakiyyah al-'Udhma" EXACT FORMAL_NAME []
+synonym: "Great Socialist People's Libyan Arab Jamahiriya" EXACT FORMAL_NAME []
+synonym: "Socialist People's Libyan Arab Jamahiriya" EXACT FORMAL_NAME []
+xref: ISO3166-1:434
+xref: ISO3166-1:LBY
+xref: ISO3166-1:LY
+xref: ISO3166-2:LY
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000567
+name: Ethiopia
+namespace: GAZ
+def: "A country situated in the Horn of Africa that has been landlocked since the independence of its northern neighbor Eritrea in 1993. Apart from Eritrea to the north, Ethiopia is bordered by Sudan to the west, Kenya to the south, Djibouti to the northeast, and Somalia to the east. Since 1996 Ethiopia has had a tiered government system consisting of a federal government overseeing ethnically-based regional states, zones, districts (woredas), and neighborhoods (kebele). It is divided into nine ethnically-based administrative states (kililoch, singular kilil) and subdivided into sixty-eight zones and two chartered cities (astedader akababiwoch, singular astedader akababi): Addis Ababa and Dire Dawa. It is further subdivided into 550 woredas and six special woredas." [url:http\://en.wikipedia.org/wiki/Ethiopia]
+synonym: "Federal Democratic Republic of Ethiopia" EXACT FORMAL_NAME []
+synonym: "ye-Ityoppya Federalawi Dimokrasiyawi Ripeblik {language: Ge'ez}" EXACT []
+xref: ISO3166-1:231
+xref: ISO3166-1:ET
+xref: ISO3166-1:ETH
+xref: ISO3166-2:ET
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000568
+name: Plazas de soberania
+namespace: GAZ
+def: "The current Spanish territories in continental North Africa, bordering Morocco." [url:http\://en.wikipedia.org/wiki/Plazas_de_soberan%C3%ADa]
+relationship: located_in GAZ:00000555 ! North Africa
+relationship: located_in GAZ:00000591 ! Kingdom of Spain
+
+
+[Term]
+id: GAZ:00000581
+name: Eritrea
+namespace: GAZ
+def: "A country situated in northern East Africa. It is bordered by Sudan in the west, Ethiopia in the south, and Djibouti in the southeast. The east and northeast of the country have an extensive coastline on the Red Sea, directly across from Saudi Arabia and Yemen. The Dahlak Archipelago and several of the Hanish Islands are part of Eritrea. Eritrea is divided into six regions (zobas) and subdivided into districts (\"sub-zobas\")." [url:http\://en.wikipedia.org/wiki/Eritrea]
+synonym: "Dawlat Iritriya" EXACT FORMAL_NAME []
+synonym: "Hagere Ertra" EXACT FORMAL_NAME []
+synonym: "State of Eritrea" EXACT FORMAL_NAME []
+xref: ISO3166-1:232
+xref: ISO3166-1:ER
+xref: ISO3166-1:ERI
+xref: ISO3166-2:ER
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000582
+name: Djibouti
+namespace: GAZ
+def: "A country in eastern Africa. Djibouti is bordered by Eritrea in the north, Ethiopia in the west and south, and Somalia in the southeast. The remainder of the border is formed by the Red Sea and the Gulf of Aden. On the other side of the Red Sea, on the Arabian Peninsula, 20 km from the coast of Djibouti, is Yemen. The capital of Djibouti is the city of Djibouti. Djibouti is divided into 5 regions and one city. It is further subdivided into 11 districts." [url:http\://en.wikipedia.org/wiki/Djibouti]
+synonym: "Jamhuuriyadda Jabuuti" EXACT FORMAL_NAME []
+synonym: "Republic of Djibouti" EXACT FORMAL_NAME []
+synonym: "Republique de Djibouti" EXACT FORMAL_NAME []
+xref: ISO3166-1:262
+xref: ISO3166-1:DJ
+xref: ISO3166-1:DJI
+xref: ISO3166-2:DJ
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000583
+name: Mauritania
+namespace: GAZ
+def: "A country in North-West Africa. It is bordered by the Atlantic Ocean on the west, by Senegal on the southwest, by Mali on the east and southeast, by Algeria on the northeast, and by Western Sahara on the northwest (most of which is occupied by Morocco). The capital and largest city is Nouakchott, located on the Atlantic coast. Mauritania is divided into 12 regions (regions) and one capital district, which in turn are subdivided into 44 departments (departements)." [url:http\://en.wikipedia.org/wiki/Mauritania#Regions_and_departments]
+synonym: "Al-Jumhuriyyah al-Islamiyyah al-Muritaniyyah" EXACT FORMAL_NAME []
+synonym: "Islamic Republic of Mauritania" EXACT FORMAL_NAME []
+synonym: "Republique islamique de Mauritanie {language: French}" EXACT []
+xref: ISO3166-1:478
+xref: ISO3166-1:MR
+xref: ISO3166-1:MRT
+xref: ISO3166-2:MR
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000584
+name: Mali
+namespace: GAZ
+def: "A landlocked country in northern Africa. It borders Algeria on the north, Niger on the east, Burkina Faso and the Cote d'Ivoire on the south, Guinea on the south-west, and Senegal and Mauritania on the west. Mali is divided into 8 regions (regions) and 1 district, and subdivided into 49 cercles, totalling 288 arrondissements." [url:http\://en.wikipedia.org/wiki/Mali]
+synonym: "French Sudan" EXACT FORMER_NAME []
+synonym: "Republic of Mali" EXACT FORMAL_NAME []
+synonym: "Republique du Mali" EXACT FORMAL_NAME []
+synonym: "Soudan francais" EXACT FORMER_NAME []
+xref: ISO3166-1:466
+xref: ISO3166-1:ML
+xref: ISO3166-1:MLI
+xref: ISO3166-2:ML
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000585
+name: Niger
+namespace: GAZ
+def: "A landlocked country in Western Africa, named after the Niger River. It borders Nigeria and Benin to the south, Burkina Faso and Mali to the west, Algeria and Libya to the north and Chad to the east. The capital city is Niamey. Niger is divided into 7 departments and one capital district. The departments are subdivided into 36 arrondissements and further subdivided into 129 communes." [url:http\://en.wikipedia.org/wiki/Niger]
+synonym: "Republic of the Niger" EXACT FORMAL_NAME []
+synonym: "Republique du Niger" EXACT FORMAL_NAME []
+xref: ISO3166-1:562
+xref: ISO3166-1:NE
+xref: ISO3166-1:NER
+xref: ISO3166-2:NE
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000586
+name: Chad
+namespace: GAZ
+def: "A landlocked country in central Africa. It is bordered by Libya to the north, Sudan to the east, the Central African Republic to the south, Cameroon and Nigeria to the southwest, and Niger to the west. Chad is divided into 18 regions. The departments are divided into 200 sub-prefectures, which are in turn composed of 446 cantons. This is due to change." [url:http\://en.wikipedia.org/wiki/Chad]
+synonym: "Jumhuriyyat Tshad {language: Arabic}" EXACT []
+synonym: "Republic of Chad" EXACT FORMAL_NAME []
+synonym: "Republique du Tchad {language: French}" EXACT []
+xref: ISO3166-1:148
+xref: ISO3166-1:TCD
+xref: ISO3166-1:TD
+xref: ISO3166-2:TD
+relationship: located_in GAZ:00000555 ! North Africa
+
+
+[Term]
+id: GAZ:00000588
+name: Central Africa
+namespace: GAZ
+relationship: located_in GAZ:00000587 ! Sub-Saharan Africa
+
+
+[Term]
+id: GAZ:00000592
+name: European Turkey
+namespace: GAZ
+synonym: "Eastern Thrace {alternative name}" EXACT []
+xref: ISO3166-1:TR
+relationship: located_in GAZ:00000464 ! Europe
+relationship: located_in GAZ:00000558 ! Turkey
+
+
+[Term]
+id: GAZ:00000855
+name: Egypt in Asia
+namespace: GAZ
+comment: The separation between Africa and Asia is taken to be along the line of the Suez Canal in the Isthmus of Suez.
+relationship: located_in GAZ:00002466 ! Levant
+relationship: located_in GAZ:00003934 ! Egypt
+
+
+[Term]
+id: GAZ:00000904
+name: Benin
+namespace: GAZ
+def: "A country in Western Africa. It borders Togo to the west, Nigeria to the east and Burkina Faso and Niger to the north; its short coastline to the south leads to the Bight of Benin. Its capital is Porto Novo, but the seat of government is Cotonou. Benin is divided into 12 departments and subdivided into 77 communes." [url:http\://en.wikipedia.org/wiki/Benin]
+synonym: "Dahomey" EXACT FORMER_NAME []
+synonym: "Republic of Benin" EXACT FORMAL_NAME []
+synonym: "Republique du Benin" EXACT FORMAL_NAME []
+xref: ISO3166-1:204
+xref: ISO3166-1:BJ
+xref: ISO3166-2:BJ
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000905
+name: Burkina Faso
+namespace: GAZ
+def: "A landlocked nation in West Africa. It is surrounded by six countries: Mali to the north, Niger to the east, Benin to the south east, Togo and Ghana to the south, and Cote d'Ivoire to the south west. Burkina Faso is divided into thirteen regions, forty-five provinces, and 301 departments (communes)." [url:http\://en.wikipedia.org/wiki/Burkina_Faso]
+synonym: "Republic of Upper Volta" EXACT FORMER_NAME []
+synonym: "Republique de Haute-Volta" EXACT FORMER_NAME []
+xref: ISO3166-1:854
+xref: ISO3166-1:BF
+xref: ISO3166-1:BFA
+xref: ISO3166-2:BF
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000906
+name: Cote d'Ivoire
+namespace: GAZ
+def: "A country in West Africa. It borders Liberia and Guinea to the west, Mali and Burkina Faso to the north, Ghana to the east, and the Gulf of Guinea to the south. Cote d'Ivoire is divided into nineteen regions (regions). The regions are further divided into 58 departments." [url:http\://en.wikipedia.org/wiki/C%C3%B4te_d%27Ivoire]
+synonym: "Ivory Coast {language: English}" EXACT []
+synonym: "Republic of Cote d'Ivoire" EXACT FORMAL_NAME []
+synonym: "Republique de Cote d'Ivoire" EXACT FORMAL_NAME []
+xref: ISO3166-1:384
+xref: ISO3166-1:CI
+xref: ISO3166-1:CIV
+xref: ISO3166-2:CI
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000907
+name: Gambia
+namespace: GAZ
+def: "A country in Western Africa. It is the smallest country on the African continental mainland and is bordered to the north, east, and south by Senegal, and has a small coast on the Atlantic Ocean in the west. Flowing through the centre of the country and discharging to the Atlantic Ocean is the Gambia River. The Gambia is divided into five divisions and one city (Banjul). The divisions are further subdivided into 37 districts." [url:http\://en.wikipedia.org/wiki/The_Gambia]
+synonym: "Republic of The Gambia" EXACT FORMAL_NAME []
+synonym: "The Gambia {alternative name}" EXACT []
+xref: ISO3166-1:270
+xref: ISO3166-1:GM
+xref: ISO3166-1:GMB
+xref: ISO3166-2:GM
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000908
+name: Ghana
+namespace: GAZ
+def: "A country in West Africa. It borders Cote d'Ivoire to the west, Burkina Faso to the north, Togo to the east, and the Gulf of Guinea to the south. Ghana is a divided into 10 regions, subdivided into a total of 138 districts." [url:http\://en.wikipedia.org/wiki/Ghana]
+synonym: "Gold Coast" EXACT FORMER_NAME []
+synonym: "Republic of Ghana" EXACT FORMAL_NAME []
+xref: ISO3166-1:288
+xref: ISO3166-1:GH
+xref: ISO3166-1:GHA
+xref: ISO3166-2:GH
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000909
+name: Guinea
+namespace: GAZ
+def: "A nation in West Africa, formerly known as French Guinea. Guinea's territory has a curved shape, with its base at the Atlantic Ocean, inland to the east, and turning south. The base borders Guinea-Bissau and Senegal to the north, and Mali to the north and north-east; the inland part borders Cote d'Ivoire to the south-east, Liberia to the south, and Sierra Leone to the west of the southern tip." [url:http\://en.wikipedia.org/wiki/Guinea]
+synonym: "French Guinea" EXACT FORMER_NAME []
+synonym: "Republic of Guinea" EXACT FORMAL_NAME []
+xref: ISO3166-1:324
+xref: ISO3166-1:GIN
+xref: ISO3166-1:GN
+xref: ISO3166-2:GN
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000910
+name: Guinea-Bissau
+namespace: GAZ
+def: "A country in western Africa, and one of the smallest nations in continental Africa. It is bordered by Senegal to the north, and Guinea to the south and east, with the Atlantic Ocean to its west. Formerly the Portuguese colony of Portuguese Guinea, upon independence, the name of its capital, Bissau, was added to the country's name in order to prevent confusion between itself and the Republic of Guinea." [url:http\://en.wikipedia.org/wiki/Guinea-Bissau]
+synonym: "Portuguese Guinea" EXACT FORMER_NAME []
+synonym: "Republic of Guinea-Bissau" EXACT FORMAL_NAME []
+synonym: "Republica da Guinea-Bissau" EXACT FORMAL_NAME []
+xref: ISO3166-1:624
+xref: ISO3166-1:GNB
+xref: ISO3166-1:GW
+xref: ISO3166-2:GW
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000911
+name: Liberia
+namespace: GAZ
+def: "A country on the west coast of Africa, bordered by Sierra Leone, Guinea, Cote d'Ivoire, and the Atlantic Ocean." [url:http\://en.wikipedia.org/wiki/Liberia]
+synonym: "Republic of Liberia" EXACT FORMAL_NAME []
+xref: ISO3166-1:430
+xref: ISO3166-1:LBR
+xref: ISO3166-1:LR
+xref: ISO3166-2:LR
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000912
+name: Nigeria
+namespace: GAZ
+def: "A federal constitutional republic comprising thirty-six states and one Federal Capital Territory. The country is located in West Africa and shares land borders with the Republic of Benin in the west, Chad and Cameroon in the east, and Niger in the north. Its coast lies on the Gulf of Guinea, part of the Atlantic Ocean, in the south. The capital city is Abuja. Nigeria is divided into thirty-six states and one Federal Capital Territory, which are further sub-divided into 774 Local Government Areas (LGAs)." [url:http\://en.wikipedia.org/wiki/Nigeria]
+synonym: "Federal Republic of Nigeria" EXACT FORMAL_NAME []
+synonym: "Republic nde Naigeria" EXACT FORMAL_NAME []
+synonym: "Republik Federaal bu Niiseriya" EXACT FORMAL_NAME []
+synonym: "Republik Nijeriya" EXACT FORMAL_NAME []
+xref: ISO3166-1:NG
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000913
+name: Senegal
+namespace: GAZ
+def: "A country south of the Senegal River in western Africa. Senegal is bounded by the Atlantic Ocean to the west, Mauritania to the north, Mali to the east, and Guinea and Guinea-Bissau to the south. The Gambia lies almost entirely within Senegal, surrounded on the north, east and south; from its western coast Gambia's territory follows the Gambia River more than 300 km inland. Dakar is the capital city of Senegal, located on the Cape Verde Peninsula on the country's Atlantic coast. Senegal is subdivided into 11 regions and further subdivided into 34 Departements, 103 Arrondissements (neither of which have administrative function) and by Collectivites Locales." [url:http\://en.wikipedia.org/wiki/Senegal]
+synonym: "Republic of Senegal" EXACT FORMAL_NAME []
+synonym: "Republique du Senegal" EXACT FORMAL_NAME []
+xref: ISO3166-1:686
+xref: ISO3166-1:SEN
+xref: ISO3166-1:SN
+xref: ISO3166-2:SN
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000914
+name: Sierra Leone
+namespace: GAZ
+def: "A country in West Africa. It is bordered by Guinea in the north and east, Liberia in the southeast, and the Atlantic Ocean in the southwest and west. The Republic of Sierra Leone is composed of 3 provinces and one area called the Western Area; the provinces are further divided into 12 districts. The Western Area is also divided into 2 districts." [url:http\://en.wikipedia.org/wiki/Sierra_Leone]
+synonym: "Republic of Sierra Leone" EXACT FORMAL_NAME []
+xref: ISO3166-1:694
+xref: ISO3166-1:SL
+xref: ISO3166-1:SLE
+xref: ISO3166-2:SL
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00000915
+name: Togo
+namespace: GAZ
+def: "A country in West Africa bordering Ghana in the west, Benin in the east and Burkina Faso in the north. In the south, it has a short Gulf of Guinea coast, on which the capital Lome is located." [url:http\://en.wikipedia.org/wiki/Togo]
+synonym: "Republique Togolaise" EXACT FORMAL_NAME []
+synonym: "Togolese Republic" EXACT FORMAL_NAME []
+xref: ISO3166-1:768
+xref: ISO3166-1:TG
+xref: ISO3166-1:TGO
+xref: ISO3166-2:TG
+relationship: located_in GAZ:00000554 ! West Africa
+
+
+[Term]
+id: GAZ:00001086
+name: Democratic Republic of the Congo
+namespace: GAZ
+def: "A country of central Africa. It borders the Central African Republic and Sudan on the north, Uganda, Rwanda, and Burundi on the east, Zambia and Angola on the south, the Republic of the Congo on the west, and is separated from Tanzania by Lake Tanganyika on the east. The country enjoys access to the ocean through a 40 km stretch of Atlantic coastline at Muanda and the roughly 9 km wide mouth of the Congo river which opens into the Gulf of Guinea. Congo Kinshasa is now divided into 11 Provinces, to be redistributed into 25 Provinces from 2.2009. Each Province is divided into Zones." [url:http\://en.wikipedia.org/wiki/Democratic_Republic_of_Congo]
+synonym: "Belgian Congo" EXACT FORMER_NAME []
+synonym: "Congo Free State" EXACT FORMER_NAME []
+synonym: "Congo Kinshasa {alternative name}" EXACT []
+synonym: "Congo-Kinshasa" EXACT FORMER_NAME []
+synonym: "Congo-Leopoldville" EXACT FORMER_NAME []
+synonym: "DR Congo" EXACT ABBREVIATION []
+synonym: "Republique democratique de Congo" EXACT FORMAL_NAME []
+synonym: "Zaire" EXACT FORMER_NAME []
+xref: ISO3166-1:180
+xref: ISO3166-1:CD
+xref: ISO3166-1:COD
+xref: ISO3166-2:CD
+relationship: located_in GAZ:00000588 ! Central Africa
+
+
+[Term]
+id: GAZ:00001087
+name: Rwanda
+namespace: GAZ
+def: "A small landlocked country in the Great Lakes region of east-central Africa, bordered by Uganda, Burundi, the Democratic Republic of the Congo and Tanzania. Rwanda is divided into five provinces (intara) and subdivided into thirty districts (akarere). The districts are divided into sectors (imirenge)." [url:http\://en.wikipedia.org/wiki/Rwanda]
+synonym: "Republic of Rwanda" EXACT FORMAL_NAME []
+synonym: "Republique du Rwanda" EXACT FORMAL_NAME []
+synonym: "Repubulika y'u Rwanda" EXACT FORMAL_NAME []
+xref: ISO3166-1:646
+xref: ISO3166-1:RW
+xref: ISO3166-1:RWA
+xref: ISO3166-2:RW
+relationship: located_in GAZ:00000588 ! Central Africa
+
+
+[Term]
+id: GAZ:00001088
+name: Republic of Congo
+namespace: GAZ
+def: "A country in Central Africa. It is bordered by Gabon, Cameroon, the Central African Republic, the Democratic Republic of the Congo, the Angolan exclave province of Cabinda, and the Gulf of Guinea. The Republic of the Congo is divided into 10 regions (regions) and one commune, the capital Brazzaville. The regions are subdivided into forty-six districts." [url:http\://en.wikipedia.org/wiki/Republic_of_Congo]
+synonym: "Afrique Equatoriale Francaise" EXACT FORMER_NAME []
+synonym: "Congo Brazzaville {alternative name}" EXACT []
+synonym: "Congo-Brazzaville" EXACT SPELLING_VARIANT []
+synonym: "French Equatorial Africa" EXACT FORMER_NAME []
+synonym: "Repubilika ya Kongo" EXACT FORMAL_NAME []
+synonym: "Republiki ya Kongo" EXACT FORMAL_NAME []
+synonym: "Republique du Congo" EXACT FORMAL_NAME []
+xref: ISO3166-1:178
+xref: ISO3166-1:CG
+xref: ISO3166-1:COG
+xref: ISO3166-2:CG
+relationship: located_in GAZ:00000588 ! Central Africa
+
+
+[Term]
+id: GAZ:00001089
+name: Central African Republic
+namespace: GAZ
+def: "A landlocked country in Central Africa. It borders Chad in the north, Sudan in the east, the Republic of the Congo and the Democratic Republic of the Congo in the south, and Cameroon in the west. The Central African Republic is divided into 14 administrative prefectures (prefectures), along with 2 economic prefectures (prefectures economiques) and one autonomous commune. The prefectures are further divided into 71 sub-prefectures (sous-prefectures)." [url:http\://en.wikipedia.org/wiki/Central_African_Republic]
+synonym: "Kodorosese ti Beafrika" EXACT FORMAL_NAME []
+synonym: "Republique Centrafricaine" EXACT FORMAL_NAME []
+xref: ISO3166-1:140
+xref: ISO3166-1:CAF
+xref: ISO3166-1:CF
+xref: ISO3166-2:CF
+relationship: located_in GAZ:00000588 ! Central Africa
+
+
+[Term]
+id: GAZ:00001090
+name: Burundi
+namespace: GAZ
+def: "A small country in the Great Lakes region of Africa. It is bordered by Rwanda on the north, Tanzania on the south and east, and the Democratic Republic of the Congo on the west. Although the country is landlocked, much of its western border is adjacent to Lake Tanganyika. Burundi is divided into 17 provinces, 117 communes, and 2,638 collines." [url:http\://en.wikipedia.org/wiki/Burundi]
+synonym: "Republic of Burundi" EXACT FORMAL_NAME []
+synonym: "Republika y'u Burundi" EXACT FORMAL_NAME []
+synonym: "Republique du Burundi" EXACT FORMAL_NAME []
+xref: ISO3166-1:108
+xref: ISO3166-1:BDI
+xref: ISO3166-1:BI
+xref: ISO3166-2:BI
+relationship: located_in GAZ:00000588 ! Central Africa
+
+
+[Term]
+id: GAZ:00001091
+name: Equatorial Guinea
+namespace: GAZ
+def: "A country in Central Africa. It is one of the smallest countries in continental Africa, and comprises two regions: Rio Muni, continental region including several offshore islands; and Insular Region containing Annobon island in the South Atlantic Ocean, and Bioko island (formerly Fernando Po) that contains the capital, Malabo. Equatorial Guinea is divided into seven provinces which are divided into districts." [url:http\://en.wikipedia.org/wiki/Equatorial_Guinea]
+synonym: "Republic of Equatorial Guinea" EXACT FORMAL_NAME []
+synonym: "Republica da Guine Equatorial" EXACT FORMAL_NAME []
+synonym: "Republica de Guinea Ecuatorial" EXACT FORMAL_NAME []
+synonym: "Republique de Guinee Equatoriale" EXACT FORMAL_NAME []
+xref: ISO3166-1:226
+xref: ISO3166-1:GNQ
+xref: ISO3166-1:GQ
+xref: ISO3166-2:GQ
+relationship: located_in GAZ:00000588 ! Central Africa
+
+
+[Term]
+id: GAZ:00001092
+name: Gabon
+namespace: GAZ
+def: "A country in west central Africa sharing borders with Equatorial Guinea, Cameroon, Republic of the Congo and the Gulf of Guinea. The capital and largest city is Libreville. Gabon is divided into 9 provinces and further divided into 37 departments." [url:http\://en.wikipedia.org/wiki/Gabon]
+synonym: "French Equatorial Africa {former name}" BROAD []
+synonym: "Gabonese Republic" EXACT FORMAL_NAME []
+synonym: "Republique Gabonaise" EXACT FORMAL_NAME []
+xref: ISO3166-1:266
+xref: ISO3166-1:GA
+xref: ISO3166-1:GAB
+xref: ISO3166-2:GA
+relationship: located_in GAZ:00000588 ! Central Africa
+
+
+[Term]
+id: GAZ:00001093
+name: Cameroon
+namespace: GAZ
+def: "A country of central and western Africa. It borders Nigeria to the west; Chad to the northeast; the Central African Republic to the east; and Equatorial Guinea, Gabon, and the Republic of the Congo to the south. Cameroon's coastline lies on the Bight of Bonny, part of the Gulf of Guinea and the Atlantic Ocean. The Republic of Cameroon is divided into ten provinces and 58 divisions or departments. The divisions are further sub-divided into sub-divisions (arrondissements) and districts." [url:http\://en.wikipedia.org/wiki/Cameroon]
+synonym: "Republic of Cameroon" EXACT FORMAL_NAME []
+synonym: "Republique du Cameroun" EXACT FORMAL_NAME []
+xref: ISO3166-1:120
+xref: ISO3166-1:CM
+xref: ISO3166-1:CMR
+xref: ISO3166-2:CM
+relationship: located_in GAZ:00000588 ! Central Africa
+
+
+[Term]
+id: GAZ:00001094
+name: Republic of South Africa
+namespace: GAZ
+def: "A country located at the southern tip of Africa. It borders the Atlantic and Indian oceans and Namibia, Botswana, Zimbabwe, Mozambique, Swaziland, and Lesotho, an independent enclave surrounded by South African territory. It is divided into nine provinces which are further subdivided into 52 districts: 6 metropolitan and 46 district municipalities. The 46 district municipalities are further subdivided into 231 local municipalities. The district municipalities also contain 20 district management areas (mostly game parks) that are directly governed by the district municipalities. The six metropolitan municipalities perform the functions of both district and local municipalities." [url:http\://en.wikipedia.org/wiki/South_africa]
+synonym: "IRiphabhulikhi yeNingizimu Afrika" EXACT FORMAL_NAME []
+synonym: "IRiphabliki yaseMzantsi Afrika" EXACT FORMAL_NAME []
+synonym: "IRiphabliki yaseNingizimu Afrika" EXACT FORMAL_NAME []
+synonym: "IRiphabliki yeSewula Afrika" EXACT FORMAL_NAME []
+synonym: "Rephaboliki ya Aforika Borwa" EXACT FORMAL_NAME []
+synonym: "Rephaboliki ya Afrika Borwa" EXACT FORMAL_NAME []
+synonym: "Rephaboliki ya Afrika-Borwa" EXACT FORMAL_NAME []
+synonym: "Republiek van Suid-Afrika" EXACT FORMAL_NAME []
+synonym: "Riphabliki ra Afrika Dzonga" EXACT FORMAL_NAME []
+synonym: "Riphabuliki ya Afurika Tshipembe" EXACT FORMAL_NAME []
+xref: ISO3166-1:710
+xref: ISO3166-1:ZA
+xref: ISO3166-1:ZAF
+xref: ISO3166-2:ZA
+relationship: located_in GAZ:00000553 ! South Africa
+
+
+[Term]
+id: GAZ:00001095
+name: Angola
+namespace: GAZ
+def: "A country in south-central Africa bordering Namibia to the south, Democratic Republic of the Congo to the north, and Zambia to the east, and with a west coast along the Atlantic Ocean. The exclave province Cabinda has a border with the Republic of the Congo and the Democratic Republic of the Congo." [url:http\://en.wikipedia.org/wiki/Angola]
+synonym: "Repubilika ya Ngola" EXACT FORMAL_NAME []
+synonym: "Republic of Angola" EXACT FORMAL_NAME []
+synonym: "Republica de Angola" EXACT FORMAL_NAME []
+xref: ISO3166-1:024
+xref: ISO3166-1:AGO
+xref: ISO3166-1:AO
+xref: ISO3166-2:AO
+relationship: located_in GAZ:00000553 ! South Africa
+
+
+[Term]
+id: GAZ:00001096
+name: Namibia
+namespace: GAZ
+def: "A country in southern Africa on the Atlantic coast. It shares borders with Angola and Zambia to the north, Botswana to the east, and South Africa to the south. Namibia is divided into 13 regions and subdivided into 102 constituencies." [url:http\://en.wikipedia.org/wiki/Namibia]
+synonym: "Republic of Namibia" EXACT FORMAL_NAME []
+synonym: "South-West Africa" EXACT FORMER_NAME []
+xref: ISO3166-1:516
+xref: ISO3166-1:NA
+xref: ISO3166-1:NAM
+xref: ISO3166-2:NA
+relationship: located_in GAZ:00000553 ! South Africa
+
+
+[Term]
+id: GAZ:00001097
+name: Botswana
+namespace: GAZ
+def: "A landlocked nation in Southern Africa. It is bordered by South Africa to the south and southeast, Namibia to the west, Zambia to the north, and Zimbabwe to the northeast. Botswana is divided into nine districts, which are subdivided into a total twenty-eight subdistricts." [url:http\://en.wikipedia.org/wiki/Botswana]
+synonym: "Bechuanaland" EXACT FORMER_NAME []
+synonym: "Lefatshe la Botswana" EXACT FORMAL_NAME []
+synonym: "Republic of Botswana" EXACT FORMAL_NAME []
+xref: ISO3166-1:072
+xref: ISO3166-1:BW
+xref: ISO3166-1:BWA
+xref: ISO3166-2:BW
+relationship: located_in GAZ:00000553 ! South Africa
+
+
+[Term]
+id: GAZ:00001098
+name: Lesotho
+namespace: GAZ
+def: "A land-locked country, entirely surrounded by the Republic of South Africa. Lesotho is divided into ten districts; these are further subdivided into 80 constituencies, which consists of 129 local community councils." [url:http\://en.wikipedia.org/wiki/Lesotho]
+synonym: "Basutoland" EXACT FORMER_NAME []
+synonym: "Kingdom of Lesotho" EXACT FORMAL_NAME []
+synonym: "Muso oa Lesotho" EXACT FORMAL_NAME []
+xref: ISO3166-1:426
+xref: ISO3166-1:LS
+xref: ISO3166-1:LSO
+xref: ISO3166-2:LS
+relationship: located_in GAZ:00000553 ! South Africa
+
+
+[Term]
+id: GAZ:00001099
+name: Swaziland
+namespace: GAZ
+def: "A small, landlocked country in Africa embedded between South Africa in the west, north and south and Mozambique in the east. Swaziland is divided into four districts, each of which is divided into Tinkhundla (singular, Inkhundla)." [url:http\://en.wikipedia.org/wiki/Swaziland]
+synonym: "Kingdom of Swaziland" EXACT FORMAL_NAME []
+synonym: "Umbuso weSwatini" EXACT FORMAL_NAME []
+xref: ISO3166-1:748
+xref: ISO3166-1:SWZ
+xref: ISO3166-1:SZ
+xref: ISO3166-2:SZ
+relationship: located_in GAZ:00000553 ! South Africa
+
+
+[Term]
+id: GAZ:00001100
+name: Mozambique
+namespace: GAZ
+def: "A country in southeastern Africa bordered by the Indian Ocean to the east, Tanzania to the north, Malawi and Zambia to the northwest, Zimbabwe to the west and Swaziland and South Africa to the southwest. Mozambique is divided into ten provinces (provincias) and one capital city (cidade capital) with provincial status. The provinces are subdivided into 129 districts (distritos). Districts are further divided in \"Postos Administrativos\" (Administrative Posts) and these in Localidades (Localities) the lowest geographical level of central state administration." [url:http\://en.wikipedia.org/wiki/Mozambique]
+synonym: "Africa Oriental Portuguesa" EXACT FORMER_NAME []
+synonym: "Portuguese East Africa" EXACT FORMER_NAME []
+synonym: "Republic of Mozambique" EXACT FORMAL_NAME []
+synonym: "Republica de Mocambique" EXACT FORMAL_NAME []
+xref: ISO3166-1:508
+xref: ISO3166-1:MOZ
+xref: ISO3166-1:MZ
+xref: ISO3166-2:MZ
+relationship: located_in GAZ:00000553 ! South Africa
+
+
+[Term]
+id: GAZ:00001101
+name: Kenya
+namespace: GAZ
+def: "A country in Eastern Africa. It is bordered by Ethiopia to the north, Somalia to the east, Tanzania to the south, Uganda to the west, and Sudan to the northwest, with the Indian Ocean running along the southeast border. Kenya comprises eight provinces each headed by a Provincial Commissioner (centrally appointed by the president). The provinces (mkoa singular mikoa plural in Swahili) are subdivided into districts (wilaya). There were 69 districts as of 1999 census. Districts are then subdivided into 497 divisions (taarafa). The divisions are then subdivided into 2,427 locations (kata) and then 6,612 sublocations (kata ndogo). The City of Nairobi enjoys the status of a full administrative province." [url:http\://en.wikipedia.org/wiki/Kenya]
+synonym: "Jamhuri ya Kenya" EXACT FORMAL_NAME []
+synonym: "Republic of Kenya {fomal name}" EXACT []
+xref: ISO3166-1:404
+xref: ISO3166-1:KE
+xref: ISO3166-1:KEN
+xref: ISO3166-2:KE
+relationship: located_in GAZ:00000556 ! East Africa
+
+
+[Term]
+id: GAZ:00001102
+name: Uganda
+namespace: GAZ
+def: "A landlocked country in East Africa, bordered on the east by Kenya, the north by Sudan, on the west by the Democratic Republic of the Congo, on the southwest by Rwanda, and on the south by Tanzania. The southern part of the country includes a substantial portion of Lake Victoria, within which it shares borders with Kenya and Tanzania. Uganda is divided into 80 districts, spread across four administrative regions: Northern, Eastern, Central and Western. The districts are subdivided into counties." [url:http\://en.wikipedia.org/wiki/Uganda]
+synonym: "Jamhuri ya Uganda" EXACT FORMAL_NAME []
+synonym: "Republic of Uganda" EXACT FORMAL_NAME []
+xref: ISO3166-1:800
+xref: ISO3166-1:UG
+xref: ISO3166-1:UGA
+xref: ISO3166-2:UG
+relationship: located_in GAZ:00000556 ! East Africa
+
+
+[Term]
+id: GAZ:00001103
+name: Tanzania
+namespace: GAZ
+def: "A country in East Africa bordered by Kenya and Uganda on the north, Rwanda, Burundi and the Democratic Republic of the Congo on the west, and Zambia, Malawi and Mozambique on the south. To the east it borders the Indian Ocean. Tanzania is divided into 26 regions (mkoa), twenty-one on the mainland and five on Zanzibar (three on Unguja, two on Pemba). Ninety-eight districts (wilaya), each with at least one council, have been created to further increase local authority; the councils are also known as local government authorities. Currently there are 114 councils operating in 99 districts; 22 are urban and 92 are rural. The 22 urban units are further classified as city councils (Dar es Salaam and Mwanza), municipal councils (Arusha, Dodoma, Iringa, Kilimanjaro, Mbeya, Morogoro, Shinyanga, Tabora, and Tanga) or town councils (the remaining eleven communities)." [url:http\://en.wikipedia.org/wiki/Tanzania#Regions_and_districts]
+synonym: "Jamhuri ya Muungano wa Tanzania" EXACT FORMAL_NAME []
+synonym: "United Republic of Tanzania" EXACT FORMAL_NAME []
+xref: ISO3166-1:834
+xref: ISO3166-1:TZ
+xref: ISO3166-1:TZA
+xref: ISO3166-2:TZ
+relationship: located_in GAZ:00000556 ! East Africa
+
+
+[Term]
+id: GAZ:00001104
+name: Somalia
+namespace: GAZ
+def: "A country located in the Horn of Africa. It is bordered by Djibouti to the northwest, Kenya on its southwest, the Gulf of Aden with Yemen on its north, the Indian Ocean at its east, and Ethiopia to the west. Prior to the civil war, Somalia was divided into eighteen regions (gobollada, singular gobol), which were in turn subdivided into districts. On a de facto basis, northern Somalia is now divided up among the quasi-independent states of Puntland, Somaliland, Galmudug and Maakhir." [url:http\://en.wikipedia.org/wiki/Somalia]
+synonym: "British Somaliland" EXACT FORMER_NAME []
+synonym: "Italian Somalia {former name}" NARROW []
+synonym: "Jamhuuriyadda Soomaaliya" EXACT FORMAL_NAME []
+synonym: "Somali Republic" EXACT FORMAL_NAME []
+synonym: "Somalia" EXACT ABBREVIATION []
+synonym: "Somalia Italiana {former name}" NARROW []
+xref: ISO3166-1:706
+xref: ISO3166-1:SO
+xref: ISO3166-1:SOM
+xref: ISO3166-2:SO
+relationship: located_in GAZ:00000556 ! East Africa
+
+
+[Term]
+id: GAZ:00001105
+name: Malawi
+namespace: GAZ
+def: "A country in southeastern Africa. It is bordered by Zambia to the north-west, Tanzania to the north and Mozambique, which surrounds it on the east, south and west. Malawi is divided into three regions (the Northern, Central and Southern regions), which are further divided into twenty-seven districts, which in turn are further divided into 137 traditional authorities and 68 sub-chiefdoms." [url:http\://en.wikipedia.org/wiki/Malawi]
+synonym: "Dziko la Malawi" EXACT FORMAL_NAME []
+synonym: "Nyasaland" EXACT FORMER_NAME []
+synonym: "Republic of Malawi" EXACT FORMAL_NAME []
+xref: ISO3166-1:454
+xref: ISO3166-1:MW
+xref: ISO3166-1:MWI
+xref: ISO3166-2:MW
+relationship: located_in GAZ:00000556 ! East Africa
+
+
+[Term]
+id: GAZ:00001106
+name: Zimbabwe
+namespace: GAZ
+def: "A landlocked country in the southern part of the continent of Africa, between the Zambezi and Limpopo rivers. It is bordered by South Africa to the south, Botswana to the southwest, Zambia to the northwest, and Mozambique to the east. Zimbabwe is divided into eight provinces and two cities with provincial status. The provinces are subdivided into 59 districts and 1,200 municipalities." [url:http\://en.wikipedia.org/wiki/Zimbabwe#Administrative_divisions]
+synonym: "Republic of Rhodesia" EXACT FORMER_NAME []
+synonym: "Republic of Zimbabwe" EXACT FORMAL_NAME []
+synonym: "Southern Rhodesia" EXACT FORMER_NAME []
+synonym: "Zimbabwe Rhodesia" EXACT FORMER_NAME []
+xref: ISO3166-1:716
+xref: ISO3166-1:ZW
+xref: ISO3166-1:ZWE
+xref: ISO3166-2:ZW
+relationship: located_in GAZ:00000556 ! East Africa
+
+
+[Term]
+id: GAZ:00001107
+name: Zambia
+namespace: GAZ
+def: "A landlocked country in Southern Africa. The neighbouring countries are the Democratic Republic of the Congo to the north, Tanzania to the north-east, Malawi to the east, Mozambique, Zimbabwe, Botswana, and Namibia to the south, and Angola to the west. The capital city is Lusaka. Zambia is divided into nine provinces. Each province is subdivided into several districts with a total of 73 districts." [url:http\://en.wikipedia.org/wiki/Zambia]
+synonym: "Northern Rhodesia" EXACT FORMER_NAME []
+synonym: "Republic of Zambia" EXACT FORMAL_NAME []
+xref: ISO3166-1:894
+xref: ISO3166-1:ZM
+xref: ISO3166-1:ZMB
+xref: ISO3166-2:ZM
+relationship: located_in GAZ:00000556 ! East Africa
+
+
+[Term]
+id: GAZ:00001412
+name: Falkland Islands
+namespace: GAZ
+def: "An archipelago in the South Atlantic Ocean, located 483 km from the coast of Argentina, 1,080 km west of the Shag Rocks (South Georgia), and 940 km north of Antarctica (Elephant Island). They consist of two main islands, East Falkland and West Falkland, together with 776 smaller islands." [url:http\://en.wikipedia.org/wiki/Falkland_Islands]
+synonym: "Islas Malvinas {language: Spanish}" EXACT []
+xref: ISO3166-1:238
+xref: ISO3166-1:FK
+xref: ISO3166-1:FLK
+xref: ISO3166-2:FK
+is_a: GAZ:00003981 ! British Overseas Territory
+relationship: located_in GAZ:00000459 ! South America
+relationship: located_in GAZ:00051082 ! Southwest Atlantic Ocean
+
+
+[Term]
+id: GAZ:00001539
+name: Channel Islands
+namespace: GAZ
+def: "A group of islands off the French coast of Normandy, but dependent on the British Crown." [url:http\://en.wikipedia.org/wiki/Channel_Islands]
+relationship: located_in GAZ:00002286 ! English Channel
+relationship: located_in GAZ:00281547 ! British Isles
+
+
+[Term]
+id: GAZ:00001540
+name: Isles of Man
+namespace: GAZ
+xref: ISO3166-1:833
+xref: ISO3166-1:IM
+xref: ISO3166-1:IMN
+xref: ISO3166-2:IM
+relationship: located_in GAZ:00002285 ! Irish Sea
+relationship: located_in GAZ:00281547 ! British Isles
+
+
+[Term]
+id: GAZ:00002463
+name: Central Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+
+[Term]
+id: GAZ:00002464
+name: Southwest Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+
+[Term]
+id: GAZ:00002465
+name: North Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+
+[Term]
+id: GAZ:00002466
+name: Levant
+namespace: GAZ
+def: "A large area in the Middle East, roughly bounded on the north by the Taurus Mountains, on the west by the Mediterranean Sea, on the east by Upper Mesopotamia, and on the south by the Arabian Desert." [url:http\://en.wikipedia.org/wiki/Levant]
+relationship: located_in GAZ:00002464 ! Southwest Asia
+
+
+[Term]
+id: GAZ:00002467
+name: Arabian Peninsula
+namespace: GAZ
+def: "A peninsula in Southwest Asia at the junction of Africa and Asia consisting mainly of desert. The coasts of the peninsula are, on the west the Red Sea and the Gulf of Aqaba, on the southeast the Arabian Sea (part of the Indian Ocean), and on the northeast, the Gulf of Oman, the Strait of Hormuz, and the Persian Gulf. Its northern limit is defined by the Zagros collision zone, a mountainous uplift where a continental collision between the Arabian Plate and Asia is occurring. It merges with the Syrian Desert with no clear line of demarcation." [url:http\://en.wikipedia.org/wiki/Arabian_peninsula]
+relationship: located_in GAZ:00002464 ! Southwest Asia
+
+
+[Term]
+id: GAZ:00002469
+name: Caucasus
+namespace: GAZ
+def: "A region in Eurasia bordered on the north by Russia, on the southwest by Turkey, on the west by the Black Sea, on the east by the Caspian Sea, and on the south by Iran. The Caucasus includes the Caucasus Mountains and surrounding lowlands." [url:http\://en.wikipedia.org/wiki/Caucasus]
+relationship: located_in GAZ:00000460 ! Eurasia
+
+
+[Term]
+id: GAZ:00002470
+name: Iranian Plateau
+namespace: GAZ
+def: "A geological formation in Southwest and Southern Asia. It is the part of the Eurasian Plate wedged between the Arabian and Indian plates, situated between the Zagros mountains to the west, the Caspian Sea and the Kopet Dag to the north, the Hormuz Straight and Arabian Sea to the south and Hindu Kush to the east." [url:http\://en.wikipedia.org/wiki/Iranian_Plateau]
+relationship: located_in GAZ:00000465 ! Asia
+
+
+[Term]
+id: GAZ:00002471
+name: East Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+
+[Term]
+id: GAZ:00002472
+name: South Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+
+[Term]
+id: GAZ:00002473
+name: Jordan
+namespace: GAZ
+def: "A country in Southwest Asia, bordered by Syria to the north, Iraq to the north-east, Israel and the West Bank to the west, and Saudi Arabia to the east and south. It shares the coastlines of the Dead Sea, and the Gulf of Aqaba with Israel, Saudi Arabia, and Egypt. Jordan is divided into 12 provinces called governorates. The Governorates are subdivided into approximately fifty-two nahias." [url:http\://en.wikipedia.org/wiki/Jordan]
+synonym: "Al-Mamlakah al-Urdunniyyah al-Hasimiyyah" EXACT FORMAL_NAME []
+synonym: "The Hashemite Kingdom of Jordan" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002466 ! Levant
+
+
+[Term]
+id: GAZ:00002474
+name: Syria
+namespace: GAZ
+def: "A country in Southwest Asia, bordering Lebanon, the Mediterranean Sea and the island of Cyprus to the west, Israel to the southwest, Jordan to the south, Iraq to the east, and Turkey to the north. Syria has fourteen governorates, or muhafazat (singular: muhafazah). The governorates are divided into sixty districts, or manatiq (singular: mintaqah), which are further divided into sub-districts, or nawahi (singular: nahia)." [url:http\://en.wikipedia.org/wiki/Syria]
+synonym: "Al-Jumhuriyyah al-'Arabiyyah as-Suriyyah" EXACT FORMAL_NAME []
+synonym: "Syrian Arab Republic" EXACT FORMAL_NAME []
+xref: ISO3166-1:760
+xref: ISO3166-1:SY
+xref: ISO3166-1:SYR
+xref: ISO3166-2:SY
+relationship: located_in GAZ:00002466 ! Levant
+
+
+[Term]
+id: GAZ:00002475
+name: Palestinian Territories
+namespace: GAZ
+def: "The territory under the administration of the Palestine National Authority, as established by the Oslo Accords. The PNA divides the Palestinian territories into 16 governorates." [url:http\://en.wikipedia.org/wiki/Palestinian_National_Authority#Administrative_divisions]
+synonym: "As-Sulta Al-Wataniyya Al-Filastiniyya" EXACT FORMAL_NAME []
+synonym: "Palestinian National Authority" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002466 ! Levant
+
+
+[Term]
+id: GAZ:00002476
+name: Israel
+namespace: GAZ
+def: "A country in Western Asia located on the eastern edge of the Mediterranean Sea. It borders Lebanon in the north, Syria in the northeast, Jordan in the east, and Egypt on the southwest. The West Bank and Gaza Strip, which are partially administrated by the Palestinian National Authority, are also adjacent. The State of Israel is divided into six main administrative districts, known as mehozot (singular mahoz). Districts are further divided into fifteen sub-districts known as nafot (singular: nafa), which are themselves partitioned into fifty natural regions." [url:http\://en.wikipedia.org/wiki/Israel]
+synonym: "Dawlat Isra'il" EXACT FORMAL_NAME []
+synonym: "Medinat Yisra'el" EXACT FORMAL_NAME []
+synonym: "State of Israel" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002466 ! Levant
+
+
+[Term]
+id: GAZ:00002478
+name: Lebanon
+namespace: GAZ
+def: "A small, mostly mountainous country in Western Asia, on the eastern shore of the Mediterranean Sea. It is bordered by Syria to the north and east, and Israel to the south. Lebanon is divided into six governorates (mohaafazaat, which are further subdivided into twenty-five districts (aqdya, singular: qadaa)." [url:http\://en.wikipedia.org/wiki/Lebanon]
+synonym: "Al-Jumhuriyyah al-Lubnaniyyah {language: Arabic}" EXACT []
+synonym: "Lebanese Republic {alternative name}" EXACT []
+synonym: "Republic of Lebanon" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002466 ! Levant
+
+
+[Term]
+id: GAZ:00002511
+name: Bolivia
+namespace: GAZ
+def: "A landlocked country in central South America. It is bordered by Brazil on the north and east, Paraguay and Argentina on the south, and Chile and Peru on the west. Bolivia is divided into 9 departments (Spanish: departamentos). Each of the departments is subdivided into provinces (provincias), which are further subdivided into municipalities (municipios)." [url:http\://en.wikipedia.org/wiki/Bolivia]
+synonym: "Bulibya Republika {language: Quechua}" EXACT []
+synonym: "Republic of Bolivia" EXACT FORMAL_NAME []
+synonym: "Republica de Bolivia {language: Spanish}" EXACT []
+synonym: "Wuliwya Suyu {language: Aymara}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002516
+name: Guyane
+namespace: GAZ
+def: "An overseas department (departement d'outre-mer) of France, located on the northern coast of South America. It is bordered by Suriname, to the E, and Brazil, to the S and W, and by the North Atlantic Ocean, to the N. French Guiana is divided into 2 departmental arrondissements, 19 cantons and 22 communes." [url:http\://en.wikipedia.org/wiki/French_Guiana]
+synonym: "Department of French Guiana" EXACT FORMAL_NAME []
+synonym: "French Guyana {language: English}" EXACT []
+synonym: "Guyane francaise" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000459 ! South America
+relationship: located_in GAZ:00067144 ! French Guiana Region
+
+
+[Term]
+id: GAZ:00002521
+name: State of Alaska
+namespace: GAZ
+def: "A state in the United States of America, in the extreme northwest portion of the North American continent. The state is bordered by Yukon Territory and British Columbia, Canada to the east, the Gulf of Alaska and the Pacific Ocean to the south, the Bering Sea, Bering Strait, and Chukchi Sea to the west, and the Beaufort Sea and the Arctic Ocean." [url:http\://en.wikipedia.org/wiki/Alaska]
+synonym: "AK" EXACT ABBREVIATION []
+xref: GNISID:01785533
+xref: INCITS38:02
+xref: ISO3166-2:US-AK
+relationship: located_in GAZ:00000458 ! North America
+relationship: located_in GAZ:00002459 ! United States of America
+
+
+[Term]
+id: GAZ:00002522
+name: Guyana
+namespace: GAZ
+def: "A country in the N of South America. Guyana lies north of the equator, in the tropics, and is located on the Atlantic Ocean. Guyana is bordered to the east by Suriname, to the south and southwest by Brazil and to the west by Venezuela. Guyana is divided into 10 regions. The regions of Guyana are divided into 27 neighborhood councils." [url:http\://en.wikipedia.org/wiki/Guyana]
+synonym: "British Guiana" EXACT FORMER_NAME []
+synonym: "Co-operative Republic of Guyana" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002525
+name: Suriname
+namespace: GAZ
+def: "A country in northern South America. It is situated between French Guiana to the east and Guyana to the west. The southern border is shared with Brazil and the northern border is the Atlantic coast. The southernmost border with French Guiana is disputed along the Marowijne river. Suriname is divided into 10 districts, each of which is divided into Ressorten." [url:http\://en.wikipedia.org/wiki/Suriname]
+synonym: "Dutch Guiana {alternative name}" EXACT []
+synonym: "Nederlands Guyana {alternative name}" EXACT []
+synonym: "Netherlands Guiana {alternative name}" EXACT []
+synonym: "Republic of Suriname" EXACT FORMAL_NAME []
+synonym: "Republiek Suriname" EXACT FORMAL_NAME []
+synonym: "Sranan {language: Sranan Tongo}" EXACT []
+synonym: "Surinam" EXACT SPELLING_VARIANT []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002560
+name: Canada
+namespace: GAZ
+def: "A country occupying most of northern North America, extending from the Atlantic Ocean in the east to the Pacific Ocean in the west and northward into the Arctic Ocean. Canada is a federation composed of ten provinces and three territories; in turn, these may be grouped into regions. Western Canada consists of British Columbia and the three Prairie provinces (Alberta, Saskatchewan, and Manitoba). Central Canada consists of Quebec and Ontario. Atlantic Canada consists of the three Maritime provinces (New Brunswick, Prince Edward Island, and Nova Scotia), along with Newfoundland and Labrador. Eastern Canada refers to Central Canada and Atlantic Canada together. Three territories (Yukon, Northwest Territories, and Nunavut) make up Northern Canada." [url:http\://en.wikipedia.org/wiki/Canada]
+xref: ISO3166-1:124
+xref: ISO3166-1:CA
+xref: ISO3166-1:CAN
+xref: ISO3166-2:CA
+relationship: located_in GAZ:00000458 ! North America
+
+
+[Term]
+id: GAZ:00002637
+name: United Kingdom
+namespace: GAZ
+def: "A sovereign island country located off the northwestern coast of mainland Europe comprising of the four constituent countries; England, Scotland, Wales and Northern Ireland. It comprises the island of Great Britain, the northeast part of the island of Ireland and many small islands. Apart from Northern Ireland the UK is surrounded by the Atlantic Ocean, the North Sea, the English Channel and the Irish Sea. The largest island, Great Britain, is linked to France by the Channel Tunnel." [url:http\://en.wikipedia.org/wiki/United_kingdom]
+synonym: "Britain" EXACT COLLOQUIAL_NAME []
+synonym: "G.B." EXACT ABBREVIATION []
+synonym: "GB" EXACT ABBREVIATION []
+synonym: "U.K. {abbrevation}" EXACT []
+synonym: "UK" EXACT ABBREVIATION []
+synonym: "United Kingdom of Great Britain and Northern Ireland" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00281547 ! British Isles
+
+
+[Term]
+id: GAZ:00002638
+name: Northern Ireland
+namespace: GAZ
+def: "One of the four countries of the United Kingdom. Situated in the north-east of the island of Ireland, it shares a border with the Republic of Ireland to the south and west." [url:http\://en.wikipedia.org/wiki/Northern_ireland]
+synonym: "Norlin Airlann {language: Ulster Scots}" EXACT []
+synonym: "Tuaisceart Eireann {language: Irish}" EXACT []
+synonym: "Ulster" EXACT []
+xref: ISO3166-2:GB\:NIR
+relationship: located_in GAZ:00002637 ! United Kingdom
+relationship: located_in GAZ:00004018 ! Ireland
+
+
+[Term]
+id: GAZ:00002639
+name: Scotland
+namespace: GAZ
+def: "A country that is part of the United Kingdom. Occupying the northern third of the island of Great Britain, it shares a border with England to the south and is bounded by the North Sea to the east, the Atlantic Ocean to the north and west, and the North Channel and Irish Sea to the southwest. In addition to the mainland, Scotland includes over 790 islands including the Northern Isles and the Hebrides." [url:http\://en.wikipedia.org/wiki/Scotland]
+relationship: located_in GAZ:00002637 ! United Kingdom
+relationship: located_in GAZ:00004790 ! Great Britain
+
+
+[Term]
+id: GAZ:00002640
+name: Wales
+namespace: GAZ
+def: "One of the four constituent countries of the United Kingdom of Great Britain and Northern Ireland. It is located in the south-west of the island of Great Britain and is bordered by England to the east, the Bristol Channel (Mor Hafren) to the south and the Irish Sea (Mor Iwerddon) to the west and north, and also by the estuary of the River Dee (Afon Dyfrdwy) in the north-east. Wales is divided into 22 unitary authorities. There are nine counties, three cities, and ten county boroughs, although all have equal powers. Collectively these are known as the principal areas of Wales. They came into being on 1996-04-01." [url:http\://en.wikipedia.org/wiki/Wales]
+synonym: "Cymru {language: Welsh}" EXACT []
+relationship: located_in GAZ:00002637 ! United Kingdom
+relationship: located_in GAZ:00004790 ! Great Britain
+
+
+[Term]
+id: GAZ:00002641
+name: England
+namespace: GAZ
+def: "The largest and most populous constituent country of the United Kingdom of Great Britain and Northern Ireland. The subdivisions of England consists of as many as four levels of subnational division and at some levels there are a variety of types of administrative entity. They have been created for the purposes of local government in England." [url:http\://en.wikipedia.org/wiki/England]
+relationship: located_in GAZ:00002637 ! United Kingdom
+relationship: located_in GAZ:00004790 ! Great Britain
+
+
+[Term]
+id: GAZ:00002646
+name: Germany
+namespace: GAZ
+def: "A country in Central Europe. It is bordered to the north by the North Sea, Denmark, and the Baltic Sea; to the east by Poland and the Czech Republic; to the south by Austria and Switzerland; and to the west by France, Luxembourg, Belgium, and the Netherlands. Germany comprises 16 states (Lander, Bundeslander), which are further subdivided into 439 districts (Kreise/Landkreise) and cities (kreisfreie Stadte)." [url:http\://en.wikipedia.org/wiki/Federal_Republic_of_Germany]
+comment: begin_date: 1990-10-03.
+synonym: "Bundesrepublik Deutschland" EXACT FORMAL_NAME []
+synonym: "Federal Republic of Germany" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002719
+name: Croatia
+namespace: GAZ
+def: "A country at the crossroads of the Mediterranean, Central Europe, and the Balkans. Its capital is Zagreb. Croatia borders with Slovenia and Hungary to the north, Serbia to the northeast, Bosnia and Herzegovina to the east, Montenegro to the far southeast, and the Adriatic Sea to the south. Croatia is divided into 21 counties (zupanija) and the capital Zagreb's city district." [url:http\://en.wikipedia.org/wiki/Croatia]
+synonym: "Republic of Croatia" EXACT FORMAL_NAME []
+synonym: "Republika Hrvatska" EXACT FORMAL_NAME []
+xref: ISO3166-1:191
+xref: ISO3166-1:HR
+xref: ISO3166-1:HRV
+xref: ISO3166-2:HR
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002721
+name: Russia
+namespace: GAZ
+def: "A transcontinental country extending over much of northern Eurasia. Russia shares land borders with the following countries (counter-clockwise from northwest to southeast): Norway, Finland, Estonia, Latvia, Lithuania (Kaliningrad Oblast), Poland (Kaliningrad Oblast), Belarus, Ukraine, Georgia, Azerbaijan, Kazakhstan, China, Mongolia and North Korea. The Russian Federation comprises 83 federal subjectsm 46 oblasts(provinces), 21 republics, 9 krais (territories), 4 autonomous okrugs (autonomous districts), one autonomous oblast, and two federal cities. The federal subjects are grouped into seven federal districts. These subjects are divided into districts (raions), cities/towns and urban-type settlements, and, at level 4, selsovets (rural councils), towns and urban-type settlements under the jurisdiction of the district and city districts." [url:http\://en.wikipedia.org/wiki/Russia]
+comment: begin_date: 1991-12.
+synonym: "Rossiyskaya Federatsiya" EXACT FORMAL_NAME []
+synonym: "Russian Federation" EXACT FORMAL_NAME []
+synonym: "Russian Soviet Federative Socialist Republic {1917-1991}" EXACT FORMER_NAME []
+relationship: located_in GAZ:00000460 ! Eurasia
+
+
+[Term]
+id: GAZ:00002724
+name: Ukraine
+namespace: GAZ
+def: "A country in Eastern Europe. It borders Russia to the east, Belarus to the north, Poland, Slovakia and Hungary to the west, Romania and Moldova to the southwest, and the Black Sea and Sea of Azov to the south. Ukraine is subdivided into twenty-four oblasts (provinces) and one autonomous republic (avtonomna respublika), Crimea. Additionally, the cities of Kiev, the capital, and Sevastopol, both have a special legal status. The 24 oblasts and Crimea are subdivided into 490 raions (districts), or second-level administrative units." [url:http\://en.wikipedia.org/wiki/Ukraine]
+synonym: "Ukrainian Soviet Socialist Republic {1917-1991}" EXACT FORMER_NAME []
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002747
+name: Japan
+namespace: GAZ
+def: "An island country in East Asia. Located in the Pacific Ocean, it lies to the east of China, Korea and Russia, stretching from the Sea of Okhotsk in the north to the East China Sea in the south." [url:http\://en.wikipedia.org/wiki/Japan]
+synonym: "Nippon-koku" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002471 ! East Asia
+
+
+[Term]
+id: GAZ:00002800
+name: Korean Peninsula
+namespace: GAZ
+relationship: located_in GAZ:00002471 ! East Asia
+
+
+[Term]
+id: GAZ:00002825
+name: Chile
+namespace: GAZ
+def: "A country in South America occupying a long and narrow coastal strip wedged between the Andes mountains and the Pacific Ocean. The Pacific forms the country's entire western border, with Peru to the north, Bolivia to the northeast, Argentina to the east, and the Drake Passage at the country's southernmost tip. Chile claims 1,250,000 km2 of territory in Antarctica. Chile is divided into 15 regions. Every region is further divided into provinces. Finally each province is divided into communes. Each region is designated by a name and a Roman numeral, assigned from north to south. The only exception is the region housing the nation's capital, which is designated RM, that stands for Region Metropolitana (Metropolitan Region). Two new regions were created in 2006: Arica-Parinacota in the north, and Los Rios in the south. Both became operative in 2007-10." [url:http\://en.wikipedia.org/wiki/Chile#Regions.2C_provinces.2C_and_communes]
+synonym: "Republic of Chile" EXACT FORMAL_NAME []
+synonym: "Republica de Chile {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002828
+name: Brazil
+namespace: GAZ
+def: "A country in South America. Bordered by the Atlantic Ocean and by Venezuela, Suriname, Guyana and the department of French Guiana to the north, Colombia to the northwest, Bolivia and Peru to the west, Argentina and Paraguay to the southwest, and Uruguay to the south. Federation of twenty-six states (estados) and one federal district (Distrito Federal). The states are subdivided into municipalities. For statistical purposes, the States are grouped into five main regions: North, Northeast, Central-West, Southeast and South." [url:http\://en.wikipedia.org/wiki/Brazil]
+synonym: "Brasil" EXACT SPELLING_VARIANT []
+synonym: "Federative Republic of Brazil" EXACT FORMAL_NAME []
+synonym: "Republica Federativa do Brasil {language: Portuguese}" EXACT []
+xref: ISO3166-2:BR
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002845
+name: China
+namespace: GAZ
+def: "A large country in Northeast Asia. China borders 14 nations (counted clockwise from south): Vietnam, Laos, Burma, India, Bhutan, Nepal, Pakistan, Afghanistan, Tajikistan, Kyrgyzstan, Kazakhstan, Russia, Mongolia and North Korea. Additionally the border between PRC and ROC is located in territorial waters. The People's Republic of China has administrative control over twenty-two provinces and considers Taiwan to be its twenty-third province. There are also five autonomous regions, each with a designated minority group; four municipalities; and two Special Administrative Regions that enjoy considerable autonomy. The People's Republic of China administers 33 province-level regions, 333 prefecture-level regions, 2,862 county-level regions, 41,636 township-level regions, and several village-level regions." [url:http\://en.wikipedia.org/wiki/People%27s_Republic_of_China]
+synonym: "People's Republic of China" EXACT FORMAL_NAME []
+synonym: "Zhonghua Renmin Gongheguo" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002846 ! Northeast Asia
+
+
+[Term]
+id: GAZ:00002846
+name: Northeast Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+
+[Term]
+id: GAZ:00002852
+name: Mexico
+namespace: GAZ
+def: "A federal constitutional republic in North America. It is bounded on the north by the United States; on the south and west by the North Pacific Ocean; on the southeast by Guatemala, Belize, and the Caribbean Sea; and on the east by the Gulf of Mexico. The United Mexican States comprise a federation of thirty-one states and a federal district, the capital Mexico City." [url:http\://en.wikipedia.org/wiki/Mexico]
+synonym: "Estados Unidos Mexicanos {language: Spanish}" EXACT []
+synonym: "United Mexican States" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000458 ! North America
+
+
+[Term]
+id: GAZ:00002891
+name: Central America
+namespace: GAZ
+def: "A very narrow isthmus of southern North America extending from the Isthmus of Tehuantepec in Mexico southeastward to the Isthmus of Panama where it connects to the Colombian Pacific Lowlands in northwestern South America." [url:http\://en.wikipedia.org/wiki/Central_america]
+synonym: "America Central {language: Spanish}" EXACT []
+synonym: "Centroamerica {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000458 ! North America
+
+
+[Term]
+id: GAZ:00002892
+name: Panama
+namespace: GAZ
+def: "The southernmost country of Central America. Situated on an isthmus, some categorize it as a transcontinental nation connecting the north and south part of America. It borders Costa Rica to the north-west, Colombia to the south-east, the Caribbean Sea to the north and the Pacific Ocean to the south. Panama's major divisions are nine provinces and five indigenous territories (comarcas indigenas). The provincial borders have not changed since they were determined at independence in 1903. The provinces are divided into districts, which in turn are subdivided into sections called corregimientos. Configurations of the corregimientos are changed periodically to accommodate population changes as revealed in the census reports." [url:http\://en.wikipedia.org/wiki/Panama]
+synonym: "Republic of Panama" EXACT FORMAL_NAME []
+synonym: "Republica de Panama {language: Spanish}" EXACT []
+xref: ISO3166-1:591
+xref: ISO3166-1:PA
+xref: ISO3166-1:PAN
+xref: ISO3166-2:PA
+relationship: located_in GAZ:00002891 ! Central America
+
+
+[Term]
+id: GAZ:00002894
+name: Honduras
+namespace: GAZ
+def: "A republic in Central America. The country is bordered to the west by Guatemala, to the southwest by El Salvador, to the southeast by Nicaragua, to the south by the Pacific Ocean at the Gulf of Fonseca, and to the north by the Gulf of Honduras, a large inlet of the Caribbean Sea. Honduras is divided into 18 departments. The capital city is Tegucigalpa Central District of the department of Francisco Morazan." [url:http\://en.wikipedia.org/wiki/Honduras]
+synonym: "Republic of Honduras" EXACT FORMAL_NAME []
+synonym: "Republica de Honduras" EXACT FORMAL_NAME []
+synonym: "Spanish Honduras" EXACT FORMER_NAME []
+xref: ISO3166-1:340
+xref: ISO3166-1:HN
+xref: ISO3166-1:HND
+xref: ISO3166-2:HN
+relationship: located_in GAZ:00002891 ! Central America
+
+
+[Term]
+id: GAZ:00002901
+name: Costa Rica
+namespace: GAZ
+def: "A republic in Central America, bordered by Nicaragua to the north, Panama to the east-southeast, the Pacific Ocean to the west and south, and the Caribbean Sea to the east. Costa Rica is composed of seven provinces, which in turn are divided into 81 cantons." [url:http\://en.wikipedia.org/wiki/Costa_rica]
+synonym: "Republic of Costa Rica" EXACT FORMAL_NAME []
+synonym: "Republica de Costa Rica" EXACT FORMAL_NAME []
+xref: ISO3166-1:188
+xref: ISO3166-1:CR
+xref: ISO3166-1:CRI
+xref: ISO3166-2:CR
+relationship: located_in GAZ:00002891 ! Central America
+
+
+[Term]
+id: GAZ:00002912
+name: Ecuador
+namespace: GAZ
+def: "A country in South America, bordered by Colombia on the north, by Peru on the east and south, and by the Pacific Ocean to the west. The country also includes the Galapagos Islands (Archipelago de Colon) in the Pacific, about 965 km west of the mainland. Ecuador is divided into 24 provinces, divided into 199 cantons and subdivided into parishes (or parroquias)." [url:http\://en.wikipedia.org/wiki/Ecuador]
+synonym: "Republic of Ecuador" EXACT FORMAL_NAME []
+synonym: "Republica del Ecuador" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002928
+name: Argentina
+namespace: GAZ
+def: "A South American country, constituted as a federation of twenty-three provinces and an autonomous city. It is bordered by Paraguay and Bolivia in the north, Brazil and Uruguay in the northeast, and Chile in the west and south. The country claims the British controlled territories of the Falkland Islands and South Georgia and the South Sandwich Islands. Argentina also claims 969,464 km2 of Antarctica, known as Argentine Antarctica, overlapping other claims made by Chile and the United Kingdom. Argentina is subdivided into twenty-three provinces (Spanish: provincias, singular provincia) and one federal district (Capital de la Republica or Capital de la Nacion, informally the Capital Federal). The federal district and the provinces have their own constitutions, but exist under a federal system. Provinces are then divided into departments (Spanish: departamentos, singular departamento), except for Buenos Aires Province, which is divided into partidos." [url:http\://en.wikipedia.org/wiki/Argentina]
+synonym: "Argentine Republic" EXACT FORMAL_NAME []
+synonym: "Republica Argentina {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002929
+name: Colombia
+namespace: GAZ
+def: "A country located in the northwestern region of South America. Colombia is bordered to the east by Venezuela and Brazil; to the south by Ecuador and Peru; to the North by the Atlantic Ocean, through the Caribbean Sea; to the north-west by Panama; and to the west by the Pacific Ocean. Besides the countries in South America, the Republic of Colombia is recognized to share maritime borders with the Caribbean countries of Jamaica, Haiti, the Dominican Republic and the Central American countries of Honduras, Nicaragua, and Costa Rica. Colombia is divided into 32 departments and one capital district which is treated as a department. There are in total 10 districts assigned to cities in Colombia including Bogota, Barranquilla, Cartagena, Santa Marta, Tunja, Cucuta, Popayan, Buenaventura, Tumaco and Turbo. Colombia is also subdivided into some municipalities which form departments, each with a municipal seat capital city assigned. Colombia is also subdivided into corregimientos which form municipalities." [url:http\://en.wikipedia.org/wiki/Colombia]
+synonym: "Republic of Colombia" EXACT FORMAL_NAME []
+synonym: "Republica de Colombia {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002930
+name: Uruguay
+namespace: GAZ
+def: "A country located in the southeastern part of South America. It is bordered by Brazil to the north, by Argentina across the bank of both the Uruguay River to the west and the estuary of Rio de la Plata to the southwest, and the South Atlantic Ocean to the southeast. Uraguay consists of 19 departments (departamentos, singular - departamento)." [url:http\://en.wikipedia.org/wiki/Uraguay]
+synonym: "Oriental Republic of Uruguay" EXACT FORMAL_NAME []
+synonym: "Republica Oriental del Uruguay {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002931
+name: Venezuela
+namespace: GAZ
+def: "A country on the northern coast of South America. The country comprises a continental mainland and numerous islands located off the Venezuelan coastline in the Caribbean Sea. The Bolivarian Republic of Venezuela possesses borders with Guyana to the east, Brazil to the south, and Colombia to the west. Trinidad and Tobago, Grenada, St. Lucia, Barbados, Curacao, Bonaire, Aruba, Saint Vincent and the Grenadines and the Leeward Antilles lie just north, off the Venezuelan coast. Venezuela is divided into twenty-three states (Estados), a capital district (distrito capital) corresponding to the city of Caracas, the Federal Dependencies (Dependencias Federales, a special territory), and Guayana Esequiba (claimed in a border dispute with Guyana). Venezuela is further subdivided into 335 municipalities (municipios); these are subdivided into over one thousand parishes (parroquias)." [url:http\://en.wikipedia.org/wiki/Venezuela]
+synonym: "Bolivarian Republic of Venezuela" EXACT FORMAL_NAME []
+synonym: "Republica Bolivariana de Venezuela {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002932
+name: Peru
+namespace: GAZ
+def: "A country in western South America. It is bordered on the north by Ecuador and Colombia, on the east by Brazil, on the southeast by Bolivia, on the south by Chile, and on the west by the Pacific Ocean. Peru is divided into 25 regions and the province of Lima. These regions are subdivided into provinces, which are composed of districts (provincias and distritos). There are 195 provinces and 1833 districts in Peru. The Lima Province, located in the central coast of the country, is unique in that it doesn't belong to any of the twenty-five regions. The city of Lima, which is the nation's capital, is located in this province. Callao is its own region, even though it only contains one province, the Constitutional Province of Callao." [url:http\://en.wikipedia.org/wiki/Peru]
+synonym: "Republic of Peru" EXACT FORMAL_NAME []
+synonym: "Republica del Peru {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002933
+name: Paraguay
+namespace: GAZ
+def: "A landlocked country in South America. It lies on both banks of the Paraguay River, bordering Argentina to the south and southwest, Brazil to the east and northeast, and Bolivia to the northwest, and is located in the very heart of South America. Paraguay consists of seventeen departments and one capital district (distrito capital). Each department is divided into districts." [url:http\://en.wikipedia.org/wiki/Paraguay]
+synonym: "Republic of Paraguay" EXACT FORMAL_NAME []
+synonym: "Republica del Paraguay {language: Spanish}" EXACT []
+synonym: "Teta Paraguaise {language: Guarani}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+
+[Term]
+id: GAZ:00002934
+name: Belize
+namespace: GAZ
+def: "A country in Central America. It is the only officially English speaking country in the region. Belize was a British colony for more than a century and was known as British Honduras until 1973. It became an independent nation within The Commonwealth in 1981. Belize is divided into 6 districts, which are further divided into 31 constituencies." [url:http\://en.wikipedia.org/wiki/Belize]
+synonym: "British Honduras" EXACT FORMER_NAME []
+xref: ISO3166-1:084
+xref: ISO3166-1:BLZ
+xref: ISO3166-1:BZ
+xref: ISO3166-2:BZ
+relationship: located_in GAZ:00002891 ! Central America
+
+
+[Term]
+id: GAZ:00002935
+name: El Salvador
+namespace: GAZ
+def: "A country in Central America, bordering the Pacific Ocean between Guatemala and Honduras. El Salvador is divided into 14 departments (departamentos), which, in turn, are subdivided into 267 municipalities (municipios)." [url:http\://en.wikipedia.org/wiki/El_Salvador]
+synonym: "Republic of El Salvador" EXACT FORMAL_NAME []
+synonym: "Republica de El Salvador" EXACT FORMAL_NAME []
+xref: ISO3166-1:222
+xref: ISO3166-1:SLV
+xref: ISO3166-1:SV
+xref: ISO3166-2:SV
+relationship: located_in GAZ:00002891 ! Central America
+
+
+[Term]
+id: GAZ:00002936
+name: Guatemala
+namespace: GAZ
+def: "A country in Central America bordered by Mexico to the northwest, the Pacific Ocean to the southwest, Belize and the Caribbean Sea to the northeast, and Honduras and El Salvador to the southeast. Guatemala is divided into 22 departments (departamentos) and sub-divided into about 332 municipalities (municipios)." [url:http\://en.wikipedia.org/wiki/Guatemala]
+synonym: "Republic of Guatemala" EXACT FORMAL_NAME []
+synonym: "Republica de Guatemala" EXACT FORMAL_NAME []
+xref: ISO3166-1:320
+xref: ISO3166-1:GT
+xref: ISO3166-1:GTM
+xref: ISO3166-2:GT
+relationship: located_in GAZ:00002891 ! Central America
+
+
+[Term]
+id: GAZ:00002937
+name: Finland
+namespace: GAZ
+def: "A Nordic country situated in the Fennoscandian region of Northern Europe. It has borders with Sweden to the west, Russia to the east, and Norway to the north, while Estonia lies to its south across the Gulf of Finland. The capital city is Helsinki. Finland is divided into six administrative provinces (laani, plural laanit). These are divided into 20 regions (maakunt), 77 subregions (seutukunta) and then into municipalities (kunta)." [url:http\://en.wikipedia.org/wiki/Finland]
+synonym: "Republic of Finland" EXACT FORMAL_NAME []
+synonym: "Republiken Finland" EXACT FORMAL_NAME []
+synonym: "Suomen tasavalta" EXACT FORMAL_NAME []
+synonym: "Suomi {language: Finnish}" EXACT []
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002938
+name: Belgium
+namespace: GAZ
+def: "A country in northwest Europe. Belgium shares borders with France (620 km), Germany (167 km), Luxembourg (148 km) and the Netherlands (450 km). The Flemish Region (Flanders) and the Walloon Region (Wallonia) each comprise five provinces; the third region, Brussels-Capital Region, is not a province, nor does it contain any Together, these comprise 589 municipalities, which in general consist of several sub-municipalities (which were independent municipalities before the municipal merger operation mainly in 1977)." [url:http\://en.wikipedia.org/wiki/Belgium]
+synonym: "Kingdom of Belgium" EXACT FORMAL_NAME []
+synonym: "Konigreich Belgien {language: German}" EXACT []
+synonym: "Koninkrijk Belgie" EXACT FORMAL_NAME []
+synonym: "Royaume de Belgique" EXACT FORMAL_NAME []
+xref: ISO3166-1:056
+xref: ISO3166-1:BE
+xref: ISO3166-1:BEL
+xref: ISO3166-2:BE
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002939
+name: Poland
+namespace: GAZ
+def: "A country in Central Europe. Poland is bordered by Germany to the west; the Czech Republic and Slovakia to the south; Ukraine, Belarus and Lithuania to the east; and the Baltic Sea and Kaliningrad Oblast, a Russian exclave, to the north. The administrative division of Poland since 1999 has been based on three levels of subdivision. The territory of Poland is divided into voivodeships (provinces); these are further divided into powiats (counties), and these in turn are divided into gminas (communes or municipalities). Major cities normally have the status of both gmina and powiat. Poland currently has 16 voivodeships, 379 powiats (including 65 cities with powiat status), and 2,478 gminas." [url:http\://en.wikipedia.org/wiki/Poland]
+synonym: "Polen {language: German}" EXACT []
+synonym: "Republic of Poland" EXACT FORMAL_NAME []
+synonym: "Rzeczpospolita Polska" EXACT FORMAL_NAME []
+synonym: "Rzeczpospolita Polska {language: German}" EXACT []
+xref: ISO3166-1:616
+xref: ISO3166-1:PL
+xref: ISO3166-1:POL
+xref: ISO3166-2:PL
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002941
+name: Switzerland
+namespace: GAZ
+def: "A federal republic in Europe. Switzerland is bordered by Germany, France, Italy, Austria and Liechtenstein. The Swiss Confederation consists of 26 cantons. The Cantons comprise a total of 2,889 municipalities. Within Switzerland there are two enclaves: Busingen belongs to Germany, Campione d'Italia belongs to Italy." [url:http\://en.wikipedia.org/wiki/Switzerland]
+synonym: "Confederation suisse" EXACT FORMAL_NAME []
+synonym: "Confederazione Svizzera" EXACT FORMAL_NAME []
+synonym: "Confederaziun svizra" EXACT FORMAL_NAME []
+synonym: "Schweizerische Eidgenossenschaft" EXACT FORMAL_NAME []
+synonym: "Swiss Confederation" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002942
+name: Austria
+namespace: GAZ
+def: "A landlocked country in Central Europe. It borders both Germany and the Czech Republic to the north, Slovakia and Hungary to the east, Slovenia and Italy to the south, and Switzerland and Liechtenstein to the west. The capital is the city of Vienna on the Danube River. Austria is divided into nine states (Bundeslander). These states are then divided into districts (Bezirke) and cities (Statutarstadte). Districts are subdivided into municipalities (Gemeinden). Cities have the competencies otherwise granted to both districts and municipalities." [url:http\://en.wikipedia.org/wiki/Austria]
+synonym: "Republic of Austria" EXACT FORMAL_NAME []
+synonym: "Republik Osterreich" EXACT FORMAL_NAME []
+xref: ISO3166-1:040
+xref: ISO3166-1:AT
+xref: ISO3166-1:AUT
+xref: ISO3166-2:AT
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002943
+name: Republic of Ireland
+namespace: GAZ
+def: "A country in north-western Europe. The modern sovereign state occupies five-sixths of the island of Ireland, which was partitioned in 1921. It is bordered by Northern Ireland (part of the United Kingdom) to the north, by the Atlantic Ocean to the west and by the Irish Sea to the east. Administration follows the 34 \"county-level\" counties and cities of Ireland. Of these twenty-nine are counties, governed by county councils while the five cities of Dublin, Cork, Limerick, Galway and Waterford have city councils, (previously known as corporations), and are administered separately from the counties bearing those names. The City of Kilkenny is the only city in the republic which does not have a \"city council\"; it is still a borough but not a county borough and is administered as part of County Kilkenny. Ireland is split into eight regions for NUTS statistical purposes. These are not related to the four traditional provinces but are based on the administrative counties." [url:http\://en.wikipedia.org/wiki/Republic_of_ireland]
+synonym: "Eire {1937-12-29-to-1949-04-18}" EXACT FORMER_NAME []
+synonym: "Irish Free State {1921-12-06-to-1937-12-29}" EXACT FORMER_NAME []
+synonym: "Poblacht na hEireann" EXACT FORMAL_NAME []
+xref: ISO3166-1:372
+xref: ISO3166-1:IE
+xref: ISO3166-1:IRL
+xref: ISO3166-2:IE
+relationship: located_in GAZ:00004018 ! Ireland
+relationship: located_in GAZ:00281547 ! British Isles
+
+
+[Term]
+id: GAZ:00002945
+name: Greece
+namespace: GAZ
+def: "A country in southeastern Europe, situated on the southern end of the Balkan Peninsula. It has borders with Albania, the former Yugoslav Republic of Macedonia and Bulgaria to the north, and Turkey to the east. The Aegean Sea lies to the east and south of mainland Greece, while the Ionian Sea lies to the west. Both parts of the Eastern Mediterranean basin feature a vast number of islands. Greece consists of thirteen peripheries subdivided into a total of fifty-one prefectures (nomoi, singular nomos). There is also one autonomous area, Mount Athos, which borders the periphery of Central Macedonia." [url:http\://en.wikipedia.org/wiki/Greece]
+synonym: "Elliniki Dimokratia" EXACT FORMAL_NAME []
+synonym: "Hellenic Republic" EXACT FORMAL_NAME []
+xref: ISO3166-1:300
+xref: ISO3166-1:GR
+xref: ISO3166-1:GRC
+xref: ISO3166-2:GR
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002946
+name: The Netherlands
+namespace: GAZ
+def: "The European part of the Kingdom of the Netherlands. It is bordered by the North Sea to the north and west, Belgium to the south, and Germany to the east. The Netherlands is divided into twelve administrative regions, called provinces. All provinces of the Netherlands are divided into municipalities (gemeenten), together 443 (2007)." [url:http\://en.wikipedia.org/wiki/Netherlands]
+synonym: "The Nether-lands" EXACT LAPSUS []
+xref: ISO3166-1:528
+xref: ISO3166-1:NL
+xref: ISO3166-1:NLD
+xref: ISO3166-2:NL
+relationship: located_in GAZ:00000464 ! Europe
+relationship: located_in GAZ:00001549 ! Kingdom of the Netherlands
+
+
+[Term]
+id: GAZ:00002947
+name: Luxembourg
+namespace: GAZ
+def: "A small landlocked country in western Europe, bordered by Belgium, France, and Germany. Luxembourg is divided into 3 districts, which are further divided into 12 cantons and then 116 communes. Twelve of the communes have city status, of which the city of Luxembourg is the largest." [url:http\://en.wikipedia.org/wiki/Luxembourg]
+synonym: "Grand Duchy of Luxembourg" EXACT FORMAL_NAME []
+synonym: "Grand-Duche de Luxembourg {language: French}" EXACT FORMAL_NAME []
+synonym: "Grossherzogtum Luxemburg {language: German}" EXACT FORMAL_NAME []
+synonym: "Groussherzogtum Letzebuerg {language: Luxembourgish}" EXACT FORMAL_NAME []
+synonym: "Luxemburg" EXACT SPELLING_VARIANT []
+xref: ISO3166-1:442
+xref: ISO3166-1:LU
+xref: ISO3166-1:LUX
+xref: ISO3166-2:LU
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002949
+name: Iberian Peninsula
+namespace: GAZ
+def: "A peninsula located in the extreme southwest of Europe, and includes modern day Spain, Portugal, Andorra and Gibraltar and a very small part of France. It is bordered on the south-east and east by the Mediterranean Sea, and on the north, west and south-west by the Atlantic Ocean. The Pyrenees form the northeast edge of the peninsula, separating it from the rest of Europe. In the south, it approaches the northern coast of Africa." [url:http\://en.wikipedia.org/wiki/Iberian_Peninsula]
+synonym: "Peninsula Iberica {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002950
+name: Bulgaria
+namespace: GAZ
+def: "A country in Southeastern Europe, borders five other countries; Romania to the north (mostly along the Danube), Serbia and the Republic of Macedonia to the west, and Greece and Turkey to the south. The Black Sea defines the extent of the country to the east. Since 1999, it has consisted of twenty-eight provinces. The provinces subdivide into 264 municipalities." [url:http\://en.wikipedia.org/wiki/Bulgaria]
+synonym: "Kingdom of Bulgaria" EXACT FORMER_NAME []
+synonym: "People's Republic of Bulgaria" EXACT FORMER_NAME []
+synonym: "Republic of Bulgaria" EXACT FORMAL_NAME []
+synonym: "Republika Balgariya" EXACT FORMAL_NAME []
+xref: ISO3166-1:100
+xref: ISO3166-1:BG
+xref: ISO3166-1:BGR
+xref: ISO3166-2:BG
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002951
+name: Romania
+namespace: GAZ
+def: "A country in Southeastern Europe. It shares a border with Hungary and Serbia to the west, Ukraine and the Republic of Moldova to the northeast, and Bulgaria to the south. Romania has a stretch of sea coast along the Black Sea. It is located roughly in the lower basin of the Danube and almost all of the Danube Delta is located within its territory. Romania is divided into forty-one counties (judete), as well as the municipality of Bucharest (Bucuresti) - which is its own administrative unit. The country is further subdivided into 319 cities and 2686 communes (rural localities)." [url:http\://en.wikipedia.org/wiki/Romania]
+synonym: "Roumania" EXACT FORMER_NAME []
+synonym: "Rumania" EXACT FORMER_NAME []
+xref: ISO3166-1:642
+xref: ISO3166-1:RO
+xref: ISO3166-1:ROU
+xref: ISO3166-2:RO
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002952
+name: Hungary
+namespace: GAZ
+def: "A landlocked country in the Carpathian Basin of Central Europe, bordered by Austria, Slovakia, Ukraine, Romania, Serbia, Croatia, and Slovenia. Its capital is Budapest. Hungary is divided into 19 counties (megyek, singular: megye). In addition, the capital city (fovaros), Budapest, is independent of any county government. The counties are further subdivided into 173 subregions (kistersegek), and Budapest is comprised of its own subregion. Since 1996, the counties and City of Budapest have been grouped into 7 regions for statistical and development purposes. These seven regions constitute NUTS second-level units of Hungary." [url:http\://en.wikipedia.org/wiki/Hungary]
+synonym: "Magyar Koztarsasag" EXACT FORMAL_NAME []
+synonym: "Republic of Hungary" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002953
+name: Albania
+namespace: GAZ
+def: "A country in South Eastern Europe. Albania is bordered by Greece to the south-east, Montenegro to the north, Kosovo to the northeast, and the Republic of Macedonia to the east. It has a coast on the Adriatic Sea to the west, and on the Ionian Sea to the southwest. From the Strait of Otranto, Albania is less than 100 km from Italy. Albania is divided into 12 administrative divisions called (Albanian: official qark/qarku, but often prefekture/prefektura Counties), 36 districts (Rrethe) and 351 municipalities (Bashkia) and communes (Komuna)." [url:http\://en.wikipedia.org/wiki/Albania]
+synonym: "Republic of Albania" EXACT FORMAL_NAME []
+synonym: "Republika e Shqiperise" EXACT FORMAL_NAME []
+synonym: "Shqiperia" EXACT ABBREVIATION []
+xref: ISO3166-1:008
+xref: ISO3166-1:AL
+xref: ISO3166-1:ALB
+xref: ISO3166-2:AL
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002954
+name: Czech Republic
+namespace: GAZ
+def: "A landlocked country in Central Europe. It has borders with Poland to the north, Germany to the northwest and southwest, Austria to the south, and Slovakia to the east. The capital and largest city is Prague. The country is composed of the historic regions of Bohemia and Moravia, as well as parts of Silesia. Since 2000, the Czech Republic is divided into thirteen regions (kraje, singular kraj) and the capital city of Prague. The older seventy-six districts (okresy, singular okres) including three 'statutory cities' (without Prague, which had special status) were disbanded in 1999 in an administrative reform; they remain as territorial division and seats of various branches of state administration. Since 2003-01-01, the regions have been divided into around 203 Municipalities with Extended Competence (unofficially named \"Little Districts\" (Czech: 'male okresy') which took over most of the administration of the former District Authorities. Some of these are further divided into Municipalities with Commissioned Local Authority. However, the old districts still exist as territorial units and remain as seats of some of the offices." [url:http\://en.wikipedia.org/wiki/Czech_republic]
+synonym: "Ceska republika" EXACT FORMAL_NAME []
+synonym: "Czechoslovakia" EXACT FORMER_NAME []
+xref: ISO3166-1:203
+xref: ISO3166-1:CZ
+xref: ISO3166-1:CZE
+xref: ISO3166-2:CZ
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002955
+name: Slovenia
+namespace: GAZ
+def: "A country in southern Central Europe bordering Italy to the west, the Adriatic Sea to the southwest, Croatia to the south and east, Hungary to the northeast, and Austria to the north. The capital of Slovenia is Ljubljana. As of 2005-05 Slovenia is divided into 12 statistical regions for legal and statistical purposes. Slovenia is divided into 210 local municipalities, eleven of which have urban status." [url:http\://en.wikipedia.org/wiki/Slovenia]
+synonym: "Republic of Slovenia" EXACT FORMAL_NAME []
+synonym: "Republika Slovenija" EXACT FORMAL_NAME []
+xref: ISO3166-1:705
+xref: ISO3166-1:SI
+xref: ISO3166-1:SVN
+xref: ISO3166-2:SI
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002956
+name: Slovak Republic
+namespace: GAZ
+def: "A landlocked country in Central Europe. The Slovak Republic borders the Czech Republic and Austria to the west, Poland to the north, Ukraine to the east and Hungary to the south. The largest city is its capital, Bratislava. Slovakia is subdivided into 8 kraje (singular - kraj, usually translated as regions. The kraje are subdivided into many okresy (singular okres, usually translated as districts). Slovakia currently has 79 districts." [url:http\://en.wikipedia.org/wiki/Slovakia]
+synonym: "Czechoslovakia" EXACT FORMER_NAME []
+synonym: "Slovakia" EXACT ABBREVIATION []
+synonym: "Slovenska republika" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002957
+name: Serbia
+namespace: GAZ
+def: "A landlocked country in Central and Southeastern Europe, covering the southern part of the Pannonian Plain and the central part of the Balkan Peninsula. It is bordered by Hungary to the north; Romania and Bulgaria to the east; Republic of Macedonia, Montenegro to the south; Croatia and Bosnia and Herzegovina to the west. The capital is Belgrade. Serbia is divided into 29 districts plus the City of Belgrade. The districts and the city of Belgrade are further divided into municipalities. Serbia has two autonomous provinces: Kosovo and Metohija in the south (5 districts, 30 municipalities), and Vojvodina in the north (7 districts, 46 municipalities)." [url:http\://en.wikipedia.org/wiki/Serbia]
+synonym: "Republic of Serbia" EXACT FORMAL_NAME []
+synonym: "Republika Srbija" EXACT FORMAL_NAME []
+xref: ISO3166-1:688
+xref: ISO3166-1:RS
+xref: ISO3166-1:SRB
+xref: ISO3166-2:RS
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002958
+name: Latvia
+namespace: GAZ
+def: "A country in Northern Europe. Latvia shares land borders with Estonia to the north and Lithuania to the south, and both Russia and Belarus to the east. It is separated from Sweden in the west by the Baltic Sea. The capital of Latvia is Riga. Latvia is divided into 26 districts (raioni). There are also seven cities (lielpilsetas) that have a separate status. Latvia is also historically, culturally and constitutionally divided in four or more distinct regions." [url:http\://en.wikipedia.org/wiki/Latvia]
+comment: ISO3166-2 codes for 2009 revision of admin. units seem not to have been assigned.
+synonym: "Latvian Soviet Socialist Republic {1940-1991}" EXACT FORMER_NAME []
+synonym: "Latvijas Republika" EXACT FORMAL_NAME []
+synonym: "Republic of Latvia" EXACT FORMAL_NAME []
+xref: ISO3166-1:428
+xref: ISO3166-1:LV
+xref: ISO3166-1:LVA
+xref: ISO3166-2:LV
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002959
+name: Estonia
+namespace: GAZ
+def: "A country in Northern Europe. Estonia has land borders to the south with Latvia and to the east with Russia. It is separated from Finland in the north by the Gulf of Finland and from Sweden in the west by the Baltic Sea. Estonia is divided into 15 counties. (maakonnad; sing. - maakond). Estonian counties are divided into rural (vallad, singular vald) and urban (linnad, singular linn; alevid, singular alev; alevikud, singular alevik) municipalities. The municipalities comprise populated places (asula or asustusuksus) - various settlements and territorial units that have no administrative function. A group of populated places form a rural municipality with local administration. Most towns constitute separate urban municipalities, while some have joined with surrounding rural municipalities." [url:http\://en.wikipedia.org/wiki/Estonia]
+synonym: "Eesti Vabariik" EXACT FORMAL_NAME []
+synonym: "Estland {language: German}" EXACT []
+synonym: "Estonian Soviet Socialist Republic {1940-1991}" EXACT FORMER_NAME []
+synonym: "Republic of Estonia" EXACT FORMAL_NAME []
+synonym: "Viro {language: Finnish}" EXACT []
+xref: ISO3166-1:233
+xref: ISO3166-1:EE
+xref: ISO3166-1:EST
+xref: ISO3166-2:EE
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002960
+name: Lithuania
+namespace: GAZ
+def: "A country located along the south-eastern shore of the Baltic Sea, sharing borders with Latvia to the north, Belarus to the southeast, Poland, and the Russian exclave of the Kaliningrad Oblast to the southwest. Lithuania has a three-tier administrative division: the country is divided into 10 counties (singular apskritis, plural, apskritys) that are further subdivided into 60 municipalities (singular savivaldybe, plural savivaldybes) which consist of over 500 elderates (singular seniunija, plural seniunijos)." [url:http\://en.wikipedia.org/wiki/Lithuania]
+synonym: "Lietuvos Respublika" EXACT FORMAL_NAME []
+synonym: "Lithuanian Soviet Socialist Republic {1940-1990}" EXACT FORMER_NAME []
+synonym: "Republic of Lithuania" EXACT FORMAL_NAME []
+xref: ISO3166-1:440
+xref: ISO3166-1:LT
+xref: ISO3166-1:LTU
+xref: ISO3166-2:LT
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00002978
+name: Nicaragua
+namespace: GAZ
+def: "A republic in Central America. It is also the least densely populated with a demographic similar in size to its smaller neighbors. The country is bordered by Honduras to the north and by Costa Rica to the south. The Pacific Ocean lies to the west of the country, while the Caribbean Sea lies to the east. For administrative purposes it is divided into 15 departments (departamentos) and two self-governing regions (autonomous communities) based on the Spanish model. The departments are then subdivided into 153 municipios (municipalities). The two autonomous regions are Region Autonoma del Atlantico Norte and Region Autonoma del Atlantico Sur, often referred to as RAAN and RAAS, respectively. Until they were granted autonomy in 1985 they formed the single department of Zelaya." [url:http\://en.wikipedia.org/wiki/Nicaragua]
+synonym: "Republic of Nicaragua" EXACT FORMAL_NAME []
+synonym: "Republica de Nicaragua {language: Spanish}" EXACT []
+xref: ISO3166-1:558
+xref: ISO3166-1:NI
+xref: ISO3166-1:NIC
+xref: ISO3166-2:NI
+relationship: located_in GAZ:00002891 ! Central America
+
+
+[Term]
+id: GAZ:00003101
+name: Italian Peninsula
+namespace: GAZ
+synonym: "Appenine Peninsula" EXACT []
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00003606
+name: Scandinavian Peninsula
+namespace: GAZ
+def: "A geographic region in northern Europe, consisting principally of the mainland territories of Norway and Sweden." [url:http\://en.wikipedia.org/wiki/Scandinavian_Peninsula]
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00003727
+name: Indonesia
+namespace: GAZ
+def: "An archipelagic state in Southeast Asia. The country shares land borders with Papua New Guinea, East Timor and Malaysia. Other neighboring countries include Singapore, the Philippines, Australia, and the Indian territory of the Andaman and Nicobar Islands. Indonesia consists of 33 provinces, five of which have special status. The provinces are subdivided into regencies (kabupaten, distrik in Papua and West Papua Provinces) and cities (kota), which are further subdivided into subdistricts (kecamatan), and again into village groupings (either desa or kelurahan)." [url:http\://en.wikipedia.org/wiki/Indonesia]
+synonym: "Republic of Indonesia" EXACT FORMAL_NAME []
+synonym: "Republik Indonesia" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+
+[Term]
+id: GAZ:00003744
+name: Thailand
+namespace: GAZ
+def: "A country in Southeast Asia. To its east lie Laos and Cambodia; to its south, the Gulf of Thailand and Malaysia; and to its west, the Andaman Sea and Burma. Its capital and largest city is Bangkok. Thailand is divided into 75 provinces (changwat), which are gathered into 5 groups of provinces by location. There are also 2 special governed districts: the capital Bangkok (Krung Thep Maha Nakhon) and Pattaya, of which Bangkok is at provincial level and thus often counted as a 76th province." [url:http\://en.wikipedia.org/wiki/Thailand]
+synonym: "Kingdom of Thailand" EXACT FORMAL_NAME []
+synonym: "Ratcha Anachak Thai" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+
+[Term]
+id: GAZ:00003756
+name: Viet Nam
+namespace: GAZ
+def: "The easternmost country on the Indochina Peninsula in Southeast Asia. It borders the Gulf of Thailand, Gulf of Tonkin, and South China Sea, alongside China, Laos, and Cambodia." [url:http\://en.wikipedia.org/wiki/Vietnam]
+synonym: "Socialist Republic of Vietnam" EXACT FORMAL_NAME []
+synonym: "Vietnam" EXACT SPELLING_VARIANT []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+
+[Term]
+id: GAZ:00003857
+name: Monaco
+namespace: GAZ
+def: "A small country that is completely bordered by France to the north, west, and south; to the east it is bordered by the Mediterranean Sea. It consists of a single municipality (commune) currently divided into 4 quartiers and 10 wards." [url:http\://en.wikipedia.org/wiki/Monaco]
+synonym: "Principality of Monaco" EXACT FORMAL_NAME []
+synonym: "Principaute de Monaco" EXACT FORMAL_NAME []
+xref: ISO3166-1:492
+xref: ISO3166-1:MC
+xref: ISO3166-1:MCO
+xref: ISO3166-2:MC
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00003858
+name: Liechtenstein
+namespace: GAZ
+def: "A tiny, doubly landlocked alpine country in Western Europe, bordered by Switzerland to its west and by Austria to its east. The principality of Liechtenstein is divided into 11 municipalities called Gemeinden (singular Gemeinde). The Gemeinden mostly consist only of a single town. Five of them fall within the electoral district Unterland (the lower county), and the remainder within Oberland (the upper county)." [url:http\://en.wikipedia.org/wiki/Liechtenstein]
+synonym: "Furstentum Liechtenstein" EXACT FORMAL_NAME []
+synonym: "Principality of Liechtenstein" EXACT FORMAL_NAME []
+xref: ISO3166-1:438
+xref: ISO3166-1:LI
+xref: ISO3166-1:LIE
+xref: ISO3166-2:LI
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00003897
+name: Moldova
+namespace: GAZ
+def: "A landlocked country in Eastern Europe, located between Romania to the west and Ukraine to the north, east and south. Moldova is divided into thirty-two districts (raioane, singular raion); three municipalities (Balti, Chisinau, Tighina); and two autonomous regions (Gagauzia and Transnistria). The cities of Comrat and Tiraspol also have municipality status, however not as first-tier subdivisions of Moldova, but as parts of the regions of Gagauzia and Transnistria, respectively. The status of Transnistria is however under dispute. Although it is de jure part of Moldova and is recognized as such by the international community, Transnistria is not de facto under the control of the central government of Moldova. It is administered by an unrecognized breakaway authority under the name Pridnestrovian Moldovan Republic." [url:http\://en.wikipedia.org/wiki/Moldova]
+synonym: "Moldavia" EXACT SPELLING_VARIANT []
+synonym: "Moldavian Soviet Socialist Republic {1940-1991}" EXACT FORMER_NAME []
+synonym: "Republic of Moldova" EXACT FORMAL_NAME []
+synonym: "Republica Moldova" EXACT FORMAL_NAME []
+xref: ISO3166-1:498
+xref: ISO3166-1:MD
+xref: ISO3166-1:MDA
+xref: ISO3166-2:MD
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00003901
+name: Brunei Darussalam
+namespace: GAZ
+def: "A country located on the north coast of the island of Borneo, in Southeast Asia. Apart from its coastline with the South China Sea it is completely surrounded by the State of Sarawak, Malaysia, and in fact it is separated into two parts by Limbang, which is part of Sarawak. Brunei is divided into four districts (daerah), the districts are subdivided into thirty-eight mukims, which are then divided into kampong (villages)." [url:http\://en.wikipedia.org/wiki/Brunei_Darussalam]
+synonym: "Negara Brunei Darussalam" EXACT FORMAL_NAME []
+synonym: "State of Brunei, Abode of Peace" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+relationship: located_in GAZ:00025355 ! Borneo
+
+
+[Term]
+id: GAZ:00003902
+name: Malaysia
+namespace: GAZ
+def: "A country that consists of thirteen states and three federal territories in Southeast Asia. The country is separated into two regions, Peninsular Malaysia and Malaysian Borneo, by the South China Sea. Malaysia borders Thailand, Indonesia, Singapore, Brunei and the Philippines. Malaysia consists of 13 states (Negeri) and 3 federal territories." [url:http\://en.wikipedia.org/wiki/Malaysia]
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+
+[Term]
+id: GAZ:00003923
+name: Singapore
+namespace: GAZ
+def: "An island nation located at the southern tip of the Malay Peninsula. It lies 137 km north of the Equator, south of the Malaysian State of Johor and north of Indonesia's Riau Islands. Singapore consists of 63 islands, including mainland Singapore. There are two man-made connections to Johor, Malaysia, Johor-Singapore Causeway in the north, and Tuas Second Link in the west. Since 2001-11-24, Singapore has had an administrative subdivision into 5 districts. It is also divided into five Regions, urban planning subdivisions with no administrative role." [url:http\://en.wikipedia.org/wiki/Singapore]
+synonym: "Republic of Singapore" EXACT FORMAL_NAME []
+synonym: "Republik Singapura {language: Malay}" EXACT []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+relationship: located_in GAZ:00046857 ! Singapore Island
+
+
+[Term]
+id: GAZ:00003937
+name: contiguous United States of America
+namespace: GAZ
+def: "The 48 contiguous states located on the central part of the North American continent, plus the District of Columbia, and so does not include Alaska and Hawai. Indian reservations are given quasi-independent status. While every reservation is part of a state, and residents vote as residents of the state in which they reside and do pay federal taxes, the reservations are exempt from many state and local laws." [url:http\://en.wikipedia.org/wiki/Continental_United_States]
+synonym: "Continental United States {alternative name}" EXACT []
+relationship: located_in GAZ:00000458 ! North America
+relationship: located_in GAZ:00002459 ! United States of America
+
+
+[Term]
+id: GAZ:00003940
+name: Metropolitan France
+namespace: GAZ
+def: "A part of the country of France that extends from the Mediterranean Sea to the English Channel and the North Sea, and from the Rhine to the Atlantic Ocean. Metropolitan France is bordered by Belgium, Luxembourg, Germany, Switzerland, Italy, Monaco, Andorra, and Spain. Due to its overseas departments." [url:http\://en.wikipedia.org/wiki/France]
+synonym: "L'Hexagone" EXACT COLLOQUIAL_NAME []
+relationship: located_in GAZ:00000464 ! Europe
+relationship: located_in GAZ:00002940 ! French Republic
+
+
+[Term]
+id: GAZ:00003942
+name: Saint-Pierre and Miquelon
+namespace: GAZ
+def: "An Overseas Collectivity of France located in a group of small islands in the North Atlantic Ocean, the main ones being Saint Pierre and Miquelon, 25 km off the coast of Newfoundland, Canada. Saint Pierre and Miquelon became an overseas department in 1976, but its status changed to that of an Overseas collectivity in 1985." [url:http\://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon]
+synonym: "Collectivite territoriale de Saint-Pierre-et-Miquelon" EXACT FORMAL_NAME []
+synonym: "Territorial Collectivity of Saint Pierre and Miquelon" EXACT FORMAL_NAME []
+xref: ISO3166-1:666
+xref: ISO3166-1:PM
+xref: ISO3166-1:SPM
+xref: ISO3166-2:FR-PM
+is_a: GAZ:00003941 ! Collectivite d'outre-mer
+relationship: located_in GAZ:00000458 ! North America
+
+
+[Term]
+id: GAZ:00004474
+name: Iran
+namespace: GAZ
+def: "A country in Central Eurasia. Iran is bounded by the Gulf of Oman and the Persian Gulf to the south and the Caspian Sea to its north. It borders Armenia, Azerbaijan, Turkmenistan to the north, Afghanistan and Pakistan to the east, and Turkey and Iraq to the west. Iran is divided into 30 provinces (ostan). The provinces are divided into counties (shahrestan), and subdivided into districts (bakhsh) and sub-districts (dehestan)." [url:http\://en.wikipedia.org/wiki/Iran]
+synonym: "Islamic Republic of Iran" EXACT FORMAL_NAME []
+synonym: "Jomhuri-ye Eslami-ye Iran" EXACT FORMAL_NAME []
+synonym: "Persia" EXACT FORMER_NAME []
+relationship: located_in GAZ:00002464 ! Southwest Asia
+
+
+[Term]
+id: GAZ:00004483
+name: Iraq
+namespace: GAZ
+def: "A country in the Middle East spanning most of the northwestern end of the Zagros mountain range, the eastern part of the Syrian Desert and the northern part of the Arabian Desert. It shares borders with Kuwait and Saudi Arabia to the south, Jordan to the west, Syria to the northwest, Turkey to the north, and Iran to the east. It has a very narrow section of coastline at Umm Qasr on the Persian Gulf. There are two major flowing rivers: the Tigris and the Euphrates. Iraq is divided into 18 governorates (or provinces) (muhafazah). The governorates are divided into qadhas (or districts)." [url:http\://en.wikipedia.org/wiki/Iraq]
+synonym: "Jumhuriyat Al-'Iraq {language: Arabic}" EXACT []
+synonym: "Komare Iraq {language: Kurdish}" EXACT []
+synonym: "Republic of Iraq" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002464 ! Southwest Asia
+
+
+[Term]
+id: GAZ:00004525
+name: The Philippines
+namespace: GAZ
+def: "An archipelagic nation located in Southeast Asia. The Philippine archipelago comprises 7,107 islands in the western Pacific Ocean, bordering countries such as Indonesia, Malaysia, Palau and the Republic of China, although it is the only Southeast Asian country to share no land borders with its neighbors. The Philippines is divided into three island groups: Luzon, Visayas, and Mindanao. These are divided into 17 regions, 81 provinces, 136 cities, 1,494 municipalities and 41,995 barangays." [url:http\://en.wikipedia.org/wiki/The_Philippines]
+synonym: "Republic of the Philippines" EXACT FORMAL_NAME []
+synonym: "Republika ng Pilipinas" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+
+[Term]
+id: GAZ:00004789
+name: Watsonian vice-counties (Great Britain)
+namespace: GAZ
+def: "Subdivisions of Great Britain and Ireland used largely for the purposes of biological recording and other scientific data-gathering." [url:http\://en.wikipedia.org/wiki/Vice_county]
+relationship: located_in GAZ:00002637 ! United Kingdom
+
+
+[Term]
+id: GAZ:00005279
+name: Saudi Arabia
+namespace: GAZ
+def: "A country on the Arabian Peninsula. It is bordered by Jordan on the northwest, Iraq on the north and northeast, Kuwait, Qatar, Bahrain, and the United Arab Emirates on the east, Oman on the southeast, and Yemen on the south. The Persian Gulf lies to the northeast and the Red Sea to its west. Saudi Arabia is divided into 13 provinces or regions (manatiq; singular mintaqah). Each is then divided into Governorates." [url:http\://en.wikipedia.org/wiki/Saudi_arabia]
+synonym: "al-Mamlaka al-'Arabiyya as-Su'udiyya" EXACT FORMAL_NAME []
+synonym: "Kingdom of Saudi Arabia" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002467 ! Arabian Peninsula
+
+
+[Term]
+id: GAZ:00005281
+name: Bahrain
+namespace: GAZ
+def: "A borderless island country in the Persian Gulf. Saudi Arabia lies to the west and is connected to Bahrain by the King Fahd Causeway, and Qatar is to the south across the Gulf of Bahrain. Bahrain is split into five governorates." [url:http\://en.wikipedia.org/wiki/Bahrain]
+synonym: "Kingdom of Bahrain" EXACT FORMAL_NAME []
+synonym: "Mamlakat al-Bahrayn" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002467 ! Arabian Peninsula
+relationship: located_in GAZ:00006936 ! Bahrain Archipelago
+
+
+[Term]
+id: GAZ:00005282
+name: United Arab Emirates
+namespace: GAZ
+def: "A Middle Eastern federation of seven states situated in the southeast of the Arabian Peninsula in Southwest Asia on the Persian Gulf, bordering Oman and Saudi Arabia. The seven states, termed emirates, are Abu Dhabi, Ajman, Dubai, Fujairah, Ras al-Khaimah, Sharjah, and Umm al-Quwain." [url:http\://en.wikipedia.org/wiki/United_Arab_Emirates]
+synonym: "Dowlat Al-Imarat al-'Arabiya al-Muttahida" EXACT FORMAL_NAME []
+synonym: "UAE" EXACT ABBREVIATION []
+relationship: located_in GAZ:00002467 ! Arabian Peninsula
+
+
+[Term]
+id: GAZ:00005283
+name: Oman
+namespace: GAZ
+def: "A country in southwest Asia, on the southeast coast of the Arabian Peninsula. It borders the United Arab Emirates on the northwest, Saudi Arabia on the west, and Yemen on the southwest. The coast is formed by the Arabian Sea on the south and east, and the Gulf of Oman on the northeast. The country also contains Madha, an exclave enclosed by the United Arab Emirates, and Musandam, an exclave also separated by Emirati territory. Oman is divided into four governorates (muhafazah) and five regions (mintaqat). The regions are subdivided into provinces (wilayat)." [url:http\://en.wikipedia.org/wiki/Oman]
+synonym: "Sultanate of Oman" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002467 ! Arabian Peninsula
+
+
+[Term]
+id: GAZ:00005284
+name: Yemen
+namespace: GAZ
+def: "A country located on the Arabian Peninsula in Southwest Asia. Yemen is bordered by Saudi Arabia to the North, the Red Sea to the West, the Arabian Sea and Gulf of Aden to the South, and Oman to the east. Yemen's territory includes over 200 islands, the largest of which is Socotra, about 415 km to the south of Yemen, off the coast of Somalia. As of 2004-02, Yemen is divided into twenty governorates (muhafazah) and one municipality. The population of each governorate is listed in the table below. The governorates of Yemen are divided into 333 districts (muderiah). The districts are subdivided into 2,210 sub-districts, and then into 38,284 villages (as of 2001)." [url:http\://en.wikipedia.org/wiki/Yemen]
+synonym: "Al-Jumhuriyyah al-Yamaniyyah" EXACT FORMAL_NAME []
+synonym: "Republic of Yemen" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002467 ! Arabian Peninsula
+
+
+[Term]
+id: GAZ:00005285
+name: Kuwait
+namespace: GAZ
+def: "A sovereign emirate on the coast of the Persian Gulf, enclosed by Saudi Arabia to the south and Iraq to the north and west. Kuwait is divided into six governorates (muhafazat, singular muhafadhah)." [url:http\://en.wikipedia.org/wiki/Kuwait]
+synonym: "Dawlat al-Kuwayt" EXACT FORMAL_NAME []
+synonym: "State of Kuwait" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002467 ! Arabian Peninsula
+
+
+[Term]
+id: GAZ:00005341
+name: Republic of China
+namespace: GAZ
+def: "A state in East Asia with de facto rule of the island of Tawain and adjacent territory. The Republic of China currently administers two historical provinces of China (one completely and a small part of another one) and centrally administers two direct-controlled municipalities." [url:http\://en.wikipedia.org/wiki/Republic_of_china]
+synonym: "Jhonghua Minguo" EXACT FORMAL_NAME []
+synonym: "Taiwan" EXACT COLLOQUIAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+
+[Term]
+id: GAZ:00005459
+name: Manchuria
+namespace: GAZ
+def: "A vast geographic region in northeast Asia. Depending on the definition of its extent, Manchuria either falls entirely within China, or is divided between China and Russia." [url:http\://en.wikipedia.org/wiki/Manchuria]
+relationship: located_in GAZ:00002846 ! Northeast Asia
+
+
+[Term]
+id: GAZ:00005852
+name: Metropolitan Denmark
+namespace: GAZ
+def: "That part of the Kingdom of Denmark located in continental Europe. The mainland is bordered to the south by Germany; Denmark is located to the southwest of Sweden and the south of Norway. Denmark borders both the Baltic and the North Sea. The country consists of a large peninsula, Jutland (Jylland) and a large number of islands, most notably Zealand (Sjaelland), Funen (Fyn), Vendsyssel-Thy, Lolland, Falster and Bornholm as well as hundreds of minor islands often referred to as the Danish Archipelago." [url:http\://en.wikipedia.org/wiki/Denmark]
+relationship: located_in GAZ:00000464 ! Europe
+relationship: located_in GAZ:00002635 ! Kingdom of Denmark
+
+
+[Term]
+id: GAZ:00006886
+name: Belarus
+namespace: GAZ
+alt_id: GAZ:00005045
+def: "A landlocked country in Eastern Europe, that borders Russia to the north and east, Ukraine to the south, Poland to the west, and Lithuania and Latvia to the north. Its capital is Minsk. Belarus is divided into six voblasts, or provinces. Voblasts are further subdivided into raions (commonly translated as districts or regions). As of 2002, there are six voblasts, 118 raions, 102 towns and 108 urbanized settlements. Minsk is given a special status, due to the city serving as the national capital." [url:http\://en.wikipedia.org/wiki/Belarus]
+comment: begin_date: 1990-07-27.
+synonym: "Belarusian Soviet Socialist Republic {1919-1991}" EXACT FORMER_NAME []
+synonym: "Belorussia" EXACT FORMER_NAME []
+synonym: "Bialorus {language: Polish}" EXACT []
+synonym: "Byelorussia" EXACT FORMER_NAME []
+synonym: "Republic of Belarus" EXACT FORMAL_NAME []
+xref: ISO3166-1:112
+xref: ISO3166-1:BLR
+xref: ISO3166-1:BY
+xref: ISO3166-2:BY
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00006887
+name: Bosnia and Herzegovina
+namespace: GAZ
+def: "A country on the Balkan peninsula of Southern Europe. Bordered by Croatia to the north, west and south, Serbia to the east, and Montenegro to the south, Bosnia and Herzegovina is mostly landlocked, except for 26 km of the Adriatic Sea coastline. Bosnia and Herzegovina is now divided into three political regions of which one, the Brcko District is part of the other two, the Federacija Bosne i Hercegovine and the Republika Srpska. All three have an equal constitutional status on the whole territory of Bosnia and Herzegovina." [url:http\://en.wikipedia.org/wiki/Bosnia_and_Herzegovina]
+synonym: "Bosna i Hercegovina" EXACT FORMAL_NAME []
+xref: ISO3166-1:070
+xref: ISO3166-1:BA
+xref: ISO3166-1:BIH
+xref: ISO3166-2:BA
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00006888
+name: Cambodia
+namespace: GAZ
+def: "A country in Southeast Asia. The country borders Thailand to its west and northwest, Laos to its northeast, and Vietnam to its east and southeast. In the south it faces the Gulf of Thailand." [url:http\://en.wikipedia.org/wiki/Cambodia]
+synonym: "Cambodge {language: French}" EXACT []
+synonym: "Kampuchea" EXACT FORMER_NAME []
+synonym: "Kingdom of Cambodia" EXACT FORMAL_NAME []
+synonym: "Preah Reacheanachakr Kampuchea {language: Khmer}" EXACT []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+
+[Term]
+id: GAZ:00006889
+name: Laos
+namespace: GAZ
+def: "A landlocked country in southeast Asia, bordered by Burma (Myanmar) and China to the northwest, Vietnam to the east, Cambodia to the south, and Thailand to the west. Laos is divided into sixteen provinces (qwang) and Vientiane Capital (Na Kone Luang Vientiane). The provinces further divided into districts (muang)." [url:http\://en.wikipedia.org/wiki/Laos]
+synonym: "Lao People's Democratic Republic" EXACT FORMAL_NAME []
+synonym: "Sathalanalat Paxathipatai Paxaxon Lao" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+
+[Term]
+id: GAZ:00006895
+name: Macedonia
+namespace: GAZ
+def: "A landlocked country on the Balkan peninsula in southeastern Europe. It is bordered by Serbia and Kosovo to the north, Albania to the west, Greece to the south, and Bulgaria to the east. In 2004-08, the Republic of Macedonia was reorganised into 85 municipalities (opstini; singular opstina), 10 of which comprise Greater Skopje. This is reduced from the previous 123 municipalities established in 1996-09. Prior to this, local government was organised into 34 administrative districts." [url:http\://en.wikipedia.org/wiki/Republic_of_Macedonia]
+synonym: "Republic of Macedonia" EXACT FORMAL_NAME []
+synonym: "Republika Makedonija" EXACT FORMAL_NAME []
+synonym: "The former Yugoslav Republic of Macedonia" EXACT FORMER_NAME []
+xref: ISO3166-1:807
+xref: ISO3166-1:MK
+xref: ISO3166-1:MKD
+xref: ISO3166-2:MK
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00006898
+name: Montenegro
+namespace: GAZ
+def: "A country located in Southeastern Europe. It has a coast on the Adriatic Sea to the south and borders Croatia to the west, Bosnia and Herzegovina to the northwest, Serbia and its partially recognized breakaway southern province of Kosovo to the northeast and Albania to the southeast. Its capital and largest city is Podgorica. Montenegro is divided into twenty-one municipalities (opstina), and two urban municipalities, subdivisions of Podgorica municipality." [url:http\://en.wikipedia.org/wiki/Montenegro]
+synonym: "Crna Gora {language: Montenegrin}" EXACT []
+synonym: "Republic of Montenegro" EXACT FORMAL_NAME []
+xref: ISO3166-1:499
+xref: ISO3166-1:ME
+xref: ISO3166-1:MNE
+xref: ISO3166-2:ME
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00006899
+name: Myanmar
+namespace: GAZ
+def: "A country in SE Asia that is bordered by China on the north, Laos on the east, Thailand on the southeast, Bangladesh on the west, and India on the northwest, with the Bay of Bengal to the southwest. Myanmar is divided into seven states and seven divisions. The administrative divisions are further subdivided into districts, which are further subdivided into townships, wards, and villages." [url:http\://en.wikipedia.org/wiki/Burma]
+synonym: "Burma" EXACT FORMER_NAME []
+synonym: "Pyi-daung-zu Myan-ma Naing-ngan-daw {language: Burmese}" EXACT []
+synonym: "Union of Myanma" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+
+[Term]
+id: GAZ:00006913
+name: Timor-Leste
+namespace: GAZ
+def: "A country in Southeast Asia. It comprises the eastern half of the island of Timor, the nearby islands of Atauro and Jaco, and Oecussi-Ambeno, an exclave on the northwestern side of the island, within Indonesian West Timor. The small country of 15,410 km2 is located about 640 km northwest of Darwin, Australia. East Timor is divided into thirteen administrative districts, are subdivided into 65 subdistricts, 443 sucos and 2,336 towns, villages and hamlets." [url:http\://en.wikipedia.org/wiki/East_Timor]
+synonym: "Democratic Republic of Timor-Leste" EXACT FORMAL_NAME []
+synonym: "East Timor {language: English}" EXACT []
+synonym: "Oost-Timor {language: Dutch}" EXACT []
+synonym: "Osttimors {language: German}" EXACT []
+synonym: "Portuguese Timor {1702-1975}" EXACT FORMER_NAME []
+synonym: "Republica Democratica de Timor-Leste" EXACT FORMAL_NAME []
+synonym: "Republika Demokratika Timor Lorosa'e" EXACT FORMAL_NAME []
+synonym: "Timor Portugues {1702-1975}" EXACT FORMER_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+relationship: located_in GAZ:00003926 ! Timor
+
+
+[Term]
+id: GAZ:00007826
+name: river, United Kingdom
+namespace: GAZ
+relationship: located_in GAZ:00002637 ! United Kingdom
+
+
+[Term]
+id: GAZ:00008744
+name: Mongolia
+namespace: GAZ
+def: "A country in East-Central Asia. The landlocked country borders Russia to the north and China to the south. The capital and largest city is Ulan Bator. Mongolia is divided into 21 aimags (provinces), which are in turn divided into 315 sums (districts). The capital Ulan Bator is administrated separately as a khot (municipality) with provincial status." [url:http\://en.wikipedia.org/wiki/Mongolia]
+synonym: "Mongol uls" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002471 ! East Asia
+
+
+[Term]
+id: GAZ:00011337
+name: Kosovo
+namespace: GAZ
+def: "A country on the Balkan Peninsula. Kosovo borders Central Serbia to the north and east, Montenegro to the northwest, Albania to the west and the Republic of Macedonia to the south. Kosovo is divided into 7 districts (Rreth) and 30 municipalities. Serbia does not recognise the unilateral secession of Kosovo[8] and considers it a United Nations-governed entity within its sovereign territory, the Autonomous Province of Kosovo and Metohija." [url:http\://en.wikipedia.org/wiki/Kosovo]
+synonym: "Autonomna Pokrajina Kosovo i Metohija" EXACT FORMER_NAME []
+synonym: "Autonomous Province of Kosovo" EXACT FORMER_NAME []
+synonym: "Autonomous Province of Kosovo and Metohija" EXACT FORMER_NAME []
+synonym: "Kosova {language: Albanian}" EXACT []
+synonym: "Republic of Kosovo" EXACT FORMAL_NAME []
+synonym: "Republika e Kosoves" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000464 ! Europe
+
+
+[Term]
+id: GAZ:00055083
+name: Pacific Coast Ranges
+namespace: GAZ
+def: "The series of mountain ranges that stretch along the west coast of North America from Alaska to northern and central Mexico." [url:http\://en.wikipedia.org/wiki/Pacific_Coast_Ranges]
+relationship: located_in GAZ:00000458 ! North America
+
+
+[Term]
+id: GAZ:00056925
+name: Malay Peninsula
+namespace: GAZ
+def: "A major peninsula located in Southeast Asia. It is also known as the Kra Peninsula and runs approximately north-south through the Kra Isthmus. The area is divided politically: the northwest is the extreme south part of Myanmar (Burma); the central region and northeast is the south part of Thailand; the south is the part of Malaysia called Peninsular Malaysia or West Malaysia (which should not be confused with the larger Malay Peninsula)." [url:http\://en.wikipedia.org/wiki/Malay_Peninsula]
+synonym: "Kra Peninsula {alternative name}" EXACT []
+synonym: "Thai-Malay Peninsula {alternative name}" EXACT []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+
+[Term]
+id: GAZ:00057492
+name: Qatari Peninsula
+namespace: GAZ
+def: "A peninsula that juts 160 km into the Persian Gulf from Saudi Arabia." [url:http\://en.wikipedia.org/wiki/Qatar#Geography]
+relationship: located_in GAZ:00002467 ! Arabian Peninsula
+
+
+[Term]
+id: GAZ:00057494
+name: Arabian Desert
+namespace: GAZ
+def: "A vast desert wilderness stretching from Yemen to the Persian Gulf and Oman to Jordan and Iraq. It occupies most of the Arabian Peninsula with an area of 2,330,000 km2. At its center is the Rub'al-Khali, one of the largest continuous bodies of sand in the world." [url:http\://en.wikipedia.org/wiki/Arabian_Desert]
+relationship: located_in GAZ:00002467 ! Arabian Peninsula
+
+
+[Term]
+id: GAZ:00233439
+name: South Sudan
+namespace: GAZ
+def: "A state located in Africa with Juba as its capital city. It's bordered by Ethiopia to the east, Kenya, Uganda, and the Democratic Republic of the Congo to the south, and the Central African Republic to the west and Sudan to the North. Southern Sudan includes the vast swamp region of the Sudd formed by the White Nile, locally called the Bahr el Jebel." [url:http\://en.wikipedia.org/wiki/South_sudan]
+synonym: "Autonomous Government of Southern Sudan" EXACT FORMER_NAME []
+synonym: "Republic of South Sudan" EXACT FORMAL_NAME []
+synonym: "Southern Sudan" EXACT FORMER_NAME []
+xref: ISO3166-1:728
+xref: ISO3166-1:SS
+xref: ISO3166-1:SSD
+xref: ISO3166-2:SS
+relationship: located_in GAZ:00000555 ! North Africa
+created_by: michaelashburner
+creation_date: 2009-10-22T11:24:19Z
+
+
+[Term]
+id: GAZ:00281547
+name: British Isles
+namespace: GAZ
+def: "A group of islands off the northwest coast of continental Europe that include the islands of Great Britain and Ireland, and over six thousand smaller islands. There are two sovereign states located on the islands: the United Kingdom and the Republic of Ireland. The British Isles also include two dependencies of the United Kingdom: the Isle of Man and, by tradition, the Channel Islands, although the latter are not physically a part of the island group." [url:http\://en.wikipedia.org/wiki/British_isles]
+relationship: located_in GAZ:00000464 ! Europe
+created_by: michaelashburner
+creation_date: 2010-05-16T10:11:46Z
+
+

@@ -4,6 +4,7 @@ use warnings;
 use v5.16;
 
 use WWW::Mechanize;
+use Cache::File;
 
 (my $base_url= "http://$0/") =~ s/\.[^\.]+$//;
 (my $links_file = "$0.links.txt") =~ s/\.pl//;

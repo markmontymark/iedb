@@ -1,0 +1,1193 @@
+format-version: 1.2
+data-version: $Revision: 1.512 $
+date: 23:04:2012 17:24
+saved-by: michaelashburner
+auto-generated-by: OBO-Edit 2.1-beta10
+synonymtypedef: ABBREVIATION "ABBREVIATION" EXACT
+synonymtypedef: COLLOQUIAL_NAME "COLLOQUIAL NAME" EXACT
+synonymtypedef: FORMAL_NAME "FORMAL NAME" EXACT
+synonymtypedef: FORMER_NAME "FORMER NAME" EXACT
+synonymtypedef: LAPSUS "LAPSUS" EXACT
+synonymtypedef: SPELLING_VARIANT "SPELLING VARIANT" EXACT
+default-namespace: file:/Users/michaelashburner/Desktop/obo/obo/ontology/environmental/gaz.obo
+remark: This is an alpha version and is only for experimental implementation.
+remark: Comments etc to Michael Ashburner, ma11@gen.cam.ac.uk
+remark: Acknowledgements and sources: A large number of sources have been, and are being, used to build gaz.obo. By far
+remark: the most used are the pages of Wikipedia, which seem to be quite accurate in this domain. Thanks to all
+remark: of those who contribute to this invaluable resource. In addition, a number of other sources have been
+remark: used quite extensively and I wish to acknowledge, with thanks, the following (which is not exhaustive):
+remark: Version 2 of August 7 2011.
+remark: General: Columbia Gazetteer: http://www.columbiagazetteer.org/main/Home.html
+remark: General: Second Administrative Level Boundaries: http\://www.unsalb.org/
+remark: General: NGIA: http\://earth-info.nga.mil/gns/html/namefiles.htm
+remark: General: The Permanent Committee on Geographical Names for British Official Use: http\://www.pcgn.org.uk/
+remark: General: Maps: Perry-Castaneda Library Map Collection: http\://www.lib.utexas.edu/maps/
+remark: General: Maps: UN Map Library: http://www.un.org/depts/dhl/maplib/maplib.htm
+remark: General: Toponymic Guidelines: http\://unstats.un.org/unsd/geoinfo/UNGEGN/wgGuidelines.html
+remark: Antarctic: Antarctic Place-names Committee; http\://www.antarctica.ac.uk/apc/
+remark: Antarctic: http\://geonames.usgs.gov/antform.html
+remark: Antarctic: http\://apple.arcoveggio.enea.it/SCAR_GAZE
+remark: Antarctic: Bulgarian antarctic Gazetteer: http\://id-team.org/apc/Apcbg-Web-New_files/gazet.htm
+remark: Antarctica & Southern Oceans: Stonehouse (ed) Encyclopedia of Antractica and the Southern Oceans. J. Wiley, 2002. [ISBN:0471986658]
+remark: Arctic: IBRU. http\://www.dur.ac.uk/ibru/resources/arctic/
+remark: Australia: Placenames: http\://www.ga.gov.au/map/names/
+remark: Australia: Rivers: http://www.environment.nsw.gov.au/vegetation/MajorRivers.htm#lcma
+remark: Australia: Great Barrier Reef: http\://www.gbrmpa.gov.au/
+remark: Bangladesh/Inida enclaves: B.R. Whyte, 2002, Waiting for the Esquimo, Melbourne. [ISBN:0734022085]
+remark: Bourkina Faso: Administrative areas: http\://www.inforoute-communale.gov.bf/list_vill/liste_vill.htm
+remark: Canada Census Divisions: http\://dsp-psd.pwgsc.gc.ca/Collection/Statcan/92F0149X/92F0149XIB-e.html
+remark: Czech protected areas: http\://www.cittadella.cz/europarc/index.php?p=index&site=default_enremark: General: Geonames: http\://www.geonames.org/
+remark: East Himalayas: East Himalaya Gazetteer: http://rbg-web2.rbge.org.uk/nepal/ehgaz/index.html
+remark: England Fen waterways: Blair, Fenland Waterways of the Middle Level. Imray Laurie Norie, 2009. [ISBN:9781846231896]
+remark: England & Wales: Coasts: Steers, Coastline of England & Wales, 2nd ed. 1969. [ISBN:0521065488]
+remark: France: rivers: SANDRE: http\://sandre.eaufrance.fr
+remark: Greenland: Haug, Gazetteer of Greenland. http\://www.ntnu.no/ub/formidl/utgivelser/til_opplysning/to_nr15.php
+remark: Iceland: Halfdanarson (Ed) The Visitor's Key to Iceland. Reykjavik, 1999 (English edition). [ISBN:9979877227]
+remark: India: Wetlands: http\://envfor.nic.in/divisions/csurv/Wetland%20Inventory.pdf
+remark: Ireland: Haug, Gazetteer of Ireland: www.ntnu.no/ub/formidl/utgivelser/til_opplysning/to_nr16.pdf
+remark: Ireland: Placenames Database: http\://www.logainm.ie/
+remark: Japan: General: http\://www.gsi.go.jp/EN/pape_e300284.html
+remark: Japan: Wetlands: http\://www.sizenken.biodic.go.jp/pc/wet_en/map.html
+remark: Mexico: Municipalities: http\://www.e-local.gob.mx/wb2/ELOCA\L/ELOC_Enciclopedia
+remark: North Korea: libweb.uoregon.edu/ec/e-asia/read/northkorgaz.pdf
+remark: Norway, Svalbard and Jan Mayen Place Names: http://miljo.npolar.no/placenames/pages/searchE.asp
+remark: Pacific, Protected areas; http\://www.pbif.org/
+remark: Philippines, Administrative areas: http\://www.nscb.gov.ph/activestats/psgc/listreg.asp
+remark: Scotland: general: Scotland: The Gazetteer for Scotland. Scotland: http\://www.scottish-places.info/
+remark: Scotland: An Encyclopedia of Places and Landscape." Compiled by D. Munro. [ISBN:04724666]
+remark: Scotland: Islands: Haswell-Smith (1996) "Scottish Islands". Edinburgh. [ISBN:0862415799]
+remark: Scotland: Shetland. Shetlopedia: http://shetlopedia.com/Main_Page
+remark: Scotland: Coasts: Steers, Coastline of Scotland, 1973. [ISBN:9780521086967]
+remark: Singapore: http\://www.zrc-sazu.si/ungegn/toponymi.htm
+remark: Slovakia: Protected areas: http\://uzemia.enviroportal.sk/
+remark: South Africa: Reservoirs & dams: http\://www.dwaf.gov.za/iwqs/gis_apps/dam/dams/index.htm
+remark: Swaziland: Administrative divisions: http\://www.sahims.net/gis/Sahims_Gis_Data/Swaziland%20admin%203.htm
+remark: Tanzania: Wards: http\://www.tanzania.go.tz/census/
+remark: UK: Ordnance Survey 1\:50,000 Gazetteer: http\://www.ordnancesurvey.co.uk/oswebsite/products/50k-gazetteer/index.html
+remark: UK: Caves: http\://ukcaving.com/wiki/index.php/
+remark: UK: Coal mines etc: http://www.dmm.org.uk/colliery/index_a.htm
+remark: UK Cumbria: http://www.thecumbriadirectory.com/
+remark: UK: Lakes: http\://www.uklakes.net/
+remark: UK: Ports: http://www.abports.co.uk/
+remark: UK: Placenames: Gazetteer of British Placenames: http://www.gazetteer.co.uk/
+remark: UK & former Empire: Naval ports: http://www.gwpda.org/naval/dkbk0000.htm
+remark: US: General: http\://geonames.usgs.gov/domestic/download_data.htm.
+remark: US: Hot sprinngs: http\://www.ngdc.noaa.gov/nndc/struts/results?op_0=eq&v_0=&op_1=l&v_1=&op_2=l&v_2=&t=100006&s=1&d=1
+remark: US: Protected areas: http\://www.wilderness.net/
+remark: US, CA: rivers: http\://museumca.org/creeks/
+remark: US: INCITS38:2009, Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States [INCITS38]
+remark: US: Yellowstone, Hydrothermal features: http\://www.rcn.montana.edu/resources/?nav=11
+remark: Zimbabwe" Administrative regions: www.law.co.zw/index.php/defence.../155-names-alteration-act.html
+remark: Administrative regions: Statoids: www.statoids.com/
+remark: Caves, show caves: http\://www.showcaves.com/english/
+remark: Coral Reefs: Spalding et al. (eds) University of California Press, 2001; World Atlas of Coral Reefs, 2001. [ISBN:0520232550]
+remark: Deepsea: Yancey, Deep=Sea Biology: http\://people.whitman.edu/~yancey/deepsea.html
+remark: Glaciers: World Glacier Inventory: http\://nsidc.org/data/docs/noaa/g01130_glacier_inventory/
+remark: Islands: UNEP Islands: http\://islands.unep.ch/
+remark: Lakes: World Lake Database: http\://wldb.ilec.or.jp/
+remark: Meglithic sites: http://www.megalithic.co.uk/
+remark: Mines: MINDAT: http\://www.mindat.org/
+remark: Mountains & Mountain Chains: PEAKBAGGER: http://www.peakbagger.com/
+remark: Oceans, Vent fields: InterRidge Global Database of Active Submarine Hydrothermal Vent Fields. http://www.interridge.org/
+remark: Oceans & Seas: 3rd edition: www.iho-ohi.net/iho_pubs/standard/S-23/S23_1953.pdf
+remark: Oceans and Seas: 4th edition: [IHO:Limits of Oceans and Seas, 1986 (Draft 4th edition)]
+remark: RAMSAR sites: http\://www.ramsar.org/cda/en/ramsar-documents-list/main/ramsar/1-31-218_4000_0__
+remark: Seamounts: Seamounts Online: http\://seamounts.sdsc.edu/
+remark: Undersea features: General Bathymetric Chart of the Oceans: http://www.gebco.net/data_and_products/undersea_feature_names/
+remark: Volcanic features: Smithsonian Institution - Global Volcanism Program: http\://www.volcano.si.edu/index.cfm
+remark: Wetlands: The Wetlands Database: http\://www.wetlands.or.id/wdb/wdb.php
+remark: Wetlands: International Water Management Instituteh: http\://www.iwmi.cgiar.org/wetlands/WetlandDir.asp
+remark: World Heritage Sites: UN http://whc.unesco.org/en/list: http\://whc.unesco.org/en/list
+
+[Term]
+id: GAZ:00000013
+name: continent
+namespace: GAZ
+alt_id: GAZ:00190836
+def: "One of the large, unbroken masses of land into which the Earth's surface is divided." [USGS:SDTS]
+synonym: "CONTIN" EXACT [USGS:SDTS]
+synonym: "continent {alternative name}" EXACT [GeoNames:feature]
+synonym: "Continent {alternative name}" EXACT [NASA:earthrealm]
+synonym: "continental region" EXACT FORMER_NAME []
+xref: FTT:540
+xref: GeoNames:CONT
+xref: TGN:21402
+xref: TGN:29000
+is_a: GAZ:00000448 ! geographic location
+
+[Term]
+id: GAZ:00000344
+name: Atlantic Ocean
+namespace: GAZ
+def: "An ocean bounded on the west by North and South America. In the north and northeast, it is separated from the Arctic Ocean by the Canadian Arctic Archipelago, Greenland, Iceland, Svalbard, and mainland Europe. It connects to the Arctic Ocean through the Denmark Strait, Greenland Sea, Norwegian Sea, and Barents Sea. To the east, the boundaries of the ocean proper are Europe, the Strait of Gibraltar (where it connects with the Mediterranean Sea, one of its marginal seas), and Africa. In the southeast, the Atlantic merges into the Indian Ocean, the border being defined by the 20 East meridian, running south from Cape Agulhas to Antarctica." [url:http\://en.wikipedia.org/wiki/Atlantic_Ocean]
+relationship: located_in GAZ:00051071 ! Atlantic Ocean region
+
+[Term]
+id: GAZ:00000360
+name: Pacific Ocean
+namespace: GAZ
+def: "An ocean that extends from the Arctic in the north to the Antarctic in the south, bounded by Asia and Australia on the west and the Americas on the east." [url:http\://en.wikipedia.org/wiki/Pacific_Ocean]
+synonym: "Grote Oceaan {language: Dutch}" EXACT []
+synonym: "Ocaan Pacifique {language: French}" EXACT []
+synonym: "Oceano Pacifico {language: Portugese}" EXACT []
+synonym: "Oceano Pacifico {language: Spanish}" EXACT []
+synonym: "Pacifische Oceaan {language: Dutch}" EXACT []
+synonym: "Pazifischer Ozean {language: German}" EXACT []
+synonym: "Samudra Pasifik {language: Indonesian}" EXACT []
+relationship: located_in GAZ:00051073 ! Pacific Ocean region
+
+[Term]
+id: GAZ:00000372
+name: Indian Ocean
+namespace: GAZ
+def: "An ocean with the following limits: On the West and the North: From the coast of the Antarctic continent northward, along the meridian of 20 Degrees E, to Cape Agulhas (34 Degrees 50 Minutes S - 20 Degrees 00 Minutes E), the southern extremity of the Republic of South Africa, in Africa (the common limit with the South Atlantic Ocean); and thence from Cape Agulhas northward and eastward, along the eastern coast of Africa and the southern coast of Asia, to Cape Piai (1 Degrees 15 Minutes 54 Seconds N - 103 Degrees 31 Minutes E), the southern extremity of West Malaysia. On the East: A line joining Cape Piai southwestward to Iyu Kecil Islet (The Brothers) (1 Degrees 11 Minutes 25 Seconds N - 103 Degrees 21 Minutes 12 Seconds E), Indonesia, southeastward to the northern extremity of Karimun Kecil Island (1 Degrees 09 Minutes 55 Seconds N - 103 Degrees 23 Minutes 25 Seconds E), and westward to Cape Kedabu (1 Degrees 05 Minutes 40 Seconds N - 102 Degrees 59 Minutes E), in Sumatera Island; thence from Cape Kedabu southeastward, through Sumatera Island, to Cape Cuku Balimbing (5 Degrees 55 Minutes 40 Seconds S - 104 Degrees 33 Minutes 20 Seconds E), the southern extremity of this island; thence a line joining Cape Cuku Balimbing southeastward to Cape Guha Kolak (6 Degrees 50 Minutes 20 Seconds S - 105 Degrees 14 Minutes 30 Seconds E), the western extremity of Jawa Island; thence from Cape Guha Kolak eastward, along the southern coast of this island, to Cape Bantenan (8 Degrees 46 Minutes 30 Seconds S - 114 Degrees 32 Minutes E), the southeastern extremity thereof; thence a line joining Cape Bantenan eastward to the southern extremity of Bali Island (8 Degrees 51 Minutes S - 115 Degrees 07 Minutes E), thence to Cape Sedihing (8 Degrees The limits of the Indian Ocean are the following: On the West and the North: From the coast of the Antarctic continent northward, along the meridian of 20 Degrees E, to Cape Agulhas (34 Degrees 50 Minutes S - 20 Degrees 00 Minutes E), the southern extremity of the Republic of South Africa, in Africa (the common limit with the South Atlantic Ocean); and thence from Cape Agulhas northward and eastward, along the eastern coast of Africa and the southern coast of Asia, to Cape Piai (1 Degrees 15 Minutes 54 Seconds N - 103 Degrees 31 Minutes E), the southern extremity of West Malaysia. On the East: A line joining Cape Piai southwestward to Iyu Kecil Islet (The Brothers) (1 Degrees 11 Minutes 25 Seconds N - 103 Degrees 21 Minutes 12 Seconds E), Indonesia, southeastward to the northern extremity of Karimun Kecil Island (1 Degrees 09 Minutes 55 Seconds N - 103 Degrees 23 Minutes 25 Seconds E), and westward to Cape Kedabu (1 Degrees 05 Minutes 40 Seconds N - 102 Degrees 59 Minutes E), in Sumatera Island; thence from Cape Kedabu southeastward, through Sumatera Island, to Cape Cuku Balimbing (5 Degrees 55 Minutes 40 Seconds S - 104 Degrees 33 Minutes 20 Seconds E), the southern extremity of this island; thence a line joining Cape Cuku Balimbing southeastward to Cape Guha Kolak (6 Degrees 50 Minutes 20 Seconds S - 105 Degrees 14 Minutes 30 Seconds E), the western extremity of Jawa Island; thence from Cape Guha Kolak eastward, along the southern coast of this island, to Cape Bantenan (8 Degrees 46 Minutes 30 Seconds S - 114 Degrees 32 Minutes E), the southeastern extremity thereof; thence a line joining Cape Bantenan eastward to the southern extremity of Bali Island (8 Degrees 51 Minutes S - 115 Degrees 07 Minutes E), thence to Cape Sedihing (8 Degrees 49 Minutes 20 Seconds S - 115 Degrees 35 Minutes 30 Seconds E), the southern extremity of Nusa Penida Island, and to Cape Batu Gendang (8 Degrees 49 Minutes 40 Seconds S - 115 Degrees 50 Minutes 30 Seconds E), the southwestern extremity of Lombok Island; thence from Cape Batu Gendang eastward, along the southern coast of this island, to Cape Ringgit (8 Degrees 52 Minutes S - 116 Degrees 35 Minutes 30 Seconds E), the southeastern extremity thereof; thence a line joining Cape Ringgit southeastward to Cape Mangkun (9 Degrees 00 Minutes 40 Seconds S - 116 Degrees 43 Minutes 50 Seconds E), the southwestern extremity of Sumbawa Island; thence from Cape Mangkun eastward, along the southern coast of this island, to Cape Toro Doro (8 Degrees 53 Minutes 30 Seconds S - 118 Degrees 30 Minutes E); thence a line joining Cape Toro Doro southward to Cape Karosso (9 Degrees 33 Minutes S - 118 Degrees 56 Minutes E), the western extremity of Sumba Island; thence from Cape Karosso southeastward, along the southern coast of this island, to Cape Ngunju (10 Degrees 18 Minutes 55 Seconds S - 120 Degrees 27 Minutes 30 Seconds E), the southern extremity thereof; thence a line joining Cape Ngunju southeastward to Dana Island (10 Degrees 49 Minutes 30 Seconds S - 121 Degrees 16 Minutes 30 Seconds E), eastward to Cape Boa (10 Degrees 56 Minutes 30 Seconds S - 122 Degrees 51 Minutes E), the southwestern extremity of Roti Island, and southeastward to Cape Londonderry (13 Degrees 44 Minutes S - 125 Degrees 57 Minutes 30 Seconds E), on the northern coast of Australia; (From Cape Piai, in West Malaysia, to Cape Londonderry, in Australia: the common limit with the South China and Eastern Archipelagic Seas) thence from Cape Londonderry southeastward, along the western and southern coasts of Australia, to cape Otway (38 Degrees 51 Minutes 30 Seconds S - 143 Degrees 30 Minutes 35 Seconds E); thence a line joining Cape Otway southeastward to Cape Wickham (39 Degrees 35 Minutes S - 143 Degrees 57 Minutes E), the northern extremity of King Island; thence from Cape Wickham southward, along the western coast of this island, to Stokes Point (40 Degrees 09 Minutes 24 Seconds S - 143 Degrees 55 Minutes 24 Seconds E), the southern extremity thereof; thence a line joining Stokes Point southeastward to Cape Grim (40 Degrees 40 Minutes 55 Seconds S - 144 Degrees 41 Minutes E), on the northwestern coast of Tasmania; thence from Cape Grim southeastward, along the western coast of this island, to South East Cape (43 Degrees 38 Minutes 40 Seconds S - 146 Degrees 49 Minutes 25 Seconds E), the southern extremity thereof; and thence from South East Cape southward, along the meridian of 146 Degrees 49 Minutes 25 Seconds E, to the Antarctic continent the common limit with the South Pacific Ocean). On the South: From the meridian of 146 Degrees 49 Minutes 25 Seconds E westward, along the coast of the Antarctic continent, to the meridian of 20 Degrees E." [IHO:Limits of Oceans and Seas\, 1986 (Draft 4th edition)., wiki:Limits of Oceans and Seas\, 1986 (Draft 4th edition).]
+synonym: "Samudra Hindia {language: Indonesian}" EXACT []
+relationship: located_in GAZ:00051084 ! Indian Ocean region
+
+[Term]
+id: GAZ:00000377
+name: North Atlantic Ocean
+namespace: GAZ
+def: "A part of the Atlantic Ocean with the following limits: On the North: A line joining the coast of Labrador in Canada eastward, along the parallel of 60 Degrees N, to the southwestern coast of Greenland; thence northeastward, along the southern and eastern coasts of Greenland, to Cape Edward Holm (67 Degrees 51 Minutes N - 32 Degrees 11 Minutes W); thence a line joining Cape Edward Holm southeastward to Bjargtangar (65 Degrees 30min15 Seconds N - 24 Degrees 32min20 Seconds W), the western extremity of Iceland; thence from Bjargtangar southeastward, along the western and southern coasts of Iceland, to Stockksnes Cape (64 Degrees 14min25 Seconds N - 14 Degrees 57min50 Seconds W); thence a line joining Stockksnes Cape southeastward to the northeastern extremity of Fuglo Island (62 Degrees 20min35 Seconds N - 6 Degrees 14min50 Seconds W), in the Faeroe Islands, and to position 61 Degrees N - 0 Degrees 53 Minutes W, on the Hebridean Shelf; and thence from this position eastward, along the parallel of 61 Degrees N, to the southwestern coast of Norway. (The common limit with the Arctic Ocean) on the East: From the parallel of 61 Degrees N on the southwestern coast of Norway southward, along the coasts of Norway and Sweden, to the parallel of 57 Degrees 45 Minutes N ; thence a line joining the coast of Sweden westward, along the parallel of 57 Degrees 45 Minutes N, to Skagen Lighthouse (57 Degrees 45 Minutes N - 10 Degrees 35min50 Seconds E), the northern extremity of Jutland, in Denmark (the common limit with the Baltic Sea); thence from Skagen Lighthouse southward, along the coasts of Europe, to Cape Trafalgar (36 Degrees 10min40 Seconds N - 6 Degrees 02406 Seconds W), on the southern coast of Spain; thence a line joining Cape Trafalgar southward to Cape Espartel (35 Degrees 47min30 Seconds N - 5 Degrees 55min30 Seconds W), in Morocco (the common limit with the Mediterranean Region); and thence from Cape Espartel southward, along the western coast of Africa, to Cape Lopez (0 Degrees 37min20 Seconds S - 8 Degrees 43 Minutes E), in Gabon. On the South: A line joining Cape Lopez northwestward to position 0 Degrees -6 Degrees 25 Minutes E (on the southwestern limit of Gulf of Guinea; and thence a line joining position 0 Degrees -6 Degrees 25 Minutes E westward, along the Equator, to the northern coast of Brazil (the common limit with the South Atlantic Ocean). On the West: From the Equator, on the northern coast of Brazil, northward, along the eastern coasts of the American continents, to the parallel of 60 Degrees N, on the coast of Labrador in Canada." [url:http\://www.nodc.noaa.gov/cgi-bin/search/prod/seanames.pl/details/91]
+relationship: located_in GAZ:00000344 ! Atlantic Ocean
+
+[Term]
+id: GAZ:00000448
+name: geographic location
+namespace: GAZ
+alt_id: GAZ:00000467
+def: "A reference to a place on the Earth, by its name or by its geographical location." [MA:ma]
+synonym: "geographic region {alternative name}" EXACT []
+
+[Term]
+id: GAZ:00000457
+name: Africa
+namespace: GAZ
+def: "A continent that is surrounded by the Mediterranean Sea to the north, the Suez Canal and the Red Sea to the northeast, the Indian Ocean to the southeast, and the Atlantic Ocean to the west. There are 46 countries including Madagascar, and 53 including all the island groups." [url:http\://en.wikipedia.org/wiki/Africa]
+is_a: GAZ:00000013 ! continent
+
+[Term]
+id: GAZ:00000458
+name: North America
+namespace: GAZ
+is_a: GAZ:00000013 ! continent
+
+[Term]
+id: GAZ:00000459
+name: South America
+namespace: GAZ
+def: "A continent of the Americas, situated entirely in the Western Hemisphere and mostly in the Southern Hemisphere, with about a quarter in the Northern Hemisphere. It is bordered on the west by the Pacific Ocean and on the north and east by the Atlantic Ocean. North America and the Caribbean Sea lie to the northwest." [url:http\://en.wikipedia.org/wiki/South_america]
+is_a: GAZ:00000013 ! continent
+
+[Term]
+id: GAZ:00000460
+name: Eurasia
+namespace: GAZ
+def: "The convention used in gaz.obo is that the Europe-Asia boundary follows the watershed of the Ural Mountains from near Kara, Russia on the Kara Sea to the source of the Ural River, then follows that river to the Caspian Sea. The border then follows the watershed of the Caucasus Mountains from the Caspian Sea to the Black Sea." [url:http\://en.wikipedia.org/wiki/Transcontinental_nation]
+is_a: GAZ:00000013 ! continent
+
+[Term]
+id: GAZ:00000463
+name: Australia
+namespace: GAZ
+def: "A country in the southern hemisphere comprising the mainland of the world's smallest continent, the major island of Tasmania, and a number of other islands in the Indian and Pacific Oceans. The neighbouring countries are Indonesia, East Timor, and Papua New Guinea to the north, the Solomon Islands, Vanuatu, and New Caledonia to the north-east, and New Zealand to the south-east. Australia has six states, two major mainland territories, and other minor territories." [url:http\://en.wikipedia.org/wiki/Australia]
+synonym: "Commonwealth of Australia" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00005863 ! Australasia
+
+[Term]
+id: GAZ:00000464
+name: Europe
+namespace: GAZ
+relationship: located_in GAZ:00000460 ! Eurasia
+
+[Term]
+id: GAZ:00000465
+name: Asia
+namespace: GAZ
+def: "Part of the landmass of Eurasia, with the western portion of the latter occupied by Europe, lying east of the Suez Canal, east of the Ural Mountains, and south of the Caucasus Mountains and the Caspian and Black Seas. It is bounded on the east by the Pacific Ocean, on the south by the Indian Ocean, and on the north by the Arctic Ocean." [url:http\://en.wikipedia.org/wiki/Asia]
+relationship: located_in GAZ:00000460 ! Eurasia
+
+[Term]
+id: GAZ:00000466
+name: Indian subcontinent
+namespace: GAZ
+def: "A large section of the Asian continent consisting of countries lying substantially on the Indian tectonic plate. These include countries on the continental crust (India, Pakistan, Bangladesh, Bhutan, and Nepal), an island country on the continental shelf (Sri Lanka), and an island country rising above the oceanic crust (the Maldives)." [url:http\://en.wikipedia.org/wiki/Indian_subcontinent]
+relationship: located_in GAZ:00002472 ! South Asia
+
+[Term]
+id: GAZ:00000468
+name: Oceania
+namespace: GAZ
+def: "A grouping term including Australia, New Zealand, the southwestern islands of the Pacific Ocean and the eastern islands of the Australasian Mediterranean Sea." [MA:ma]
+is_a: GAZ:00000448 ! geographic location
+
+[Term]
+id: GAZ:00000553
+name: South Africa
+namespace: GAZ
+relationship: located_in GAZ:00000587 ! Sub-Saharan Africa
+
+[Term]
+id: GAZ:00000554
+name: West Africa
+namespace: GAZ
+relationship: located_in GAZ:00000587 ! Sub-Saharan Africa
+
+[Term]
+id: GAZ:00000555
+name: North Africa
+namespace: GAZ
+def: "The northernmost region of the African continent, separated by the Sahara from Sub-Saharan Africa." [url:http\://en.wikipedia.org/wiki/North_Africa]
+relationship: located_in GAZ:00000457 ! Africa
+
+[Term]
+id: GAZ:00000556
+name: East Africa
+namespace: GAZ
+def: "A vast geographical and geological feature, approximately 6,000 km in length, which runs from northern Syria in Southwest Asia to central Mozambique in East Africa. Caused by the geological process of rifting, it is a complex feature where several plates of the earth's crust join. The rift valley varies in width from thirty to one hundred km, and in depth from a few hundred to several thousand meters." [url:http\://en.wikipedia.org/wiki/Great_Rift_Valley]
+relationship: located_in GAZ:00000587 ! Sub-Saharan Africa
+
+[Term]
+id: GAZ:00000559
+name: Southeast Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+[Term]
+id: GAZ:00000560
+name: Sudan
+namespace: GAZ
+def: "A country in North Africa. It is bordered by Egypt to the north, the Red Sea to the northeast, Eritrea and Ethiopia to the east, Kenya and Uganda to the southeast, Democratic Republic of the Congo and the Central African Republic to the southwest, Chad to the west and Libya to the northwest. Sudan is divided into twenty-six states (wilayat, singular wilayah) which in turn are subdivided into 133 districts." [url:http\://en.wikipedia.org/wiki/Sudan]
+synonym: "as-Sudan {language: Arabic}" EXACT []
+synonym: "Jumhuriyyat as-Sudan" EXACT FORMAL_NAME []
+synonym: "Republic of Sudan" EXACT FORMAL_NAME []
+synonym: "Soudan" EXACT SPELLING_VARIANT []
+xref: ISO3166-1:729
+xref: ISO3166-1:SD
+xref: ISO3166-1:SDN
+xref: ISO3166-2:SD
+relationship: located_in GAZ:00000555 ! North Africa
+
+[Term]
+id: GAZ:00000567
+name: Ethiopia
+namespace: GAZ
+def: "A country situated in the Horn of Africa that has been landlocked since the independence of its northern neighbor Eritrea in 1993. Apart from Eritrea to the north, Ethiopia is bordered by Sudan to the west, Kenya to the south, Djibouti to the northeast, and Somalia to the east. Since 1996 Ethiopia has had a tiered government system consisting of a federal government overseeing ethnically-based regional states, zones, districts (woredas), and neighborhoods (kebele). It is divided into nine ethnically-based administrative states (kililoch, singular kilil) and subdivided into sixty-eight zones and two chartered cities (astedader akababiwoch, singular astedader akababi): Addis Ababa and Dire Dawa. It is further subdivided into 550 woredas and six special woredas." [url:http\://en.wikipedia.org/wiki/Ethiopia]
+synonym: "Federal Democratic Republic of Ethiopia" EXACT FORMAL_NAME []
+synonym: "ye-Ityoppya Federalawi Dimokrasiyawi Ripeblik {language: Ge'ez}" EXACT []
+xref: ISO3166-1:231
+xref: ISO3166-1:ET
+xref: ISO3166-1:ETH
+xref: ISO3166-2:ET
+relationship: located_in GAZ:00000555 ! North Africa
+
+[Term]
+id: GAZ:00000587
+name: Sub-Saharan Africa
+namespace: GAZ
+def: "The area of the African continent which lies south of the Sahara. Geographically, the demarcation line is the southern edge of the Sahara." [url:http\://en.wikipedia.org/wiki/Sub-Saharan_Africa]
+relationship: located_in GAZ:00000457 ! Africa
+
+[Term]
+id: GAZ:00000588
+name: Central Africa
+namespace: GAZ
+relationship: located_in GAZ:00000587 ! Sub-Saharan Africa
+
+[Term]
+id: GAZ:00000590
+name: Oceans and Seas
+namespace: GAZ
+is_a: GAZ:00000448 ! geographic location
+
+[Term]
+id: GAZ:00000591
+name: Kingdom of Spain
+namespace: GAZ
+def: "A country located in southwestern Europe on the Iberian Peninsula, plus the Balearic Islands in the Mediterranean, the Canary Islands in the Atlantic Ocean off the African coast, and two autonomous cities in North Africa that border Morocco. Spain is politically organized into 17 Autonomous Communities (comunidades autonomas) and 2 autonomous cities (ciudades autonomas) - Ceuta and Melilla. Administratively Spain also comprises fifty provinces. Seven autonomous communities are composed of only one province: Asturias, Balearic Islands, Cantabria, La Rioja, Madrid, Murcia, and Navarre. Historically, some provinces are also divided into comarcas (roughly equivalent to a US \"county\" or an English district). The lowest administrative division of Spain is the municipality (municipio)." [url:http\://en.wikipedia.org/wiki/Spain]
+synonym: "Espana {language: Spanish}" EXACT []
+synonym: "Reino de Espana" EXACT FORMAL_NAME []
+synonym: "Spain" EXACT ABBREVIATION []
+xref: ISO3166-1:724
+xref: ISO3166-1:ES
+xref: ISO3166-1:ESP
+xref: ISO3166-2:ES
+is_a: GAZ:00000448 ! geographic location
+
+[Term]
+id: GAZ:00000905
+name: Burkina Faso
+namespace: GAZ
+def: "A landlocked nation in West Africa. It is surrounded by six countries: Mali to the north, Niger to the east, Benin to the south east, Togo and Ghana to the south, and Cote d'Ivoire to the south west. Burkina Faso is divided into thirteen regions, forty-five provinces, and 301 departments (communes)." [url:http\://en.wikipedia.org/wiki/Burkina_Faso]
+synonym: "Republic of Upper Volta" EXACT FORMER_NAME []
+synonym: "Republique de Haute-Volta" EXACT FORMER_NAME []
+xref: ISO3166-1:854
+xref: ISO3166-1:BF
+xref: ISO3166-1:BFA
+xref: ISO3166-2:BF
+relationship: located_in GAZ:00000554 ! West Africa
+
+[Term]
+id: GAZ:00000907
+name: Gambia
+namespace: GAZ
+def: "A country in Western Africa. It is the smallest country on the African continental mainland and is bordered to the north, east, and south by Senegal, and has a small coast on the Atlantic Ocean in the west. Flowing through the centre of the country and discharging to the Atlantic Ocean is the Gambia River. The Gambia is divided into five divisions and one city (Banjul). The divisions are further subdivided into 37 districts." [url:http\://en.wikipedia.org/wiki/The_Gambia]
+synonym: "Republic of The Gambia" EXACT FORMAL_NAME []
+synonym: "The Gambia {alternative name}" EXACT []
+xref: ISO3166-1:270
+xref: ISO3166-1:GM
+xref: ISO3166-1:GMB
+xref: ISO3166-2:GM
+relationship: located_in GAZ:00000554 ! West Africa
+
+[Term]
+id: GAZ:00000908
+name: Ghana
+namespace: GAZ
+def: "A country in West Africa. It borders Cote d'Ivoire to the west, Burkina Faso to the north, Togo to the east, and the Gulf of Guinea to the south. Ghana is a divided into 10 regions, subdivided into a total of 138 districts." [url:http\://en.wikipedia.org/wiki/Ghana]
+synonym: "Gold Coast" EXACT FORMER_NAME []
+synonym: "Republic of Ghana" EXACT FORMAL_NAME []
+xref: ISO3166-1:288
+xref: ISO3166-1:GH
+xref: ISO3166-1:GHA
+xref: ISO3166-2:GH
+relationship: located_in GAZ:00000554 ! West Africa
+
+[Term]
+id: GAZ:00000911
+name: Liberia
+namespace: GAZ
+def: "A country on the west coast of Africa, bordered by Sierra Leone, Guinea, Cote d'Ivoire, and the Atlantic Ocean." [url:http\://en.wikipedia.org/wiki/Liberia]
+synonym: "Republic of Liberia" EXACT FORMAL_NAME []
+xref: ISO3166-1:430
+xref: ISO3166-1:LBR
+xref: ISO3166-1:LR
+xref: ISO3166-2:LR
+relationship: located_in GAZ:00000554 ! West Africa
+
+[Term]
+id: GAZ:00000912
+name: Nigeria
+namespace: GAZ
+def: "A federal constitutional republic comprising thirty-six states and one Federal Capital Territory. The country is located in West Africa and shares land borders with the Republic of Benin in the west, Chad and Cameroon in the east, and Niger in the north. Its coast lies on the Gulf of Guinea, part of the Atlantic Ocean, in the south. The capital city is Abuja. Nigeria is divided into thirty-six states and one Federal Capital Territory, which are further sub-divided into 774 Local Government Areas (LGAs)." [url:http\://en.wikipedia.org/wiki/Nigeria]
+synonym: "Federal Republic of Nigeria" EXACT FORMAL_NAME []
+synonym: "Republic nde Naigeria" EXACT FORMAL_NAME []
+synonym: "Republik Federaal bu Niiseriya" EXACT FORMAL_NAME []
+synonym: "Republik Nijeriya" EXACT FORMAL_NAME []
+xref: ISO3166-1:NG
+relationship: located_in GAZ:00000554 ! West Africa
+
+[Term]
+id: GAZ:00000913
+name: Senegal
+namespace: GAZ
+def: "A country south of the Senegal River in western Africa. Senegal is bounded by the Atlantic Ocean to the west, Mauritania to the north, Mali to the east, and Guinea and Guinea-Bissau to the south. The Gambia lies almost entirely within Senegal, surrounded on the north, east and south; from its western coast Gambia's territory follows the Gambia River more than 300 km inland. Dakar is the capital city of Senegal, located on the Cape Verde Peninsula on the country's Atlantic coast. Senegal is subdivided into 11 regions and further subdivided into 34 Departements, 103 Arrondissements (neither of which have administrative function) and by Collectivites Locales." [url:http\://en.wikipedia.org/wiki/Senegal]
+synonym: "Republic of Senegal" EXACT FORMAL_NAME []
+synonym: "Republique du Senegal" EXACT FORMAL_NAME []
+xref: ISO3166-1:686
+xref: ISO3166-1:SEN
+xref: ISO3166-1:SN
+xref: ISO3166-2:SN
+relationship: located_in GAZ:00000554 ! West Africa
+
+[Term]
+id: GAZ:00001092
+name: Gabon
+namespace: GAZ
+def: "A country in west central Africa sharing borders with Equatorial Guinea, Cameroon, Republic of the Congo and the Gulf of Guinea. The capital and largest city is Libreville. Gabon is divided into 9 provinces and further divided into 37 departments." [url:http\://en.wikipedia.org/wiki/Gabon]
+synonym: "French Equatorial Africa {former name}" BROAD []
+synonym: "Gabonese Republic" EXACT FORMAL_NAME []
+synonym: "Republique Gabonaise" EXACT FORMAL_NAME []
+xref: ISO3166-1:266
+xref: ISO3166-1:GA
+xref: ISO3166-1:GAB
+xref: ISO3166-2:GA
+relationship: located_in GAZ:00000588 ! Central Africa
+
+[Term]
+id: GAZ:00001093
+name: Cameroon
+namespace: GAZ
+def: "A country of central and western Africa. It borders Nigeria to the west; Chad to the northeast; the Central African Republic to the east; and Equatorial Guinea, Gabon, and the Republic of the Congo to the south. Cameroon's coastline lies on the Bight of Bonny, part of the Gulf of Guinea and the Atlantic Ocean. The Republic of Cameroon is divided into ten provinces and 58 divisions or departments. The divisions are further sub-divided into sub-divisions (arrondissements) and districts." [url:http\://en.wikipedia.org/wiki/Cameroon]
+synonym: "Republic of Cameroon" EXACT FORMAL_NAME []
+synonym: "Republique du Cameroun" EXACT FORMAL_NAME []
+xref: ISO3166-1:120
+xref: ISO3166-1:CM
+xref: ISO3166-1:CMR
+xref: ISO3166-2:CM
+relationship: located_in GAZ:00000588 ! Central Africa
+
+[Term]
+id: GAZ:00001095
+name: Angola
+namespace: GAZ
+def: "A country in south-central Africa bordering Namibia to the south, Democratic Republic of the Congo to the north, and Zambia to the east, and with a west coast along the Atlantic Ocean. The exclave province Cabinda has a border with the Republic of the Congo and the Democratic Republic of the Congo." [url:http\://en.wikipedia.org/wiki/Angola]
+synonym: "Repubilika ya Ngola" EXACT FORMAL_NAME []
+synonym: "Republic of Angola" EXACT FORMAL_NAME []
+synonym: "Republica de Angola" EXACT FORMAL_NAME []
+xref: ISO3166-1:024
+xref: ISO3166-1:AGO
+xref: ISO3166-1:AO
+xref: ISO3166-2:AO
+relationship: located_in GAZ:00000553 ! South Africa
+
+[Term]
+id: GAZ:00001101
+name: Kenya
+namespace: GAZ
+def: "A country in Eastern Africa. It is bordered by Ethiopia to the north, Somalia to the east, Tanzania to the south, Uganda to the west, and Sudan to the northwest, with the Indian Ocean running along the southeast border. Kenya comprises eight provinces each headed by a Provincial Commissioner (centrally appointed by the president). The provinces (mkoa singular mikoa plural in Swahili) are subdivided into districts (wilaya). There were 69 districts as of 1999 census. Districts are then subdivided into 497 divisions (taarafa). The divisions are then subdivided into 2,427 locations (kata) and then 6,612 sublocations (kata ndogo). The City of Nairobi enjoys the status of a full administrative province." [url:http\://en.wikipedia.org/wiki/Kenya]
+synonym: "Jamhuri ya Kenya" EXACT FORMAL_NAME []
+synonym: "Republic of Kenya {fomal name}" EXACT []
+xref: ISO3166-1:404
+xref: ISO3166-1:KE
+xref: ISO3166-1:KEN
+xref: ISO3166-2:KE
+relationship: located_in GAZ:00000556 ! East Africa
+
+[Term]
+id: GAZ:00001103
+name: Tanzania
+namespace: GAZ
+def: "A country in East Africa bordered by Kenya and Uganda on the north, Rwanda, Burundi and the Democratic Republic of the Congo on the west, and Zambia, Malawi and Mozambique on the south. To the east it borders the Indian Ocean. Tanzania is divided into 26 regions (mkoa), twenty-one on the mainland and five on Zanzibar (three on Unguja, two on Pemba). Ninety-eight districts (wilaya), each with at least one council, have been created to further increase local authority; the councils are also known as local government authorities. Currently there are 114 councils operating in 99 districts; 22 are urban and 92 are rural. The 22 urban units are further classified as city councils (Dar es Salaam and Mwanza), municipal councils (Arusha, Dodoma, Iringa, Kilimanjaro, Mbeya, Morogoro, Shinyanga, Tabora, and Tanga) or town councils (the remaining eleven communities)." [url:http\://en.wikipedia.org/wiki/Tanzania#Regions_and_districts]
+synonym: "Jamhuri ya Muungano wa Tanzania" EXACT FORMAL_NAME []
+synonym: "United Republic of Tanzania" EXACT FORMAL_NAME []
+xref: ISO3166-1:834
+xref: ISO3166-1:TZ
+xref: ISO3166-1:TZA
+xref: ISO3166-2:TZ
+relationship: located_in GAZ:00000556 ! East Africa
+
+[Term]
+id: GAZ:00001104
+name: Somalia
+namespace: GAZ
+def: "A country located in the Horn of Africa. It is bordered by Djibouti to the northwest, Kenya on its southwest, the Gulf of Aden with Yemen on its north, the Indian Ocean at its east, and Ethiopia to the west. Prior to the civil war, Somalia was divided into eighteen regions (gobollada, singular gobol), which were in turn subdivided into districts. On a de facto basis, northern Somalia is now divided up among the quasi-independent states of Puntland, Somaliland, Galmudug and Maakhir." [url:http\://en.wikipedia.org/wiki/Somalia]
+synonym: "British Somaliland" EXACT FORMER_NAME []
+synonym: "Italian Somalia {former name}" NARROW []
+synonym: "Jamhuuriyadda Soomaaliya" EXACT FORMAL_NAME []
+synonym: "Somali Republic" EXACT FORMAL_NAME []
+synonym: "Somalia" EXACT ABBREVIATION []
+synonym: "Somalia Italiana {former name}" NARROW []
+xref: ISO3166-1:706
+xref: ISO3166-1:SO
+xref: ISO3166-1:SOM
+xref: ISO3166-2:SO
+relationship: located_in GAZ:00000556 ! East Africa
+
+[Term]
+id: GAZ:00001105
+name: Malawi
+namespace: GAZ
+def: "A country in southeastern Africa. It is bordered by Zambia to the north-west, Tanzania to the north and Mozambique, which surrounds it on the east, south and west. Malawi is divided into three regions (the Northern, Central and Southern regions), which are further divided into twenty-seven districts, which in turn are further divided into 137 traditional authorities and 68 sub-chiefdoms." [url:http\://en.wikipedia.org/wiki/Malawi]
+synonym: "Dziko la Malawi" EXACT FORMAL_NAME []
+synonym: "Nyasaland" EXACT FORMER_NAME []
+synonym: "Republic of Malawi" EXACT FORMAL_NAME []
+xref: ISO3166-1:454
+xref: ISO3166-1:MW
+xref: ISO3166-1:MWI
+xref: ISO3166-2:MW
+relationship: located_in GAZ:00000556 ! East Africa
+
+[Term]
+id: GAZ:00001108
+name: Madagascar
+namespace: GAZ
+def: "An island nation in the Indian Ocean off the southeastern coast of Africa. The main island, also called Madagascar, is the fourth largest island in the world, and is home to 5% of the world's plant and animal species, of which more than 80% are endemic to Madagascar. Most notable are the lemur infraorder of primates, the carnivorous fossa, three endemic bird families and six endemic baobab species. Madagascar is divided into six autonomous provinces (faritany mizakatena), and 22 regions. The regions are further subdivided into 116 districts, 1,548 communes, and 16,969 fokontany." [url:http\://en.wikipedia.org/wiki/Madagascar]
+synonym: "Repoblikan'i Madagasikara" EXACT FORMAL_NAME []
+synonym: "Republic of Madagascar" EXACT FORMAL_NAME []
+synonym: "Republique de Madagascar" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00006934 ! Madagascar Island
+
+[Term]
+id: GAZ:00001505
+name: British Isles
+namespace: GAZ
+relationship: located_in GAZ:00013759 ! Northeast Atlantic Ocean
+
+[Term]
+id: GAZ:00002418
+name: South Pacific Ocean
+namespace: GAZ
+def: "That part of the Pacific Ocean with the following limits: On the North: The Equator, from Cape Wariai (0 Degrees 01 Minutes 20 Seconds S - 131 Degrees 02 Minutes 40 Seconds E), on the northern coast of Waigeo Island (Indonesia), eastward to the coast of Ecuador, but including those islands of Kiribati (Gilbert) Islands and Galapagos (Colon) Islands which lie to the northward thereof. (The common limit with the North Pacific Ocean) On the East: The western coast of South america, from the Equator southward to Cape de Hornos (55 Degrees 58 Minutes 45 Seconds S - 67 Degrees 16 Minutes W), the southern extremity of Hornos Island, the southern island of Tierra del Fuego ; and thence a line joining Cape de Hornos southward, along the meridian of 67 Degrees 16 Minutes W, to the coast of the Antarctic continent (the common limit with the South Atlantic Ocean). On the South: The coast of the Antarctic continent, from the meridian of 67 Degrees 16 Minutes W westward to the meridian of 146 Degrees 49 Minutes 25 Seconds E. On the West : A line joining the Antarctic continent northward, along the meridian of 146 Degrees 49 Minutes 25 Seconds E, to South East Cape (43 Degrees 38 Minutes 40 Seconds S - 146 Degrees 49 Minutes 25 Seconds E), the southern extremity of Tasmania; thence from South East Cape northward, along the eastern and northern coasts of Tasmania, to Cape Grim (40 Degrees 40 Minutes 55 Seconds S - 144 Degrees 41 Minutes E), on the northwestern coast of this island; thence a line joining Cape Grim northwestward to Stokes Point (40 Degrees 09 Minutes 24 Seconds S - 143 Degrees 55 Minutes 24 Seconds E), the southern extremity of King Island; thence from Stokes Point northward, along the eastern coast of King Island, to Cape Wickham (39 Degrees 55 Minutes S - 143 Degrees 57 Minutes E), the northern extremity of this island; thence a line joining Cape Wickham northwestward to Cape Otway (38 Degrees 51 Minutes 30 Seconds S - 143 Degrees 30 Minutes 35 Seconds E), on the southeastern coast of Australia; (the common limit with the Indian Ocean) thence from Cape Otway northward, along the eastern coast of Australia, to Slade Point (10 Degrees 59 Minutes S - 142 Degrees 07 Minutes 35 Seconds E), the northwestern extremity of Cape York Peninsula; thence a line joining Slade Point northwestward to the mouth of Torassi River (9 Degrees 07 Minutes 45 Seconds S - 141 Degrees 01 Minutes E), the frontier between Irian Jaya and Papua New Guinea (the common limit with the South China and Eastern Archipelagic Seas); thence from the mouth of Torassi River, eastward along the southern coast of Papua New Guinea and northwestward along the northern coasts of Papua New Guinea and Irian Jaya, to Cape Sorong (0 Degrees 49 Minutes 30 Seconds S - 131 Degrees 13 Minutes 30 Seconds E), the northwestern extremity of Irian Jaya; thence a line joining Cape Sorong northward to Cape Imbikwan (0 Degrees 23 Minutes S - 131 Degrees 14 Minutes 20 Seconds E), the southeastern extremity of Waigeo Island (the common limit with the Halmahera Sea); and thence from Cape Imbikwan northward, along the eastern coast of Waigeo Island, to Cape Wariai (0 Degrees 01 Minutes 20 Seconds S - 131 Degrees 02 Minutes 40 Seconds E), on the northern coast of this island." [IHO:Limits of Oceans and Seas\, 1986 (Draft 4th edition).]
+relationship: located_in GAZ:00000360 ! Pacific Ocean
+
+[Term]
+id: GAZ:00002464
+name: Southwest Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+[Term]
+id: GAZ:00002466
+name: Levant
+namespace: GAZ
+def: "A large area in the Middle East, roughly bounded on the north by the Taurus Mountains, on the west by the Mediterranean Sea, on the east by Upper Mesopotamia, and on the south by the Arabian Desert." [url:http\://en.wikipedia.org/wiki/Levant]
+relationship: located_in GAZ:00002464 ! Southwest Asia
+
+[Term]
+id: GAZ:00002467
+name: Arabian Peninsula
+namespace: GAZ
+def: "A peninsula in Southwest Asia at the junction of Africa and Asia consisting mainly of desert. The coasts of the peninsula are, on the west the Red Sea and the Gulf of Aqaba, on the southeast the Arabian Sea (part of the Indian Ocean), and on the northeast, the Gulf of Oman, the Strait of Hormuz, and the Persian Gulf. Its northern limit is defined by the Zagros collision zone, a mountainous uplift where a continental collision between the Arabian Plate and Asia is occurring. It merges with the Syrian Desert with no clear line of demarcation." [url:http\://en.wikipedia.org/wiki/Arabian_peninsula]
+relationship: located_in GAZ:00002464 ! Southwest Asia
+
+[Term]
+id: GAZ:00002471
+name: East Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+[Term]
+id: GAZ:00002472
+name: South Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+[Term]
+id: GAZ:00002476
+name: Israel
+namespace: GAZ
+def: "A country in Western Asia located on the eastern edge of the Mediterranean Sea. It borders Lebanon in the north, Syria in the northeast, Jordan in the east, and Egypt on the southwest. The West Bank and Gaza Strip, which are partially administrated by the Palestinian National Authority, are also adjacent. The State of Israel is divided into six main administrative districts, known as mehozot (singular mahoz). Districts are further divided into fifteen sub-districts known as nafot (singular: nafa), which are themselves partitioned into fifty natural regions." [url:http\://en.wikipedia.org/wiki/Israel]
+synonym: "Dawlat Isra'il" EXACT FORMAL_NAME []
+synonym: "Medinat Yisra'el" EXACT FORMAL_NAME []
+synonym: "State of Israel" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002466 ! Levant
+
+[Term]
+id: GAZ:00002525
+name: Suriname
+namespace: GAZ
+def: "A country in northern South America. It is situated between French Guiana to the east and Guyana to the west. The southern border is shared with Brazil and the northern border is the Atlantic coast. The southernmost border with French Guiana is disputed along the Marowijne river. Suriname is divided into 10 districts, each of which is divided into Ressorten." [url:http\://en.wikipedia.org/wiki/Suriname]
+synonym: "Dutch Guiana {alternative name}" EXACT []
+synonym: "Nederlands Guyana {alternative name}" EXACT []
+synonym: "Netherlands Guiana {alternative name}" EXACT []
+synonym: "Republic of Suriname" EXACT FORMAL_NAME []
+synonym: "Republiek Suriname" EXACT FORMAL_NAME []
+synonym: "Sranan {language: Sranan Tongo}" EXACT []
+synonym: "Surinam" EXACT SPELLING_VARIANT []
+relationship: located_in GAZ:00000459 ! South America
+
+[Term]
+id: GAZ:00002635
+name: Kingdom of Denmark
+namespace: GAZ
+def: "A nation situated in Scandinavia in northern Europe (Metropolitan Denmark) plus its two autonomous provinces, Greenland and The Faroe Islands. Denmark is divided into five regions and a total of 98 municipalities, plus two autonomous provinces." [url:http\://en.wikipedia.org/wiki/Denmark]
+synonym: "Denmark" EXACT ABBREVIATION []
+synonym: "Kongeriget Danmark" EXACT FORMAL_NAME []
+xref: ISO3166-1:208
+xref: ISO3166-1:DK
+xref: ISO3166-1:DNK
+xref: ISO3166-2:DK
+is_a: GAZ:00000448 ! geographic location
+
+[Term]
+id: GAZ:00002637
+name: United Kingdom
+namespace: GAZ
+def: "A sovereign island country located off the northwestern coast of mainland Europe comprising of the four constituent countries; England, Scotland, Wales and Northern Ireland. It comprises the island of Great Britain, the northeast part of the island of Ireland and many small islands. Apart from Northern Ireland the UK is surrounded by the Atlantic Ocean, the North Sea, the English Channel and the Irish Sea. The largest island, Great Britain, is linked to France by the Channel Tunnel." [url:http\://en.wikipedia.org/wiki/United_kingdom]
+synonym: "Britain" EXACT COLLOQUIAL_NAME []
+synonym: "G.B." EXACT ABBREVIATION []
+synonym: "GB" EXACT ABBREVIATION []
+synonym: "U.K. {abbrevation}" EXACT []
+synonym: "UK" EXACT ABBREVIATION []
+synonym: "United Kingdom of Great Britain and Northern Ireland" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00281547 ! British Isles
+
+[Term]
+id: GAZ:00002641
+name: England
+namespace: GAZ
+def: "The largest and most populous constituent country of the United Kingdom of Great Britain and Northern Ireland. The subdivisions of England consists of as many as four levels of subnational division and at some levels there are a variety of types of administrative entity. They have been created for the purposes of local government in England." [url:http\://en.wikipedia.org/wiki/England]
+relationship: located_in GAZ:00002637 ! United Kingdom
+relationship: located_in GAZ:00004790 ! Great Britain
+
+[Term]
+id: GAZ:00002650
+name: Italy
+namespace: GAZ
+def: "A country located on the Italian Peninsula in Southern Europe, and on the two largest islands in the Mediterranean Sea, Sicily and Sardinia. Italy shares its northern Alpine boundary with France, Switzerland, Austria and Slovenia. The independent states of San Marino and the Vatican City are enclaves within the Italian Peninsula, while Campione d'Italia is an Italian exclave in Switzerland. Italy is subdivided into 20 regions (regioni, singular regione). Five of these regions have a special autonomous status that enables them to enact legislation on some of their local matters. It is further divided into 109 provinces (province) and 8,101 municipalities (comuni)." [url:http\://en.wikipedia.org/wiki/Italy]
+synonym: "Italian Republic" EXACT FORMAL_NAME []
+synonym: "Repubblica Italiana" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00003101 ! Italian Peninsula
+
+[Term]
+id: GAZ:00002747
+name: Japan
+namespace: GAZ
+def: "An island country in East Asia. Located in the Pacific Ocean, it lies to the east of China, Korea and Russia, stretching from the Sea of Okhotsk in the north to the East China Sea in the south." [url:http\://en.wikipedia.org/wiki/Japan]
+synonym: "Nippon-koku" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002471 ! East Asia
+
+[Term]
+id: GAZ:00002825
+name: Chile
+namespace: GAZ
+def: "A country in South America occupying a long and narrow coastal strip wedged between the Andes mountains and the Pacific Ocean. The Pacific forms the country's entire western border, with Peru to the north, Bolivia to the northeast, Argentina to the east, and the Drake Passage at the country's southernmost tip. Chile claims 1,250,000 km2 of territory in Antarctica. Chile is divided into 15 regions. Every region is further divided into provinces. Finally each province is divided into communes. Each region is designated by a name and a Roman numeral, assigned from north to south. The only exception is the region housing the nation's capital, which is designated RM, that stands for Region Metropolitana (Metropolitan Region). Two new regions were created in 2006: Arica-Parinacota in the north, and Los Rios in the south. Both became operative in 2007-10." [url:http\://en.wikipedia.org/wiki/Chile#Regions.2C_provinces.2C_and_communes]
+synonym: "Republic of Chile" EXACT FORMAL_NAME []
+synonym: "Republica de Chile {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+[Term]
+id: GAZ:00002828
+name: Brazil
+namespace: GAZ
+def: "A country in South America. Bordered by the Atlantic Ocean and by Venezuela, Suriname, Guyana and the department of French Guiana to the north, Colombia to the northwest, Bolivia and Peru to the west, Argentina and Paraguay to the southwest, and Uruguay to the south. Federation of twenty-six states (estados) and one federal district (Distrito Federal). The states are subdivided into municipalities. For statistical purposes, the States are grouped into five main regions: North, Northeast, Central-West, Southeast and South." [url:http\://en.wikipedia.org/wiki/Brazil]
+synonym: "Brasil" EXACT SPELLING_VARIANT []
+synonym: "Federative Republic of Brazil" EXACT FORMAL_NAME []
+synonym: "Republica Federativa do Brasil {language: Portuguese}" EXACT []
+xref: ISO3166-2:BR
+relationship: located_in GAZ:00000459 ! South America
+
+[Term]
+id: GAZ:00002839
+name: India
+namespace: GAZ
+def: "A country in South Asia. Bounded by the Indian Ocean on the south, the Arabian Sea on the west, and the Bay of Bengal on the east, India has a coastline of 7,517 km. It borders Pakistan to the west; China, Nepal, and Bhutan to the north-east; and Bangladesh and Burma to the east. India is in the vicinity of Sri Lanka, the Maldives, and Indonesia in the Indian Ocean. India is a federal republic of twenty-eight states and seven Union Territories. Each state or union territory is divided into basic units of government and administration called districts. There are nearly 600 districts in India. The districts in turn are further divided into tehsils and eventually into villages." [url:http\://en.wikipedia.org/wiki/India]
+synonym: "Bharat Ga?arajya {language: Hindi}" EXACT []
+synonym: "Republic of India" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000466 ! Indian subcontinent
+
+[Term]
+id: GAZ:00002845
+name: China
+namespace: GAZ
+def: "A large country in Northeast Asia. China borders 14 nations (counted clockwise from south): Vietnam, Laos, Burma, India, Bhutan, Nepal, Pakistan, Afghanistan, Tajikistan, Kyrgyzstan, Kazakhstan, Russia, Mongolia and North Korea. Additionally the border between PRC and ROC is located in territorial waters. The People's Republic of China has administrative control over twenty-two provinces and considers Taiwan to be its twenty-third province. There are also five autonomous regions, each with a designated minority group; four municipalities; and two Special Administrative Regions that enjoy considerable autonomy. The People's Republic of China administers 33 province-level regions, 333 prefecture-level regions, 2,862 county-level regions, 41,636 township-level regions, and several village-level regions." [url:http\://en.wikipedia.org/wiki/People%27s_Republic_of_China]
+synonym: "People's Republic of China" EXACT FORMAL_NAME []
+synonym: "Zhonghua Renmin Gongheguo" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00002846 ! Northeast Asia
+
+[Term]
+id: GAZ:00002846
+name: Northeast Asia
+namespace: GAZ
+relationship: located_in GAZ:00000465 ! Asia
+
+[Term]
+id: GAZ:00002852
+name: Mexico
+namespace: GAZ
+def: "A federal constitutional republic in North America. It is bounded on the north by the United States; on the south and west by the North Pacific Ocean; on the southeast by Guatemala, Belize, and the Caribbean Sea; and on the east by the Gulf of Mexico. The United Mexican States comprise a federation of thirty-one states and a federal district, the capital Mexico City." [url:http\://en.wikipedia.org/wiki/Mexico]
+synonym: "Estados Unidos Mexicanos {language: Spanish}" EXACT []
+synonym: "United Mexican States" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000458 ! North America
+
+[Term]
+id: GAZ:00002891
+name: Central America
+namespace: GAZ
+def: "A very narrow isthmus of southern North America extending from the Isthmus of Tehuantepec in Mexico southeastward to the Isthmus of Panama where it connects to the Colombian Pacific Lowlands in northwestern South America." [url:http\://en.wikipedia.org/wiki/Central_america]
+synonym: "America Central {language: Spanish}" EXACT []
+synonym: "Centroamerica {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000458 ! North America
+
+[Term]
+id: GAZ:00002894
+name: Honduras
+namespace: GAZ
+def: "A republic in Central America. The country is bordered to the west by Guatemala, to the southwest by El Salvador, to the southeast by Nicaragua, to the south by the Pacific Ocean at the Gulf of Fonseca, and to the north by the Gulf of Honduras, a large inlet of the Caribbean Sea. Honduras is divided into 18 departments. The capital city is Tegucigalpa Central District of the department of Francisco Morazan." [url:http\://en.wikipedia.org/wiki/Honduras]
+synonym: "Republic of Honduras" EXACT FORMAL_NAME []
+synonym: "Republica de Honduras" EXACT FORMAL_NAME []
+synonym: "Spanish Honduras" EXACT FORMER_NAME []
+xref: ISO3166-1:340
+xref: ISO3166-1:HN
+xref: ISO3166-1:HND
+xref: ISO3166-2:HN
+relationship: located_in GAZ:00002891 ! Central America
+
+[Term]
+id: GAZ:00002928
+name: Argentina
+namespace: GAZ
+def: "A South American country, constituted as a federation of twenty-three provinces and an autonomous city. It is bordered by Paraguay and Bolivia in the north, Brazil and Uruguay in the northeast, and Chile in the west and south. The country claims the British controlled territories of the Falkland Islands and South Georgia and the South Sandwich Islands. Argentina also claims 969,464 km2 of Antarctica, known as Argentine Antarctica, overlapping other claims made by Chile and the United Kingdom. Argentina is subdivided into twenty-three provinces (Spanish: provincias, singular provincia) and one federal district (Capital de la Republica or Capital de la Nacion, informally the Capital Federal). The federal district and the provinces have their own constitutions, but exist under a federal system. Provinces are then divided into departments (Spanish: departamentos, singular departamento), except for Buenos Aires Province, which is divided into partidos." [url:http\://en.wikipedia.org/wiki/Argentina]
+synonym: "Argentine Republic" EXACT FORMAL_NAME []
+synonym: "Republica Argentina {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+[Term]
+id: GAZ:00002929
+name: Colombia
+namespace: GAZ
+def: "A country located in the northwestern region of South America. Colombia is bordered to the east by Venezuela and Brazil; to the south by Ecuador and Peru; to the North by the Atlantic Ocean, through the Caribbean Sea; to the north-west by Panama; and to the west by the Pacific Ocean. Besides the countries in South America, the Republic of Colombia is recognized to share maritime borders with the Caribbean countries of Jamaica, Haiti, the Dominican Republic and the Central American countries of Honduras, Nicaragua, and Costa Rica. Colombia is divided into 32 departments and one capital district which is treated as a department. There are in total 10 districts assigned to cities in Colombia including Bogota, Barranquilla, Cartagena, Santa Marta, Tunja, Cucuta, Popayan, Buenaventura, Tumaco and Turbo. Colombia is also subdivided into some municipalities which form departments, each with a municipal seat capital city assigned. Colombia is also subdivided into corregimientos which form municipalities." [url:http\://en.wikipedia.org/wiki/Colombia]
+synonym: "Republic of Colombia" EXACT FORMAL_NAME []
+synonym: "Republica de Colombia {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+[Term]
+id: GAZ:00002931
+name: Venezuela
+namespace: GAZ
+def: "A country on the northern coast of South America. The country comprises a continental mainland and numerous islands located off the Venezuelan coastline in the Caribbean Sea. The Bolivarian Republic of Venezuela possesses borders with Guyana to the east, Brazil to the south, and Colombia to the west. Trinidad and Tobago, Grenada, St. Lucia, Barbados, Curacao, Bonaire, Aruba, Saint Vincent and the Grenadines and the Leeward Antilles lie just north, off the Venezuelan coast. Venezuela is divided into twenty-three states (Estados), a capital district (distrito capital) corresponding to the city of Caracas, the Federal Dependencies (Dependencias Federales, a special territory), and Guayana Esequiba (claimed in a border dispute with Guyana). Venezuela is further subdivided into 335 municipalities (municipios); these are subdivided into over one thousand parishes (parroquias)." [url:http\://en.wikipedia.org/wiki/Venezuela]
+synonym: "Bolivarian Republic of Venezuela" EXACT FORMAL_NAME []
+synonym: "Republica Bolivariana de Venezuela {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+[Term]
+id: GAZ:00002932
+name: Peru
+namespace: GAZ
+def: "A country in western South America. It is bordered on the north by Ecuador and Colombia, on the east by Brazil, on the southeast by Bolivia, on the south by Chile, and on the west by the Pacific Ocean. Peru is divided into 25 regions and the province of Lima. These regions are subdivided into provinces, which are composed of districts (provincias and distritos). There are 195 provinces and 1833 districts in Peru. The Lima Province, located in the central coast of the country, is unique in that it doesn't belong to any of the twenty-five regions. The city of Lima, which is the nation's capital, is located in this province. Callao is its own region, even though it only contains one province, the Constitutional Province of Callao." [url:http\://en.wikipedia.org/wiki/Peru]
+synonym: "Republic of Peru" EXACT FORMAL_NAME []
+synonym: "Republica del Peru {language: Spanish}" EXACT []
+relationship: located_in GAZ:00000459 ! South America
+
+[Term]
+id: GAZ:00002936
+name: Guatemala
+namespace: GAZ
+def: "A country in Central America bordered by Mexico to the northwest, the Pacific Ocean to the southwest, Belize and the Caribbean Sea to the northeast, and Honduras and El Salvador to the southeast. Guatemala is divided into 22 departments (departamentos) and sub-divided into about 332 municipalities (municipios)." [url:http\://en.wikipedia.org/wiki/Guatemala]
+synonym: "Republic of Guatemala" EXACT FORMAL_NAME []
+synonym: "Republica de Guatemala" EXACT FORMAL_NAME []
+xref: ISO3166-1:320
+xref: ISO3166-1:GT
+xref: ISO3166-1:GTM
+xref: ISO3166-2:GT
+relationship: located_in GAZ:00002891 ! Central America
+
+[Term]
+id: GAZ:00002937
+name: Finland
+namespace: GAZ
+def: "A Nordic country situated in the Fennoscandian region of Northern Europe. It has borders with Sweden to the west, Russia to the east, and Norway to the north, while Estonia lies to its south across the Gulf of Finland. The capital city is Helsinki. Finland is divided into six administrative provinces (laani, plural laanit). These are divided into 20 regions (maakunt), 77 subregions (seutukunta) and then into municipalities (kunta)." [url:http\://en.wikipedia.org/wiki/Finland]
+synonym: "Republic of Finland" EXACT FORMAL_NAME []
+synonym: "Republiken Finland" EXACT FORMAL_NAME []
+synonym: "Suomen tasavalta" EXACT FORMAL_NAME []
+synonym: "Suomi {language: Finnish}" EXACT []
+relationship: located_in GAZ:00000464 ! Europe
+
+[Term]
+id: GAZ:00002940
+name: French Republic
+namespace: GAZ
+def: "A country whose metropolitan territory is located in Western Europe and that also comprises various overseas islands and territories located in other continents. France is divided into 26 administrative regions. 22 are in metropolitan France (21 are on the continental part of metropolitan France; one is the territorial collectivity of Corsica), and four are overseas regions. The regions are further subdivided into 100 departments which are numbered (mainly alphabetically). Four of these departments are found in the overseas regions and are simultaneously overseas regions and overseas departments and are an integral part of France (and the European Union) and thus enjoy a status similar to metropolitan departments. The 100 departments are subdivided into 341 arrondissements which are, in turn, subdivided into 4,032 cantons. These cantons are then divided into 36,680 communes, which are municipalities with an elected municipal council. There also exist 2,588 intercommunal entities grouping 33,414 of the 36,680 communes (i.e. 91.1% of all the communes). Three communes, Paris, Lyon and Marseille are also subdivided into 45 municipal arrondissements." [url:http\://en.wikipedia.org/wiki/France]
+synonym: "France {alternative name}" EXACT []
+synonym: "Republique francaise {language: French}" EXACT []
+xref: ISO3166-1:250
+xref: ISO3166-1:FR
+xref: ISO3166-1:FRA
+xref: ISO3166-2:FR
+is_a: GAZ:00000448 ! geographic location
+
+[Term]
+id: GAZ:00002955
+name: Slovenia
+namespace: GAZ
+def: "A country in southern Central Europe bordering Italy to the west, the Adriatic Sea to the southwest, Croatia to the south and east, Hungary to the northeast, and Austria to the north. The capital of Slovenia is Ljubljana. As of 2005-05 Slovenia is divided into 12 statistical regions for legal and statistical purposes. Slovenia is divided into 210 local municipalities, eleven of which have urban status." [url:http\://en.wikipedia.org/wiki/Slovenia]
+synonym: "Republic of Slovenia" EXACT FORMAL_NAME []
+synonym: "Republika Slovenija" EXACT FORMAL_NAME []
+xref: ISO3166-1:705
+xref: ISO3166-1:SI
+xref: ISO3166-1:SVN
+xref: ISO3166-2:SI
+relationship: located_in GAZ:00000464 ! Europe
+
+[Term]
+id: GAZ:00002978
+name: Nicaragua
+namespace: GAZ
+def: "A republic in Central America. It is also the least densely populated with a demographic similar in size to its smaller neighbors. The country is bordered by Honduras to the north and by Costa Rica to the south. The Pacific Ocean lies to the west of the country, while the Caribbean Sea lies to the east. For administrative purposes it is divided into 15 departments (departamentos) and two self-governing regions (autonomous communities) based on the Spanish model. The departments are then subdivided into 153 municipios (municipalities). The two autonomous regions are Region Autonoma del Atlantico Norte and Region Autonoma del Atlantico Sur, often referred to as RAAN and RAAS, respectively. Until they were granted autonomy in 1985 they formed the single department of Zelaya." [url:http\://en.wikipedia.org/wiki/Nicaragua]
+synonym: "Republic of Nicaragua" EXACT FORMAL_NAME []
+synonym: "Republica de Nicaragua {language: Spanish}" EXACT []
+xref: ISO3166-1:558
+xref: ISO3166-1:NI
+xref: ISO3166-1:NIC
+xref: ISO3166-2:NI
+relationship: located_in GAZ:00002891 ! Central America
+
+[Term]
+id: GAZ:00003101
+name: Italian Peninsula
+namespace: GAZ
+synonym: "Appenine Peninsula" EXACT []
+relationship: located_in GAZ:00000464 ! Europe
+
+[Term]
+id: GAZ:00003727
+name: Indonesia
+namespace: GAZ
+def: "An archipelagic state in Southeast Asia. The country shares land borders with Papua New Guinea, East Timor and Malaysia. Other neighboring countries include Singapore, the Philippines, Australia, and the Indian territory of the Andaman and Nicobar Islands. Indonesia consists of 33 provinces, five of which have special status. The provinces are subdivided into regencies (kabupaten, distrik in Papua and West Papua Provinces) and cities (kota), which are further subdivided into subdistricts (kecamatan), and again into village groupings (either desa or kelurahan)." [url:http\://en.wikipedia.org/wiki/Indonesia]
+synonym: "Republic of Indonesia" EXACT FORMAL_NAME []
+synonym: "Republik Indonesia" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+[Term]
+id: GAZ:00003734
+name: Bali
+namespace: GAZ
+def: "The western most of the Lesser Sunda Islands, lying between Java to the west and Lombok to the east." [url:http\://en.wikipedia.org/wiki/Bali]
+relationship: located_in GAZ:00003727 ! Indonesia
+relationship: located_in GAZ:00007091 ! Lesser Sunda Islands
+relationship: located_in GAZ:00008986 ! Bali Sea
+
+[Term]
+id: GAZ:00003744
+name: Thailand
+namespace: GAZ
+def: "A country in Southeast Asia. To its east lie Laos and Cambodia; to its south, the Gulf of Thailand and Malaysia; and to its west, the Andaman Sea and Burma. Its capital and largest city is Bangkok. Thailand is divided into 75 provinces (changwat), which are gathered into 5 groups of provinces by location. There are also 2 special governed districts: the capital Bangkok (Krung Thep Maha Nakhon) and Pattaya, of which Bangkok is at provincial level and thus often counted as a 76th province." [url:http\://en.wikipedia.org/wiki/Thailand]
+synonym: "Kingdom of Thailand" EXACT FORMAL_NAME []
+synonym: "Ratcha Anachak Thai" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+[Term]
+id: GAZ:00003756
+name: Viet Nam
+namespace: GAZ
+def: "The easternmost country on the Indochina Peninsula in Southeast Asia. It borders the Gulf of Thailand, Gulf of Tonkin, and South China Sea, alongside China, Laos, and Cambodia." [url:http\://en.wikipedia.org/wiki/Vietnam]
+synonym: "Socialist Republic of Vietnam" EXACT FORMAL_NAME []
+synonym: "Vietnam" EXACT SPELLING_VARIANT []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+[Term]
+id: GAZ:00003922
+name: Papua New Guinea
+namespace: GAZ
+synonym: "PNG" EXACT ABBREVIATION []
+synonym: "The Independent State of Papua New Guinea" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00005200 ! New Guinea
+
+[Term]
+id: GAZ:00003923
+name: Singapore
+namespace: GAZ
+def: "An island nation located at the southern tip of the Malay Peninsula. It lies 137 km north of the Equator, south of the Malaysian State of Johor and north of Indonesia's Riau Islands. Singapore consists of 63 islands, including mainland Singapore. There are two man-made connections to Johor, Malaysia, Johor-Singapore Causeway in the north, and Tuas Second Link in the west. Since 2001-11-24, Singapore has had an administrative subdivision into 5 districts. It is also divided into five Regions, urban planning subdivisions with no administrative role." [url:http\://en.wikipedia.org/wiki/Singapore]
+synonym: "Republic of Singapore" EXACT FORMAL_NAME []
+synonym: "Republik Singapura {language: Malay}" EXACT []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+relationship: located_in GAZ:00046857 ! Singapore Island
+
+[Term]
+id: GAZ:00003924
+name: Sri Lanka
+namespace: GAZ
+def: "An island nation in South Asia, located about 31 km off the southern coast of India. Sri Lanka is divided into 9 provinces and 25 districts. Districts are divided into Divisional Secretariats." [url:http\://en.wikipedia.org/wiki/Sri_Lanka]
+synonym: "Ceylon" EXACT FORMER_NAME []
+synonym: "Democratic Socialist Republic of Sri Lanka" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000466 ! Indian subcontinent
+relationship: located_in GAZ:00007550 ! Island of Sri Lanka
+
+[Term]
+id: GAZ:00003944
+name: Region d'outre-mer
+namespace: GAZ
+def: "Overseas regions of France which have the same status as metropolitan regions." [url:http\://en.wikipedia.org/wiki/Administrative_divisions_of_France#Overseas]
+relationship: located_in GAZ:00002940 ! French Republic
+
+[Term]
+id: GAZ:00004399
+name: Nepal
+namespace: GAZ
+def: "A landlocked nation in South Asia. It is bordered by the Tibet Autonomous Region of the People's Republic of China to the northeast and India to the south and west; it is separated from Bhutan by the Indian State of Sikkim and from Bangladesh by a small strip of the Indian State of West Bengal, known as the \"Chicken's Neck\". The Himalaya mountain range runs across Nepal's north and western parts, and eight of the world's ten highest mountains, including the highest, Mount Everest are situated within its territory. Nepal is divided into 14 zones and 75 districts, grouped into 5 development regions." [url:http\://en.wikipedia.org/wiki/Nepal]
+synonym: "Federal Democratic Republic of Nepal" EXACT FORMAL_NAME []
+synonym: "Kingdom of Nepal {<2007}" EXACT FORMER_NAME []
+synonym: "Sanghiya Loktantrik Ganatantra Nepal {language: Nepali}" EXACT []
+relationship: located_in GAZ:00000466 ! Indian subcontinent
+
+[Term]
+id: GAZ:00004525
+name: The Philippines
+namespace: GAZ
+def: "An archipelagic nation located in Southeast Asia. The Philippine archipelago comprises 7,107 islands in the western Pacific Ocean, bordering countries such as Indonesia, Malaysia, Palau and the Republic of China, although it is the only Southeast Asian country to share no land borders with its neighbors. The Philippines is divided into three island groups: Luzon, Visayas, and Mindanao. These are divided into 17 regions, 81 provinces, 136 cities, 1,494 municipalities and 41,995 barangays." [url:http\://en.wikipedia.org/wiki/The_Philippines]
+synonym: "Republic of the Philippines" EXACT FORMAL_NAME []
+synonym: "Republika ng Pilipinas" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+[Term]
+id: GAZ:00004790
+name: Great Britain
+namespace: GAZ
+relationship: located_in GAZ:00001505 ! British Isles
+
+[Term]
+id: GAZ:00005200
+name: New Guinea
+namespace: GAZ
+def: "The world's second largest island, having become separated from the Australian mainland when the area now known as the Torres Strait flooded after the last ice age. The western half of the island contains the Indonesian provinces of Papua and West Papua, while the eastern half forms the mainland of the independent country of Papua New Guinea." [url:http\://en.wikipedia.org/wiki/New_guinea]
+synonym: "Neuguinea {language: German}" EXACT []
+synonym: "Nieuw-Guinea {language: Dutch}" EXACT []
+synonym: "Nouvelle-Guinee {language: French}" EXACT []
+synonym: "Nueva Guinea {language: Spanish}" EXACT []
+synonym: "Pulau Irian {language: Indonesian}" EXACT []
+relationship: located_in GAZ:00005860 ! Melanesia
+relationship: located_in GAZ:00013764 ! Southwest Pacific Ocean
+
+[Term]
+id: GAZ:00005246
+name: Pakistan
+namespace: GAZ
+def: "A country in Middle East which lies on the Iranian Plateau and some parts of South Asia. It is located in the region where South Asia converges with Central Asia and the Middle East. It has a 1,046 km coastline along the Arabian Sea in the south, and is bordered by Afghanistan and Iran in the west, India in the east and China in the far northeast. Pakistan is subdivided into four provinces and two territories. In addition, the portion of Kashmir that is administered by the Pakistani government is divided into two separate administrative units. The provinces are divided into a total of 105 zillas (districts). A zilla is further subdivided into tehsils (roughly equivalent to counties). Tehsils may contain villages or municipalities. There are over five thousand local governments in Pakistan." [url:http\://en.wikipedia.org/wiki/Pakistan]
+synonym: "Islami Jumhuriyah Pakistan" EXACT FORMAL_NAME []
+synonym: "Islamic Republic of Pakistan" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000466 ! Indian subcontinent
+
+[Term]
+id: GAZ:00005282
+name: United Arab Emirates
+namespace: GAZ
+def: "A Middle Eastern federation of seven states situated in the southeast of the Arabian Peninsula in Southwest Asia on the Persian Gulf, bordering Oman and Saudi Arabia. The seven states, termed emirates, are Abu Dhabi, Ajman, Dubai, Fujairah, Ras al-Khaimah, Sharjah, and Umm al-Quwain." [url:http\://en.wikipedia.org/wiki/United_Arab_Emirates]
+synonym: "Dowlat Al-Imarat al-'Arabiya al-Muttahida" EXACT FORMAL_NAME []
+synonym: "UAE" EXACT ABBREVIATION []
+relationship: located_in GAZ:00002467 ! Arabian Peninsula
+
+[Term]
+id: GAZ:00005860
+name: Melanesia
+namespace: GAZ
+def: "A region extending from the western side of the West Pacific to the Arafura Sea, north and north-east of Australia." [url:http\://en.wikipedia.org/wiki/Melanesia.]
+relationship: located_in GAZ:00000468 ! Oceania
+
+[Term]
+id: GAZ:00005861
+name: Polynesia
+namespace: GAZ
+def: "A subregion of Oceania, comprising a large grouping of over 1,000 islands scattered over the central and southern Pacific Ocean. The region is anchoredby three island groups: Hawai'i, Easter Island (Rapa Nui) and New Zealand." [url:http\://en.wikipedia.org/wiki/Polynesia]
+relationship: located_in GAZ:00000468 ! Oceania
+
+[Term]
+id: GAZ:00005863
+name: Australasia
+namespace: GAZ
+def: "A region of Oceania including New Zealand, Australia. Some definitions include Papua New Guinea, and neighbouring islands in the Pacific Ocean." [url:http\://en.wikipedia.org/wiki/Australasia]
+relationship: located_in GAZ:00000468 ! Oceania
+
+[Term]
+id: GAZ:00005925
+name: Malay Archipelago
+namespace: GAZ
+def: "A vast archipelago located between mainland Southeastern Asia (Indochina) and Australia. Straddling the Indian and Pacific Oceans, this group of some 20,000 islands, the world's largest archipelago by area, constitutes the territories of Indonesia, the Philippines, Singapore, Brunei, Malaysia, East Timor, and most of Papua New Guinea. There are, however, arguments for excluding the last-named country for cultural and geographical reasons: Papua New Guinea is culturally quite different from the other countries in the region, and the island of New Guinea itself is geologically not part of the continent of Asia, as the islands of the Sunda Shelf are." [url:http\://en.wikipedia.org/wiki/Malay_Archipelago]
+relationship: located_in GAZ:00051031 ! Australasian Mediterranean Sea
+
+[Term]
+id: GAZ:00006899
+name: Myanmar
+namespace: GAZ
+def: "A country in SE Asia that is bordered by China on the north, Laos on the east, Thailand on the southeast, Bangladesh on the west, and India on the northwest, with the Bay of Bengal to the southwest. Myanmar is divided into seven states and seven divisions. The administrative divisions are further subdivided into districts, which are further subdivided into townships, wards, and villages." [url:http\://en.wikipedia.org/wiki/Burma]
+synonym: "Burma" EXACT FORMER_NAME []
+synonym: "Pyi-daung-zu Myan-ma Naing-ngan-daw {language: Burmese}" EXACT []
+synonym: "Union of Myanma" EXACT FORMAL_NAME []
+relationship: located_in GAZ:00000559 ! Southeast Asia
+
+[Term]
+id: GAZ:00006934
+name: Madagascar Island
+namespace: GAZ
+def: "An island in the Indian Ocean, off the eastern coast of southern Africa, east of Mozambique." [url:http\://en.wikipedia.org/wiki/Geography_of_Madagascar]
+relationship: located_in GAZ:00051024 ! Western Indian Ocean
+
+[Term]
+id: GAZ:00007089
+name: Greater Sunda Islands
+namespace: GAZ
+def: "A group of islands within the Malay Archipelago. Islands included in the group are (west to east) Sumatra, Java, Borneo, Sulawesi and adjacent smaller islands. The group is politically split between Brunei, Indonesia, and Malaysia." [url:http\://en.wikipedia.org/wiki/Greater_Sunda_Islands]
+relationship: located_in GAZ:00007090 ! Sunda Islands
+
+[Term]
+id: GAZ:00007090
+name: Sunda Islands
+namespace: GAZ
+def: "A group of islands in the western part of the Malay Archipelago. They are divided into two groups: the Greater and the Lesser Sunda Islands." [url:http\://en.wikipedia.org/wiki/Sunda_Islands]
+relationship: located_in GAZ:00005925 ! Malay Archipelago
+
+[Term]
+id: GAZ:00007091
+name: Lesser Sunda Islands
+namespace: GAZ
+def: "A group of islands in the middle-south part of the Malay Archipelago. Together with the Greater Sunda Islands to the west they make up the Sunda Islands. The islands are part of a volcanic arc, the Sunda Arc, formed by subduction along the Java Trench. All are located at the edge of the Australian continental shelf." [url:http\://en.wikipedia.org/wiki/Lesser_Sunda_Islands, url:http\://en.wikipedia.org/wiki/List_of_volcanoes_in_Indonesia#Lesser_Sunda_Islands]
+synonym: "Kepulauan Nusa Tenggara {language: Indonesian}" EXACT []
+relationship: located_in GAZ:00007090 ! Sunda Islands
+
+[Term]
+id: GAZ:00007550
+name: Island of Sri Lanka
+namespace: GAZ
+def: "An island that lies in the Indian Ocean, to the southwest of the Bay of Bengal and to the southeast of the Arabian Sea. It is separated from the Indian subcontinent by the Gulf of Mannar and the Palk Strait." [url:http\://en.wikipedia.org/wiki/Sri_Lanka#Geography_and_climate]
+synonym: "Ceylon" EXACT FORMER_NAME []
+relationship: located_in GAZ:00000372 ! Indian Ocean
+
+[Term]
+id: GAZ:00008986
+name: Bali Sea
+namespace: GAZ
+def: "A sea bounded on the North by Buru and Seram Islands, on the East by Nuhu Yut and Yamdena Islands, on the South by Moa, Timor, Alor, Pantar and Kawula Islands, and on the West by Sulawesi Island and the Flores Sea, are the following: On the North: A line joining Cape Botok (1 Degrees 03 Minutes 10 Seconds S - 123 Degrees 18 Minutes 50 Seconds E), on the eastern coast of Sulawesi Island, southward to Bangkalan Utara Island (1 Degrees 10 Minutes S - 123 Degrees 17 Minutes 30 Seconds E) and, eastward and southward along the eastern coasts of Peleng and Banggai Islands, to Cape Ballast (1 Degrees 42 Minutes 50 Seconds S - 123 Degrees 36 Minutes E), the southeastern extremity of Banggai Island; thence a line joining Cape Ballast eastward to Cape Marikasu (1 Degrees 39 Minutes 30 Seconds S - 124 Degrees 24 Minutes E), the northwestern extremity of Taliabu Island (the common limit with the Maluku Sea); thence from Cape Marikasu eastward, through Taliabu and Mangoli Islands, t Cape Botu (1 Degrees 56 Minutes 20 Seconds S - 125 Degrees 55 Minutes 10 Seconds E), on the southern coast of Mangoli Island; thence a line joining Cape Botu southward to Cape Kuma (1 Degrees 58 Minutes 20 Seconds S - 125 Degrees 55 Minutes E), the northern extremity of Sanana Island; thence from Cape Kuma southward, along the western coast of Sanana Island, to Cape Waka (2 Degrees 28 Minutes 20 Seconds S - 126 Degrees 02 Minutes 40 Seconds E), the southern extremity of this island; thence a line joining Cape Waka southward to Cape Palpetu (3 Degrees 06 Minutes 50 Seconds S - 126 Degrees 05 Minutes 30 Seconds E), the northwestern extremity of Buru Island; thence from Cape Palpetu eastward, through Buru Island, to Cape Batunuhan (3 Degrees 03 Minutes 10 Seconds S - 126 Degrees 42 Minutes 30 Seconds E), on the northeastern coast of this island; thence a line joining Cape Batunuhan eastward to Cape Tanduru Besar (2 Degrees 51 Minutes 40 Seconds S - 128 Degrees 09 Minutes 40 Seconds E), the northwestern extremity of Seram Island; and thence from Cape Tanduru Besar southeastward, through Seram Island, to the southeastern extremity of this island (3 Degrees 52 Minutes S - 130 Degrees 50 Minutes 30 Seconds E) (the common limit with the Seram Sea). On the East: A line joining the southeastern extremity of Seram Island southeastward, through the Gorong Islands (4 Degrees 07 Minutes S - 131 Degrees 19 Minutes E) and the Watubela Islands (4 Degrees 30 Minutes S - 131 Degrees 40 Minutes E), to Cape Borang (5 Degrees 16440 Seconds S - 133 Degrees 09 Minutes E), the northern extremity of Nuhu Yut Island (the common limit with the Seram Sea); thence from Cape Borang southwestward, along the western coast of Nuhu Yut Island, to Cape Weduar (6 Degrees 00 Minutes 40 Seconds S - 132 Degrees 50 Minutes 20 Seconds E), the southern extremity of this island; thence a line joining Cape Weduar southwestward to Cape Waarlangier (6 Degrees 59 Minutes S - 132 Degrees 00 Minutes 40 Seconds E), the northern extremity of Fordate Island; and thence from Cape Waarlangier southwestward, through Fordate, Larat, Yamdena, Anggarmasa and Selaru Islands, to Cape Aro Usu (8 Degrees 20 Minutes 20 Seconds S - 130 Degrees 45 Minutes 20 Seconds E), the southwestern extremity of Selaru Island (the common limit with the Aru Sea). On the South: A line joining Cape Aro Usu westward, through Sermata Island (8 Degrees 13 Minutes S - 128 Degrees 54 Minutes E), to Cape Njadora (8 Degrees 16 Minutes 30 Seconds S - 128 Degrees 14 Minutes E), the southeastern extremity of Lakor Island; thence from Cape Njadora westward, along the southern coasts of Lakor, Moa and Leti Islands, to Cape Tut Pateh (8 Degrees 13 Minutes S - 127 Degrees 36 Minutes E), the western extremity of Leti Island; thence a line joining Cape Tut Pateh southwestward to Cape Sewirawa (8 Degrees 23 Minutes 40 Seconds S - 127 Degrees 17 Minutes 50 Seconds E), the eastern extremity of Timor Island (the common limit with the Timor Sea); thence from Cape Sewirawa westward, along the northern coast of Timor Island, to Cape Parimbala (8 Degrees 38 Minutes 25 Seconds S - 125 Degrees 07 Minutes 10 Seconds E), on the northern coast of this island; thence a line joining Cape Parimbala northward to Cape Laisumbu (8 Degrees 19 Minutes 10 Seconds S - 125 Degrees 08 Minutes E), the southeastern extremity of Alor Island ; thence a line joining Cape Laisumbu westward, along the eastern and northern coast of Alor island and the northern coasts of Pantar, Kawula and Adunara Islands, to Cape Pohon Bulu (8 Degrees 19 Minutes S - 123 Degrees 01 Minutes 40 Seconds E), on the western coast of Adunara Island; thence a line joining Cape Pohon Bulu westward to Cape Serbete (8 Degrees 19 Minutes S - 123 Degrees 01 Minutes 10 Seconds E), the eastern extremity of Flores Island (the common limit with the Sawu Sea); and thence from Cape Serbete northwestward, along the eastern coast of Flores Island, to Cape Kopondai (8 Degrees 03 Minutes 50 Seconds S - 122 Degrees 52 Minutes E), the northeastern extremity of Flores Island. On the West: A line joining Cape Kopondai northwestward to Kalao Toa Island (7 Degrees 23 Minutes S - 121 Degrees 48 Minutes E); thence from Kalao Toa Island westward and northward, through the chain of islands lying between this island and Salayar Island, to Cape Apatana (6 Degrees 30 Minutes S - 120 Degrees 29 Minutes 30 Seconds E), the southern extremity of Salayar Island; thence from Cape Apatana northward, along the eastern coast of Salayar Island, to Cape Matainji (5 Degrees 46 Minutes 10 Seconds S - 120 Degrees 30 Minutes E), the northern extremity of this island; thence a line joining Cape Matainji northward to Cape Lassa (5 Degrees 37 Minutes 20 Seconds S - 120 Degrees 28 Minutes 40 Seconds E), on the southeastern coast of Sulawesi Island (the common limit with the Flores Sea); thence a line joining Cape Lassa northeastward to the northern extremity of Kabaena Island (5 Degrees 03 Minutes 20 Seconds S - 121 Degrees 54 Minutes E), and northward, along the meridian of 121 Degrees 54 Minutes E, to the coast of Sulawesi Island (4 Degrees 53 Minutes S -121 Degrees 54 Minutes E) (the common limit with the Gulf of Bone); and thence the eastern coast of Sulawesi Islands, from position 4 Degrees 63 Minutes S - 121 Degrees 54 Minutes E northeastward to Cape Botok (1 Degrees 03410 Seconds S - 123 Degrees 18 Minutes 50 Seconds E)." [IHO:Limits of Oceans and Seas\, 1986 (Draft 4th edition)., url:http\://en.wikipedia.org/wiki/Bali_Sea]
+synonym: "Laut Bali {language: Indonesian}" EXACT []
+relationship: located_in GAZ:00051031 ! Australasian Mediterranean Sea
+
+[Term]
+id: GAZ:00013759
+name: Northeast Atlantic Ocean
+namespace: GAZ
+def: "The North Atlantic Ocean E of 40degW." [IHO:Limits of Oceans and Seas\, 1986 (Draft 4th edition).]
+synonym: "NE Atlantic Ocean" EXACT ABBREVIATION []
+relationship: located_in GAZ:00000377 ! North Atlantic Ocean
+
+[Term]
+id: GAZ:00013764
+name: Southwest Pacific Ocean
+namespace: GAZ
+def: "The South Pacific Ocean W of 180deg." [IHO:Limits of Oceans and Seas\, 1986 (Draft 4th edition).]
+synonym: "Southwestern Pacific Ocean {alternative name}" EXACT []
+relationship: located_in GAZ:00002418 ! South Pacific Ocean
+
+[Term]
+id: GAZ:00024383
+name: Java
+namespace: GAZ
+alt_id: GAZ:00003736
+def: "An island of Indonesia and the site of its capital city, Jakarta. It lies between Sumatra to the northwest and Bali to the east. Borneo lies to the north and Christmas Island to the south. Java is almost entirely of volcanic origin; it contains no fewer than thirty-eight mountains forming an east-west spine which have at one time or another been active volcanoes." [url:http\://en.wikipedia.org/wiki/Java]
+relationship: located_in GAZ:00003727 ! Indonesia
+relationship: located_in GAZ:00106590 ! Java group
+
+[Term]
+id: GAZ:00046857
+name: Singapore Island
+namespace: GAZ
+def: "The main island of the island country of Singapore. It forms the majority of the island country in terms of area and population." [url:http\://en.wikipedia.org/wiki/Pulau_Ujong]
+synonym: "Pulau Ujong {language: Malay}" EXACT []
+relationship: located_in GAZ:00051029 ! Malacca and Singapore Straits
+
+[Term]
+id: GAZ:00051024
+name: Western Indian Ocean
+namespace: GAZ
+def: "The Indian Ocean west of 80degE." [MA:ma]
+relationship: located_in GAZ:00000372 ! Indian Ocean
+
+[Term]
+id: GAZ:00051029
+name: Malacca and Singapore Straits
+namespace: GAZ
+relationship: located_in GAZ:00051084 ! Indian Ocean region
+
+[Term]
+id: GAZ:00051031
+name: Australasian Mediterranean Sea
+namespace: GAZ
+synonym: "Eastern Archipelagic Seas {alternative name}" EXACT []
+synonym: "Seas of the East Indian Archipelago {alternative name}" EXACT []
+is_a: GAZ:00000590 ! Oceans and Seas
+
+[Term]
+id: GAZ:00051071
+name: Atlantic Ocean region
+namespace: GAZ
+is_a: GAZ:00000590 ! Oceans and Seas
+
+[Term]
+id: GAZ:00051073
+name: Pacific Ocean region
+namespace: GAZ
+is_a: GAZ:00000590 ! Oceans and Seas
+
+[Term]
+id: GAZ:00051084
+name: Indian Ocean region
+namespace: GAZ
+is_a: GAZ:00000590 ! Oceans and Seas
+
+[Term]
+id: GAZ:00067144
+name: French Guiana Region
+namespace: GAZ
+synonym: "Region Guyane {language: French}" EXACT []
+xref: ISO3166-1:254
+xref: ISO3166-1:GF
+xref: ISO3166-1:GUF
+xref: ISO3166-2:FR-GF
+is_a: GAZ:00003944 ! Region d'outre-mer
+
+[Term]
+id: GAZ:00106590
+name: Java group
+namespace: GAZ
+relationship: located_in GAZ:00007089 ! Greater Sunda Islands
+
+[Term]
+id: GAZ:00281547
+name: British Isles
+namespace: GAZ
+def: "A group of islands off the northwest coast of continental Europe that include the islands of Great Britain and Ireland, and over six thousand smaller islands. There are two sovereign states located on the islands: the United Kingdom and the Republic of Ireland. The British Isles also include two dependencies of the United Kingdom: the Isle of Man and, by tradition, the Channel Islands, although the latter are not physically a part of the island group." [url:http\://en.wikipedia.org/wiki/British_isles]
+relationship: located_in GAZ:00000464 ! Europe
+created_by: michaelashburner
+creation_date: 2010-05-16T10:11:46Z
+
+[Typedef]
+id: adjacent_to
+name: adjacent_to
+namespace: GAZ
+is_transitive: true
+
+[Typedef]
+id: anabranch_of
+name: anabranch_of
+namespace: GAZ
+
+[Typedef]
+id: coextensive_with
+name: coextensive_with
+namespace: GAZ
+is_transitive: true
+
+[Typedef]
+id: connected_to
+name: connected_to
+namespace: GAZ
+is_transitive: true
+
+[Typedef]
+id: distributary_of
+name: distributary_of
+namespace: GAZ
+
+[Typedef]
+id: instance_of
+name: instance_of
+namespace: GAZ
+created_by: suzi
+creation_date: 2010-02-23T11:16:26Z
+
+[Typedef]
+id: located_in
+name: located_in
+namespace: GAZ
+is_transitive: true
+
+[Typedef]
+id: overlapped_by
+name: overlapped_by
+namespace: GAZ
+
+[Typedef]
+id: overlaps
+name: overlaps
+namespace: GAZ
+
+[Typedef]
+id: part_of
+name: part_of
+namespace: GAZ
+is_transitive: true
+
+[Typedef]
+id: partial_overlaps
+name: partial_overlaps
+namespace: GAZ
+
+[Typedef]
+id: proper_partof
+name: proper_partof
+namespace: GAZ
+is_transitive: true
+
+[Typedef]
+id: succeeded_by
+name: succeeded_by
+namespace: GAZ
+
+[Typedef]
+id: surrounded_by
+name: surrounded_by
+namespace: GAZ
+
+[Typedef]
+id: tributary_of
+name: tributary_of
+namespace: GAZ
+
