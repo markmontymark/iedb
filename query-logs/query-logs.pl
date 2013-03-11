@@ -31,11 +31,31 @@ sub file_to_array
 	##while (my $fields = $csv->getline ($fh)) 
 	while (my $line = <$fh>)
 	{
-		my @fields = split /[|]/,$line;
-		#$row->[2] =~ m/pattern/ or next; # 3rd field should match
+	#Log ID|Day of Week|Month|Date|Year|Time|Query|Search Elapsed Time (milliseconds)|Query Completed? (y/n)|List of Incomplete Queries|Number of Users|Number of Other Running Queries|Other Running Queries
+	# 0     1           2     3    4    5    6     7                                  8                      9                          10              11
+#       12   
+		#my @fields = split /[|]/,$line;
+		my($f0,$f1,$f2,$f3,$f4,$f5,@f6) = split /[|]/,$line;
+		my $query = join '',@f6;
+		my $yes_no_idx = 0;
+		for(@f6)
+		{
+			last if /^\s*(?:yes|no)\s*$/;
+			$yes_no_idx++;
+		}
+		if($yes_no_idx == 0)
+		{
+			say "no yes or no in query $query";
+		}
+		else
+		{
+			$query = join '|',(map{$f6[$_]}0..($yes_no_idx-2));
+		}
+		#say "query $query";
 		$line_i++;
 		#print "@$row\n";
-		&process_fields($line_i,\@fields,$no_op_fh);
+		#&process_fields($line_i,\@fields,$no_op_fh);
+		&process_fields($line_i,$query,$no_op_fh);
 	}
 	$report->{data_file} = $path;
 	$report->{lines} = $line_i;
@@ -53,19 +73,20 @@ sub process_fields
 	#Log ID|Day of Week|Month|Date|Year|Time|Query|Search Elapsed Time (milliseconds)|Query Completed? (y/n)|List of Incomplete Queries|Number of Users|Number of Other Running Queries|Other Running Queries
 	# 0     1           2     3    4    5    6     7                                  8                      9                          10              11
 #       12   
-	my($q,$oq_i,$oq) = ($fields->[6],$fields->[11],$fields->[12]);
-	$report->{not_13_fields_i}++ if scalar @$fields < 13;
-#print "q: $q, oq_i: $oq_i
-#say "line_i: $line_i, oq_i: $oq_i";
+	#my($q,$oq_i,$oq) = ($fields->[6],$fields->[11],$fields->[12]);
+	my $q = $fields;
+	#$report->{not_13_fields_i}++ if scalar @$fields < 13;
+	#print "q: $q, oq_i: $oq_i
+	#say "line_i: $line_i, oq_i: $oq_i";
 	if(defined $q and $q !~ /^\s*$/)
 	{
 		$report->{q_defined}++;
 		&grok_queries($q,$line_i,$no_op_fh);
 	}
-	if(defined $oq_i and $oq_i > 0 and defined $oq and $oq !~ /^\s*$/)
-	{
-		$report->{oq_defined}++;
-	}
+	#if(defined $oq_i and $oq_i > 0 and defined $oq and $oq !~ /^\s*$/)
+	#{
+		#$report->{oq_defined}++;
+	#}
 }
 
 sub parse_structure_type
@@ -117,15 +138,15 @@ sub grok_queries
 			$field =~ s/\s+$//;
 			$bucket_name =~ s/^\s+//;
 			$bucket_name =~ s/\s+$//;
-			if($field =~ /\s+(?:or)\s+/i)
+			if($field =~ /\s+or\s+/i)
 			{
 				$report->{"has multiselect"}++;
-				## &grok_multiselects($q,$line_i);
+				&grok_multiselects($q,$line_i);
 				$field =~ s/^.*\s+or\s+//;
 			}
 			unless(exists $q_seen->{$field})
 			{
-				$report->{"bucket|$bucket_name|$field"}++;
+				#$report->{"bucket|$bucket_name|$field"}++;
 				#$report->{"bucket|$field"}++;
 				$q_seen->{$field}++;
 			}
@@ -148,6 +169,20 @@ sub grok_queries
 sub grok_multiselects
 {
 	my($q,$line_i) = @_;
+	my @subqueries = split /\s+or\s+/,$q;
+	my %seen = ();
+	for(@subqueries)
+	{
+		my($subj,$op) = $_ =~ m/^\s*(.*?)\s+(blast|is|contains|equals|in|like)\s+/i;
+		unless(defined $subj)
+		{
+			#say "didnt find subj in line $line_i, $_ from query $q"
+			next;
+		}
+		next if exists $seen{$subj};
+		$seen{$subj}=0;
+		$report->{"multiselect $subj"}++
+	}
 }
 
 sub grok_other_queries
