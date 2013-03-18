@@ -11,6 +11,7 @@ sub receive
 	my $this = shift;
 	my $data = shift;
 	return unless defined $data;
+	return if index($data,'#') == 0;
 	chomp $data;
 	my($f0,$f1,$f2,$f3,$f4,$f5,@f6) = split /[|]/,$data;
 	my $query = join '',@f6;

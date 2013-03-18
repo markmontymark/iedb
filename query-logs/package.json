@@ -1,0 +1,26 @@
+{
+  "name": "query-logs",
+  "version": "0.0.1",
+  "description": "Parse query logs",
+  "main": "query-logs.coffee",
+  "dependencies": {
+    "buffered-reader": "~1.0.1",
+    "buffered-writer": "~0.2.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "coffee-script": "~1.6.2",
+    "grunt-contrib-coffee": "~0.6.2",
+    "grunt-exec": "~0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Mark Koopman",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
