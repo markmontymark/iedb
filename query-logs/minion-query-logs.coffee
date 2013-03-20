@@ -161,41 +161,36 @@ report = (res,opt_fh) ->
 
 
 ##open my queries_fh, ">queries_file.queries" or die "Can't create queries_file.queries, !\n"
-queries_fh = bwriter.open 'queries'
-queries_fh.on 'error', (error) -> console.log "queries error: #{error}"
-results_fh = bwriter.open 'results'
-results_fh.on 'error', (error) -> console.log "results error: #{error}"
 
 #
 # Shove all filenames to be parsed into an Object
 # Will delete each filename from Object and when Object is empty
 # will run a report function that outputs the parse results
 #
-files = {}
-(files[file] = 1 for file in process.argv[2..])
-
-for file of files
-	do (file) =>
-		new DataReader(file, encoding: 'utf8')
-			.on('error', (error) -> console.log error)
-			.on('line', (line, nextByteOffset) ->
-				q = getQueryField line
-				return unless q
-				logQuery queries_fh,q
-				addResult parseQuery q
-			)
-			.on('end', () ->
-				#
-				# at the end of each parsed file, remove that filename from the files Object
-				# so that when Object has no keys, run the function, report, that writes out
-				# the combined results to a file called 'results'
-				#
-				delete files[file]
-				if (key for key, value of files).length is 0
-					queries_fh.close()
-					report finial,results_fh
-				return unless offset
-				new BinaryReader(file).seek offset,(error) ->
-					return close(@, error) if error)
-			.read()
-
+file = process.argv[2]
+queries_fh = bwriter.open (file + '.queries')
+queries_fh.on 'error', (error) -> console.log "queries error: #{error}"
+results_fh = bwriter.open (file + '.results')
+results_fh.on 'error', (error) -> console.log "results error: #{error}"
+new DataReader(file, encoding: 'utf8')
+	.on('error', (error) -> console.log error)
+	.on('line', (line, nextByteOffset) ->
+		q = getQueryField line
+		return unless q
+		logQuery queries_fh,q
+		addResult parseQuery q
+	)
+	.on('end', () ->
+		#
+		# at the end of each parsed file, remove that filename from the files Object
+		# so that when Object has no keys, run the function, report, that writes out
+		# the combined results to a file called 'results'
+		#
+		#delete files[file]
+		#if (key for key, value of files).length is 0
+			#queries_fh.close()
+		report finial,results_fh
+		return unless offset
+		new BinaryReader(file).seek offset,(error) ->
+			return close(@, error) if error)
+	.read()
