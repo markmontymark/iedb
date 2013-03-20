@@ -20,13 +20,13 @@ module.exports = (grunt) ->
       debug:
         src: ['*.js']
         options:
-          output: './'
+          output: './docs'
   # Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-exec'
   grunt.loadNpmTasks 'grunt-docco'
 
   # Default task(s).
-  grunt.registerTask 'default', ['exec:clean','coffee','exec:query_logs']
-  grunt.registerTask 'sp', ['exec:clean','exec:spawn_query_logs']
+  #grunt.registerTask 'default', ['exec:clean','coffee','exec:query_logs']
+  grunt.registerTask 'default', ['exec:clean','exec:spawn_query_logs']
   grunt.registerTask 'docco', ['docco']

@@ -37,8 +37,7 @@ getQueryField = (data) ->
 
 	query = (f6[i] for i in [0..(yes_no_idx-2)]).join '|' unless yes_no_idx is 0
 	return if /^\s*$/.test query
-	query = query.replace /^\s+/,''
-	query.replace /\s+$/,''
+	query.replace(/^\s+/,'').replace(/\s+$/,'').replace(/\t/,'')
 
 
 logQuery = (fh,data) ->
