@@ -1,12 +1,14 @@
 #!/usr/bin/env coffee
 
+# Prerequisities
+# --------------
 fs = require 'fs'
-
 bwriter = require 'buffered-writer'
 breader = require 'buffered-reader'
 BinaryReader = breader.BinaryReader
 DataReader = breader.DataReader
 
+# Helper function for binaryRead
 close = (binaryReader, error) ->
 	console.log error if error
 	binaryReader.close (error) ->
@@ -14,10 +16,25 @@ close = (binaryReader, error) ->
 
 offset = 0
 
+# Regexes used to split of a query
+#
+# Queries can be one of 
+#	'Subject Verb'
+#	'Subject Verb Object' 
+# Queries can be separated by either a comma (which means mulitple queries) or the word, 'or' (which means a 'multi-select' query)
 qr_subj_verb = /^\s*([^,]+)\s+(is\s+excluded)\s*$/
 qr_subj_verb_obj = /^\s*([^,]+)\s+(equals|contains|is|blast)\s+([^,]+)\s*$/
 qr_or_delimiter = /\s+or\s+/
 
+# finial is a object that holds the parsing results
+# keys of the results are in the format:
+# subject \t count
+# verb \t count
+# object \t count
+# has_multiselect \t count
+# multiselect_subject \t count
+# multiselect_verb \t count
+# multiselect_object \t count
 finial = {}
 
 queries_file = process.argv.join '--'
@@ -194,8 +211,8 @@ for file of files
 				if (key for key, value of files).length is 0
 					queries_fh.close()
 					report finial,results_fh
-				return unless offset
-				new BinaryReader(file).seek offset,(error) ->
-					return close(@, error) if error)
+				#return unless offset
+				#new BinaryReader(file).seek offset,(error) ->
+				#	return close(@, error) if error)
 			.read()
 

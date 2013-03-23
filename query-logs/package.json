@@ -16,7 +16,8 @@
     "coffee-script": "~1.6.2",
     "grunt-contrib-coffee": "~0.6.4",
     "grunt-exec": "~0.4.0",
-    "grunt-docco": "~0.2.0"
+    "grunt-docco": "~0.2.0",
+    "docco": "~0.6.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
