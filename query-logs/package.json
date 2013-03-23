@@ -13,9 +13,12 @@
     "grunt-contrib-jshint": "~0.3.0",
     "grunt-contrib-nodeunit": "~0.1.2",
     "coffee-script": "~1.6.2",
-    "grunt-contrib-coffee": "~0.6.2",
+    "grunt-contrib-coffee": "~0.6.4",
     "grunt-exec": "~0.4.0",
-    "grunt-docco": "~0.2.0"
+    "grunt-docco": "~0.2.0",
+    "spawn-minion": "~0.2.4",
+    "buffered-reader": "~1.0.1",
+    "buffered-writer": "~0.2.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
