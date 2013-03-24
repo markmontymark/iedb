@@ -11,14 +11,12 @@ module.exports = (grunt) ->
         ext: '.js'
     exec:
       clean:
-        command: 'rm -f queries results'
-      query_logs:
-        command: './query-logs.coffee logs/*.txt',
+        command: 'rm -f *.queries *.results'
       spawn_query_logs:
-        command: './spawn-query-logs.coffee logs/*.txt',
+        command: './spawn-query-logs.coffee -f logs/log1.txt -f logs/log2.txt -o spawn-res',
     docco:
       debug:
-        src: ['*.js']
+        src: ['*.coffee']
         options:
           output: './docs'
   # Load the plugin that provides the "uglify" task.

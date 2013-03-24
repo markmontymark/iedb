@@ -149,18 +149,20 @@ parseQuery = (query) ->
 #  returns Boolean, whether or not a match was found
 
 _find_subquery = (query,matches) ->
-	subquery_matches = []
+	subquery_matches = null
 	###### It's a subject verb match
 	if -1 isnt query.search qr_subj_verb
 		subquery_matches = query.match qr_subj_verb
-		matches.push(subquery_matches.slice(1))
+		subquery_matches = (m.replace(/^\s+/,'').replace(/\s+$/,'') for m,i in subquery_matches.slice(1))
+		matches.push(subquery_matches)
 		return true
 	###### It's a subject verb object match
 	else if ( 
 		(-1 is query.search qr_or_delimiter ) and 
 		(subquery_matches = query.match qr_subj_verb_obj)
 	)
-		matches.push subquery_matches.slice(1)
+		subquery_matches = (m.replace(/^\s+/,'').replace(/\s+$/,'') for m in subquery_matches.slice(1))
+		matches.push(subquery_matches)
 		return true
 	return false
 
@@ -269,7 +271,12 @@ _count_query = (q,subj_seen,verb_seen,obj_seen) ->
 # returns undefined
 report = (res,opt_fh) ->
 	kys = (k for k of res)
-	kys.sort((a,b) -> return res[b] - res[a] )
+	kys.sort((a,b) -> 
+		diff = res[b] - res[a] 
+		if diff is 0
+			return a < b
+		return diff	
+	)
 	if opt_fh
 		for k in kys
 			opt_fh.write "#{k}\t#{res[k]}\n"
@@ -289,7 +296,7 @@ report = (res,opt_fh) ->
 #  - joining argv with `--` 
 #  - removing any char not in 0-9A-Za-z.,-_
 #  - append `.queries` and `.results` to the end
-filenamesjoined = process.argv.join '--'
+filenamesjoined = process.argv[2..].join '--'
 filenamesjoined = filenamesjoined.replace /[^0-9A-Za-z\.\,\-\_]/g,'--'
 queries_file = filenamesjoined + '.queries'
 results_file = filenamesjoined + '.results'
