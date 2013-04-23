@@ -102,6 +102,10 @@ gatherResults = (files,results_fh) ->
 # Start Main
 #----------
 files = opts.options.files;
+unless files
+	console.error "Required option -f|--files not passed"
+	process.exit 1
+
 outputfile = opts.options.output ? 'spawn.results'
 results_fh = buffered_writer.open outputfile
 results_fh.on 'error', (error) -> console.log "results error: #{error}"

@@ -118,7 +118,7 @@ parseQuery = (query) ->
 	matches = []
 	has_multiselect = 0
 	unless _find_subquery query,matches
-		for q in query.split(/,/)
+		query.split(/,/).forEach (q)->
 			if -1 isnt q.search( qr_or_delimiter)
 				submatches = []
 				for submatch in q.split(qr_or_delimiter)
