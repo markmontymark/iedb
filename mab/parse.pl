@@ -67,8 +67,37 @@ sub dupe_line_per_multivalue_cell
 		{
 			$n_multivalue_found++;
 			#print "$field\n";
-			for(split ',',$field)
+			for( split ',',$field )
 			{
+				if( /and/ )
+				{
+					#print "$_\n";
+					for( split 'and' )
+					{
+						s/^\s+//;
+						s/\s+$//;
+						next unless $_;
+						$row->[$idx] = $_;
+						$csv->print($of,$row);
+					}
+				}
+				else
+				{
+					$row->[$idx] = $_;
+					$csv->print($of,$row);
+				}
+			}
+		}
+		elsif($field =~ /\sand\s/)
+		{
+			#$csv->print($of,$row);
+			print "found and with no commas, $field\n";
+			for( split /\sand\s/,$field )
+			{
+				s/^\s+//;
+				s/\s+$//;
+				next unless $_;
+				print "\t$_\n";
 				$row->[$idx] = $_;
 				$csv->print($of,$row);
 			}
