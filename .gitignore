@@ -1,0 +1,7 @@
+node_modules/
+Gruntfile.js
+*.csv
+*.zip
+*.queries
+*.results
+logs/
