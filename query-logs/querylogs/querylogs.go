@@ -7,6 +7,23 @@ import (
 	"strings"
 )
 
+type parseQueryRetval struct {
+	Query string
+	Matches []string 
+	HasMultiSelect bool
+}
+
+type Query struct {
+	has_multiselect bool
+	subqueries []Query
+}
+
+type SubQuery struct {
+	subject,verb,object string
+}
+
+type set map[interface{}]bool
+
 var (
 	qr_subj_verb *regexp.Regexp = regexp.MustCompile("^\\s*([^,]+)\\s+(is\\s+excluded)\\s*$")
 	qr_subj_verb_obj *regexp.Regexp = regexp.MustCompile("^\\s*([^,]+)\\s+(equals|contains|is|blast)\\s+([^,]+)\\s*$")
@@ -15,7 +32,7 @@ var (
 
 
 func Parserecord( record string ) {
-	parseQuery(getQueryField( record) )
+	addResult( parseQuery(getQueryField( record) ))
 }
 
 func getQueryField ( record string) string {
@@ -45,36 +62,44 @@ func getQueryField ( record string) string {
 		query = strings.Join( q, "|" )
 	}
 	//fmt.Printf("%s yes_no_idx %d\n",query,yes_no_idx)
+	//fmt.Printf("query %s\n", query)
 	return strings.TrimSpace( query )
 }
 
 
-type parseQueryRetval struct {
-	Query string
-	Matches []string 
-	HasMultiSelect bool
-}
 	
-func findSubQuery( query string, matches *[]string ) bool {
+func findSubQuery( query string, matches []string ) (bool,[]string) {
 
-	if matched := qr_subj_verb.MatchString(query ) ; matched {
-
-		subquery_matches := qr_subj_verb.FindAllString( query, -1 )
-		for _,v := range subquery_matches {
-			*matches = append( *matches, strings.TrimSpace( v ) )
+	sv_matches := qr_subj_verb.FindAllString( query, -1 )
+	fmt.Printf("query %v\n",query)
+	if sv_matches != nil && len(sv_matches) > 0 { //matched := qr_subj_verb.MatchString(query ) ; matched {
+		fmt.Printf("sv matches %v\n",sv_matches)
+		//fmt.Printf("findSubQuery, matched on %s, query: %s\n",qr_subj_verb,query);
+		//subquery_matches := qr_subj_verb.FindAllString( query, -1 )
+		for _,v := range sv_matches {
+			fmt.Printf("\t2 findSubQuery, append match %s\n",strings.TrimSpace(v))
+			matches = append( matches, strings.TrimSpace( v )  )
 		} 
-		return true
+		return true,matches
 
-	} else if (!qr_or_delimiter.MatchString(query)) && qr_subj_verb_obj.MatchString( query ) {
-		subquery_matches := qr_subj_verb_obj.FindAllString( query, -1 )
-		for _,v := range subquery_matches {
-			*matches = append( *matches, strings.TrimSpace( v ) )
+	} else {
+		or_matched  := qr_or_delimiter.MatchString(query)
+		svo_matches := qr_subj_verb_obj.FindAllString( query, -1 )
+		fmt.Printf("or matched %v\n",or_matched)
+		fmt.Printf("svo matches %v\n",svo_matches)
+		//if (!qr_or_delimiter.MatchString(query)) && qr_subj_verb_obj.MatchString( query ) {
+		if (!or_matched) && svo_matches != nil && len(svo_matches) > 0  {
+			//subquery_matches := qr_subj_verb_obj.FindAllString( query, -1 )
+			for _,v := range svo_matches {
+				fmt.Printf("\t1 findSubQuery, append match %s\n",strings.TrimSpace(v))
+				matches = append( matches, strings.TrimSpace( v ) )
+			}
 		}
-		return true
+		return true,matches
 
 	}
 
-	return false
+	return false,matches
 
 }
 
@@ -85,47 +110,63 @@ func parseQuery (query string)  parseQueryRetval {
 		return pqr
 	}
 
-	if hasSubQueries := findSubQuery( query, &pqr.Matches );  ! hasSubQueries {
+	if hasSubQueries,matches := findSubQuery( query, make([]string,0) );  ! hasSubQueries {
+		pqr.Matches = matches
 		for _,q := range strings.Split(query,",") {
 			if qr_or_delimiter.MatchString( q ) {
-				submatches := make([]string,0)
-
 				for _, submatch := range strings.Split( q, " or ") {
 					submatch = strings.TrimSpace(submatch)
-					findSubQuery( submatch, &submatches )
-				}
-
-				if len(submatches) > 0 {
-					pqr.HasMultiSelect = true
-					pqr.Matches = append(pqr.Matches, "startsubmatch")
-					for _, v := range submatches {
-						pqr.Matches = append(pqr.Matches, v)
+					has_submatches,submatches := findSubQuery( submatch, make([]string,0))
+					if has_submatches {
+						pqr.HasMultiSelect = true
+						pqr.Matches = append(pqr.Matches, "startsubmatch")
+						for _, v := range submatches {
+							pqr.Matches = append(pqr.Matches, v)
+						}
+						pqr.Matches = append(pqr.Matches, "endsubmatch")
 					}
-					pqr.Matches = append(pqr.Matches, "endsubmatch")
 				}
 
 			} else {
-				findSubQuery( q, &pqr.Matches )
+				hasSubQueries,matches := findSubQuery( q, make([]string,0))
+				if hasSubQueries {
+					for _,v := range matches {
+						pqr.Matches = append( pqr.Matches, v )
+					}
+				}
 			}
 		}
+	} else {
+		for _,v := range matches {
+			pqr.Matches = append( pqr.Matches, v )
+		}
 	}
+	
 
 	return pqr	
 }
 
 
 func addResult (pqr parseQueryRetval ) {
-
+	fmt.Printf("has multiselect %s\n", pqr.HasMultiSelect)
+	fmt.Printf("match is %s\n", strings.Join(pqr.Matches,"--") )
+	var subj_seen ,verb_seen, obj_seen set
 	for _,v := range pqr.Matches {
+		if v == "startsubmatch" {
+			subj_seen = make(set)
+			verb_seen = make(set)
+			obj_seen  = make(set)
+			continue
+		}
+		if v == "endsubmatch" {
+			continue
+		}
+		countQuery( v, subj_seen, verb_seen, obj_seen )
 		fmt.Printf("match is %s\n", v )
 	}	
-	
+	fmt.Printf("\n\n")
 }
 
-
-
-
-
-
-
-
+func countQuery(query string, s,v,o set) {
+	
+}
