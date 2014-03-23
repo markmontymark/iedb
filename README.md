@@ -14,3 +14,7 @@ query-logs
 parsing-obo
 
 - Parsing OBO files from gazetteer
+
+iedb2pubmed
+
+- Convert IEDB query output to a form suitable for Pubmed import, csv, with notable \x0A delimiter in some fields
