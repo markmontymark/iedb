@@ -69,7 +69,7 @@ sub pubmedify {
 		"www.iedb.org",
 		"http://www.iedb.org/epId/$epitope_id",
 		&mogrify(keys %$pmids)
-	) . "\n";
+	) . "\r\n";
 }
 
 sub mogrify {
