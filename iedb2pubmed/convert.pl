@@ -7,7 +7,7 @@ use warnings;
 # output headers: PUBCHEM_EXT_DATASOURCE_REGID,PUBCHEM_SUBSTANCE_SYNONYM,PUBCHEM_EXT_DATASOURCE_URL,PUBCHEM_EXT_SUBSTANCE_URL,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_PUBMED_ID
 
 my $is_quoted = qr/^"/;
-my $match_quoted = qr/(.*?)"/;
+my $match_field_quoted = qr/(.*?)"/;
 my $match_field_or_eol = qr/(.*?)(?:,|$)/;
 my $intrafield_delim = qr/,\s+/;
 &iedb2pubmed($_) for @ARGV;
@@ -91,9 +91,9 @@ sub take_a_field {
 	if( $str =~ $is_quoted )
 	{
 		$str =~ s/$is_quoted//;
-		($field)  = $str =~ $match_quoted;
+		($field)  = $str =~ $match_field_quoted;
 		if(defined $field) {
-			$str =~ s/$match_quoted//;
+			$str =~ s/$match_field_quoted//;
 			$str =~ s/^,//;
 		}
 		else {
