@@ -18,7 +18,7 @@ sub iedb2pubmed {
 	my $current_epitope_id = -1;
 	my @lines = ();
 	my %pss = ();
-	my %sms = ();
+	my $smiles;
 	my %pmids = ();
 	print "PUBCHEM_EXT_DATASOURCE_REGID,PUBCHEM_SUBSTANCE_SYNONYM,PUBCHEM_EXT_DATASOURCE_URL,PUBCHEM_EXT_SUBSTANCE_URL,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_PUBMED_ID\r\n";
 	open F,$input_file || die "Can't read file $input_file, $!\r\n";
@@ -28,53 +28,53 @@ sub iedb2pubmed {
 		$line =~ s/^\s+//;	
 		$line =~ s/\s+$//;
 		my $orig_line = $line;
-		my($epitope_id,$accession,$aliases,$synonyms,$smiles,$pubchem_pubmed_id);
+		my($epitope_id,$accession,$aliases,$synonyms,$pubchem_pubmed_id);
 		($epitope_id,$line) 	= &take_a_field($line);
+
+		if($current_epitope_id ne $epitope_id) {
+			&pubmedify($current_epitope_id,\%pss,$smiles,\%pmids,*STDOUT) if $current_epitope_id != -1;
+			$current_epitope_id = $epitope_id;
+			%pss = (); %pmids = (); $smiles = undef;
+		}
+
 		($accession,$line) 	= &take_a_field($line);
 		($aliases,$line) 		= &take_a_field($line);
 		($synonyms,$line) 	= &take_a_field($line);
 		($smiles,$line) 		= &take_a_field($line);
 		($pubchem_pubmed_id,$line) = &take_a_field($line);
+
 		die "Bad line? $orig_line\r\n"
 			unless defined $epitope_id && defined $accession && defined $aliases && defined $synonyms && defined $pubchem_pubmed_id && defined $smiles;
 
 #		print "e: $epitope_id\na: $accession\nl: $aliases\ns: $synonyms\np: $pubchem_pubmed_id\n\n\n";
 
-		if($current_epitope_id ne $epitope_id) {
-			&pubmedify($current_epitope_id,\%pss,\%sms,\%pmids,*STDOUT) if $current_epitope_id != -1;
-			%pss = ();
-			%sms = ();
-			%pmids = ();
-			$current_epitope_id = $epitope_id;
-		}
 		$pss{$accession} = 1 unless $accession eq '';	
 		splitify($aliases,\%pss);
-		splitify($smiles,	\%sms);
 		splitify($synonyms,\%pss);
 		$pmids{$pubchem_pubmed_id} = 1 unless $pubchem_pubmed_id eq '';	
 	}	
-	&pubmedify($current_epitope_id,\%pss,\%sms,\%pmids,*STDOUT);
+	&pubmedify($current_epitope_id,\%pss,$smiles,\%pmids,*STDOUT);
 }
 
 sub splitify {
 	my($v,$store) = @_;
 	return unless defined $v;
 	if($v =~ m/$intrafield_delim/){
-		map{$store->{$_}=1} (split /$intrafield_delim/,$v);
+		map{$store->{$_}=1 if $_ ne 'null'} (split /$intrafield_delim/,$v);
 	}
-	elsif ($v ne ''){
+	elsif ($v ne '' && $v ne 'null'){
 		$store->{$v} = 1;
 	}
 }
 
 sub pubmedify {
-	my($epitope_id,$pss,$sms,$pmids,$outstream) = @_;
+	my($epitope_id,$pss,$smiles,$pmids,$outstream) = @_;
 	print $outstream join(',',
 		"Epitope ID:$epitope_id",
 		&mogrify(sort keys %$pss) ,
 		"www.iedb.org",
 		"http://www.iedb.org/epId/$epitope_id",
-		&mogrify(sort keys %$sms)
+		$smiles,
 		&mogrify(sort keys %$pmids)
 	) . "\r\n";
 }
@@ -91,7 +91,7 @@ sub take_a_field {
 	if( $str =~ $is_quoted )
 	{
 		$str =~ s/$is_quoted//;
-		($field)  = $str =~ $match_field_quoted;
+		($field)  = $str =~ m/$match_field_quoted/;
 		if(defined $field) {
 			$str =~ s/$match_field_quoted//;
 			$str =~ s/^,//;
