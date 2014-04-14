@@ -1,7 +1,6 @@
 package main
 
 import (
-	//"bufio"
 	"encoding/csv"
 	"fmt"
 	"io"
@@ -9,13 +8,9 @@ import (
 	"regexp"
 	"sort"
 	"strings"
-	//"strconv"
 )
 
 var (
-	REis_quoted          = regexp.MustCompile(`^"`)
-	REmatch_field_quoted = regexp.MustCompile(`(.*?)"`)
-	REmatch_field_or_eol = regexp.MustCompile(`(.*?)(?:,|$)`)
 	REintrafield_delim   = regexp.MustCompile(`,\s+`)
 
 	current_epitope_id string = "-1"
@@ -43,15 +38,15 @@ func splitify(v string, store map[string]int) {
 func pubmedify(epitope_id string, pss map[string]int, smiles string, pmids map[string]int, outstream *os.File) {
 	fmt.Fprint(outstream, strings.Join([]string{
 		"Epitope ID:" + epitope_id,
-		mogrify(pss),
+		newlineify(pss),
 		"www.iedb.org",
 		"http://www.iedb.org/epId/" + epitope_id,
 		smiles,
-		mogrify(pmids),
+		newlineify(pmids),
 	}, ",")+"\r\n")
 }
 
-func mogrify(collection map[string]int) string {
+func newlineify(collection map[string]int) string {
 	strs := make([]string, 0)
 	for k, _ := range collection {
 		strs = append(strs, k)
