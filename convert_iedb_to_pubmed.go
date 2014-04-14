@@ -13,67 +13,64 @@ import (
 )
 
 var (
-	REis_quoted = regexp.MustCompile(`^"`)
+	REis_quoted          = regexp.MustCompile(`^"`)
 	REmatch_field_quoted = regexp.MustCompile(`(.*?)"`)
 	REmatch_field_or_eol = regexp.MustCompile(`(.*?)(?:,|$)`)
-	REintrafield_delim = regexp.MustCompile(`,\s+`)
+	REintrafield_delim   = regexp.MustCompile(`,\s+`)
 
 	current_epitope_id string = "-1"
-	pss map[string]int
-	pmids map[string]int
-	smiles string
+	pss                map[string]int
+	pmids              map[string]int
+	smiles             string
 )
 
-
-
-func splitify (v string , store map[string]int) {
+func splitify(v string, store map[string]int) {
 	if v == "" {
 		return
 	}
 
 	if REintrafield_delim.MatchString(v) {
-		for _,s := range strings.Split( v, ", ") {
+		for _, s := range strings.Split(v, ", ") {
 			if s != "null" {
-				store[s]=1
+				store[s] = 1
 			}
 		}
 	} else if v != "" && v != "null" {
-		store[v]=1
+		store[v] = 1
 	}
 }
 
-func pubmedify (epitope_id string, pss map[string]int, smiles string, pmids map[string]int, outstream *os.File) {
-	fmt.Fprint( outstream , strings.Join([]string{
+func pubmedify(epitope_id string, pss map[string]int, smiles string, pmids map[string]int, outstream *os.File) {
+	fmt.Fprint(outstream, strings.Join([]string{
 		"Epitope ID:" + epitope_id,
 		mogrify(pss),
 		"www.iedb.org",
 		"http://www.iedb.org/epId/" + epitope_id,
 		smiles,
 		mogrify(pmids),
-	}, ",") + "\r\n")
+	}, ",")+"\r\n")
 }
 
-func mogrify (collection map[string]int) string {
-	strs := make([]string,0)
-	for k,_ := range collection {
-		strs = append(strs,k)
+func mogrify(collection map[string]int) string {
+	strs := make([]string, 0)
+	for k, _ := range collection {
+		strs = append(strs, k)
 	}
-	sort.Strings( strs )
-	return `"` + strings.Join(strs,"\n") + `"`
+	sort.Strings(strs)
+	return `"` + strings.Join(strs, "\n") + `"`
 }
 
-func main () {
-	for _,path := range os.Args[1:] {
+func main() {
+	for _, path := range os.Args[1:] {
 		process_file(path)
 	}
 }
 
-
-func lineHandler (row []string, outstream *os.File) {
+func lineHandler(row []string, outstream *os.File) {
 
 	accession := row[1]
 	// reject rows without CHEBI: in accession
-	if ! strings.HasPrefix( accession, "CHEBI:") {
+	if !strings.HasPrefix(accession, "CHEBI:") {
 		return
 	}
 
@@ -88,7 +85,6 @@ func lineHandler (row []string, outstream *os.File) {
 		smiles = ""
 	}
 
-
 	aliases := row[2]
 	synonyms := row[3]
 	pubchem_pubmed_id := row[5]
@@ -98,37 +94,37 @@ func lineHandler (row []string, outstream *os.File) {
 	if accession != "" {
 		pss[accession] = 1
 	}
-	splitify(aliases,pss)
-	splitify(synonyms,pss)
+	splitify(aliases, pss)
+	splitify(synonyms, pss)
 	if pubchem_pubmed_id != "" {
 		pmids[pubchem_pubmed_id] = 1
 	}
 }
 
-func process_file (path string) {
-	file, err := os.Open( path )
-   if err != nil {
-      fmt.Printf("error opening file: %v\n",err)
-      os.Exit(1)
-   }
+func process_file(path string) {
+	file, err := os.Open(path)
+	if err != nil {
+		fmt.Printf("error opening file: %v\n", err)
+		os.Exit(1)
+	}
 
-   data := csv.NewReader( file )
-	fmt.Fprint(os.Stdout,"PUBCHEM_EXT_DATASOURCE_REGID,PUBCHEM_SUBSTANCE_SYNONYM,PUBCHEM_EXT_DATASOURCE_URL,PUBCHEM_EXT_SUBSTANCE_URL,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_PUBMED_ID\r\n")
-   for {
-      row, rerr := data.Read()
+	data := csv.NewReader(file)
+	fmt.Fprint(os.Stdout, "PUBCHEM_EXT_DATASOURCE_REGID,PUBCHEM_SUBSTANCE_SYNONYM,PUBCHEM_EXT_DATASOURCE_URL,PUBCHEM_EXT_SUBSTANCE_URL,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_PUBMED_ID\r\n")
+	for {
+		row, rerr := data.Read()
 		if rerr == io.EOF {
-			pubmedify(current_epitope_id,pss,smiles,pmids,os.Stdout)
+			pubmedify(current_epitope_id, pss, smiles, pmids, os.Stdout)
 			break
 		}
-      if rerr != nil {
-         if rerr != io.EOF {
-            fmt.Printf("error reading file: %v\n",rerr)
-            os.Exit(1)
-         }
-      }
+		if rerr != nil {
+			if rerr != io.EOF {
+				fmt.Printf("error reading file: %v\n", rerr)
+				os.Exit(1)
+			}
+		}
 		if row == nil || row[0] == "epitope_id" {
 			continue
 		}
-		lineHandler( row, os.Stdout )
+		lineHandler(row, os.Stdout)
 	}
 }
