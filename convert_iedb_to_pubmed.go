@@ -1,6 +1,7 @@
 package main
 
 import (
+	//"bufio"
 	"encoding/csv"
 	"fmt"
 	"io"
@@ -8,6 +9,7 @@ import (
 	"regexp"
 	"sort"
 	"strings"
+	//"strconv"
 )
 
 var (
@@ -21,6 +23,7 @@ var (
 	pmids map[string]int
 	smiles string
 )
+
 
 
 func splitify (v string , store map[string]int) {
@@ -60,7 +63,6 @@ func mogrify (collection map[string]int) string {
 }
 
 func main () {
-	fmt.Print("PUBCHEM_EXT_DATASOURCE_REGID,PUBCHEM_SUBSTANCE_SYNONYM,PUBCHEM_EXT_DATASOURCE_URL,PUBCHEM_EXT_SUBSTANCE_URL,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_PUBMED_ID\r\n")
 	for _,path := range os.Args[1:] {
 		process_file(path)
 	}
@@ -69,8 +71,13 @@ func main () {
 
 func lineHandler (row []string, outstream *os.File) {
 
-	epitope_id := row[0]
+	accession := row[1]
+	// reject rows without CHEBI: in accession
+	if ! strings.HasPrefix( accession, "CHEBI:") {
+		return
+	}
 
+	epitope_id := row[0]
 	if current_epitope_id != epitope_id {
 		if current_epitope_id != "-1" {
 			pubmedify(current_epitope_id, pss, smiles, pmids, outstream)
@@ -81,7 +88,7 @@ func lineHandler (row []string, outstream *os.File) {
 		smiles = ""
 	}
 
-	accession := row[1]
+
 	aliases := row[2]
 	synonyms := row[3]
 	pubchem_pubmed_id := row[5]
@@ -106,6 +113,7 @@ func process_file (path string) {
    }
 
    data := csv.NewReader( file )
+	fmt.Fprint(os.Stdout,"PUBCHEM_EXT_DATASOURCE_REGID,PUBCHEM_SUBSTANCE_SYNONYM,PUBCHEM_EXT_DATASOURCE_URL,PUBCHEM_EXT_SUBSTANCE_URL,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_PUBMED_ID\r\n")
    for {
       row, rerr := data.Read()
 		if rerr == io.EOF {
